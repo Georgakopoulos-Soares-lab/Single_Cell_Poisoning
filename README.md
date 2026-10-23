@@ -1,5 +1,7 @@
 # Single_Cell_Poisoning: retrieval poisoning of a single-cell reference atlas
 
+Please note that this repository is subject to regular updates. Below are the updates upto 2026_oct_23_10am
+
 This repository measures how corrupted records in a single-cell reference
 atlas (SCimilarity, model_v1.1) spread into wrong cell-type calls. Poisoned
 cell records are added to, or edited in, the reference. Query cells
