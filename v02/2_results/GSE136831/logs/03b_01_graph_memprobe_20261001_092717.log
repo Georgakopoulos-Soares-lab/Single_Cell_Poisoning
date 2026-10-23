@@ -1,0 +1,17 @@
+started: 2026-10-01T14:27:17Z
+script:  v02/1_scripts/03_b_defence_vs_modify/03b_01_with_access_layer_matrix.py
+profile: none; BIORAG_PHASE=graph SHARD=0 N_SHARDS=26 -- ONE celltype.
+         A memory probe, not a result: its shard parquets are deleted.
+[provenance] 03b_01_with_access_layer_matrix.py sha 06fddbdb (DIRTY, diff e40308e562c8, code 3 changed +2 untracked, elsewhere +49 untracked) branch restructure-v01-v02 full 06fddbdb77acbb0e1e08d6ce62c91fdb5a074a2e
+[5s] reference kNN cache: 197,981 rows
+[6s] 8 conditions; 6 budget-free configs + 2 x 3 budget-dependent
+[    102s] 1/8 CL:0000057 shifted/hub dose 0.002  n_p      392 donors   33 (97s)
+[    199s] 2/8 CL:0000057 shifted/hub dose 0.01   n_p    1,962 donors   91 (97s)
+[    299s] 3/8 CL:0000057 shifted/hub dose 0.05   n_p    9,812 donors  216 (100s)
+[    414s] 4/8 CL:0000057 shifted/hub dose 0.25   n_p   49,060 donors  228 (115s)
+[    513s] 5/8 CL:0000057 synthesised/hub dose 0.002  n_p      392 donors   33 (99s)
+[    612s] 6/8 CL:0000057 synthesised/hub dose 0.01   n_p    1,962 donors   91 (99s)
+[    714s] 7/8 CL:0000057 synthesised/hub dose 0.05   n_p    9,812 donors  216 (102s)
+[    841s] 8/8 CL:0000057 synthesised/hub dose 0.25   n_p   49,060 donors  228 (127s)
+[by_donor] wrote 7,488 donor rows to <REPO>/v02/2_results/GSE136831/03_b_defence_vs_modify/03b_01_with_access_layer_matrix_by_donor_graph_shard0.parquet
+PEAK_RSS_GB	17.37

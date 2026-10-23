@@ -1,0 +1,11 @@
+started: 2026-10-04T17:29:37Z
+script:  v02/1_scripts/03_a_defence_vs_insert/03a_09_both_intervals.py
+profile: none; driver archive/workers_2026-10/drive_03a09_tags.sh
+         BIORAG_TAG=relhub, single process
+[provenance] 03a_09_both_intervals.py sha 4f347217 (DIRTY, diff a0ea24952774, code 1 changed +0 untracked, elsewhere +65 untracked) branch restructure-v01-v02 full 4f347217d9e991209f86963f4a3616ccd5df5bcb
+[0s] insert: 170,352 donor rows, 2,184 conditions
+[5s]   182 conditions x 6 metrics intervalled
+[5s] point estimates agree with the committed matrices on 4,368 comparisons (tol 1e-06)
+[5s] wrote 2,184 rows to 03a_09_both_intervals_relhub.parquet
+  1,597 of 2,184 (condition, layer) rows have a within_attack_success reduction whose 95% interval excludes zero
+exit: 0

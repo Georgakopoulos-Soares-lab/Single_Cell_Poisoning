@@ -1,0 +1,11 @@
+started: 2026-10-09T22:51:21Z
+script:  v02/1_scripts/03_a_defence_vs_insert/03a_09_both_intervals.py
+profile: none; driver archive/workers_2026-10/drive_03a09_tags.sh
+         BIORAG_TAG=v3flo256, single process
+[provenance] 03a_09_both_intervals.py sha ae9e1879 (DIRTY, diff 267bb33e6da4, code 1 changed +0 untracked, elsewhere +104 untracked) branch restructure-v01-v02 full ae9e1879c3023af10cb99852f8fbfcbceb1f8b15
+[0s] insert: 340,704 donor rows, 4,368 conditions
+[10s]   364 conditions x 6 metrics intervalled
+[10s] point estimates agree with the committed matrices on 8,736 comparisons (tol 1e-06)
+[10s] wrote 4,368 rows to 03a_09_both_intervals_v3flo256.parquet
+  2,404 of 4,368 (condition, layer) rows have a within_attack_success reduction whose 95% interval excludes zero
+exit: 0

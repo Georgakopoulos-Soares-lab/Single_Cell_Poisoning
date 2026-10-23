@@ -1,0 +1,7 @@
+git SHA: 2e37f04e
+started: 2026-09-25T04:40:09Z
+script:  v02/1_scripts/00_pipeline/retrieve_clean_deep.py
+profile: full
+[1s] 49,456 queries x 7,913,892 reference at depth 500; block 126 queries (4.0 GB per block)
+[2859s] wrote (49456, 500) to <REPO>/cache/clean_neighbors_deep.npz (297 MB)
+exit: 0 at 2026-09-25T05:27:48Z

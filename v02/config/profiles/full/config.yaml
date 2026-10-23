@@ -1,0 +1,68 @@
+# Snakemake profile: full — the entire 7.9M-cell reference.
+#
+# REQUIRES EXPLICIT HUMAN APPROVAL BEFORE EVERY RUN (CLAUDE.md §1). Approved
+# in conversation on 2026-08-26.
+#
+# DELIBERATE DEVIATION from CLAUDE.md §6, which specifies HNSW here. Exhaustive
+# cosine over 7.9M is ~1 hour on this machine, and it keeps the merge shortcut
+# PROVABLY EXACT (SPEC.md §4.2). Under HNSW the shortcut is only approximate,
+# and stage 6 would be required before these numbers could be quoted. Paying an
+# hour of compute to remove an approximation from the headline result is the
+# better trade; stage 6 then measures the HNSW gap as its own question rather
+# than gating this run.
+# Relative to the LAUNCH directory (biorag_project/), not to this file.
+# It read `config/config.yaml` until 2026-09-28 -- a path that has not
+# existed since the v01/v02 split -- so every profile run in CLAUDE.md 8
+# died in snakemake's profile loader before the DAG was built.
+configfile: v02/config/config.yaml
+software-deployment-method: conda
+cores: 8
+printshellcmds: true
+rerun-incomplete: true
+config:
+  profile: full
+  reference_rows: null          # all 7,913,892
+  retrieval: exhaustive
+  retrieve:
+    # 100 queries x 7.9M reference x 4 bytes = 3.2 GB per cosine block, plus an
+    # int64 index array of twice that from argpartition. At 500 it would be 16
+    # + 32 GB.
+    query_block_size: 100
+  hnsw:
+    # Stage 6 only. These govern the index it LOADS and grows with poison, never
+    # a from-scratch build -- see validate_shortcut.rebuild_index_with_poison.
+    #
+    # M: read back from the shipped file on load_index, so this value is a
+    # record of what SCimilarity built at, not something we impose. Confirmed
+    # from the file header: M=80, maxM0=160, maxlevel=4, 7,913,892 elements.
+    M: 80
+    #
+    # ef_construction: applies ONLY to the unused from-scratch branch. The
+    # shipped index carries its own (1000) and load_index restores it, so new
+    # insertions are wired at 1000 regardless of what is written here.
+    ef_construction: 200
+    #
+    # ef_search: CHANGED 2026-09-18, 200 -> 100.
+    #
+    # 100 is the default of CellAnnotation.get_predictions_knn -- the path this
+    # project attacks. v01 ran stage 6 at 200, which searches the graph twice as
+    # thoroughly as SCimilarity actually does. That is not wrong, but it makes
+    # the result "what a MORE careful search than SCimilarity's would find"
+    # rather than "what SCimilarity would find", and only the second is worth
+    # quoting to a reviewer.
+    #
+    # Direction of the effect, so the v01 numbers are still readable: a less
+    # thorough walk drifts further from exact search, and v01's 96 conditions
+    # showed drift pulls MORE poison into the top-50, not less (92/96 positive,
+    # mean +0.0105). So v01's stage 6 understated retrieval failure relative to
+    # real SCimilarity, and 100 should widen that gap rather than close it.
+    # Both arms remain conservative; this one is simply the honest parameter.
+    ef_search: 100
+  validate:
+    # Broadened from the original 6-condition spot check. Each condition loads
+    # and extends a ~10 GB graph index, so this runs at one core and is the
+    # reason the rule is not part of `rule all`.
+    attacks: [relabel, duplicate, interpolate]
+    pairs: [mac_to_dc, mac_to_at2, mono_to_ncmono, nk_to_tcell]
+    rates: [0.01, 0.10, 0.25, 1.00]
+    seeds: [0, 1]

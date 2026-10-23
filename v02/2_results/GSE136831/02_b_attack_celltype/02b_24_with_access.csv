@@ -1,0 +1,313 @@
+selection,rate,value,lo,hi,panel,scope,n,grp
+oracle,0.002,0.3648154139518738,0.23591607436537743,0.47784991562366486,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.005,0.5516176223754883,0.39502381533384323,0.7000478059053421,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.01,0.6938530802726746,0.5482921749353409,0.8372858166694641,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.025,0.8756657838821411,0.7670264542102814,0.9964586943387985,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.05,1.0,0.8966487497091293,1.0,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.1,1.0,1.0,1.0,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.25,1.0,1.0,1.0,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.5,1.0,1.0,1.0,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.7,1.0,1.0,1.0,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.8,1.0,1.0,1.0,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.85,1.0,1.0,1.0,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.9,1.0,1.0,1.0,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,1.0,1.0,1.0,1.0,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,oracle/within the attacked celltype
+random,0.002,0.0013282857835292816,0.0004475860987440683,0.003063216106966138,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,random/within the attacked celltype
+random,0.005,0.004411974921822548,0.0019304892921354622,0.005677948705852032,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,random/within the attacked celltype
+random,0.01,0.008832369931042194,0.006443708320148289,0.011371425120159984,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,random/within the attacked celltype
+random,0.025,0.02462496981024742,0.018090499099344015,0.029596439562737942,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,random/within the attacked celltype
+random,0.05,0.05063249170780182,0.044618613086640835,0.05956642609089613,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,random/within the attacked celltype
+random,0.1,0.10095398128032684,0.09043938666582108,0.1124370489269495,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,random/within the attacked celltype
+random,0.25,0.2547021508216858,0.2382429577410221,0.27087873220443726,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,random/within the attacked celltype
+random,0.5,0.5080902576446533,0.48645836114883423,0.5199510604143143,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,random/within the attacked celltype
+random,0.7,0.7044228315353394,0.6871532946825027,0.7202515006065369,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,random/within the attacked celltype
+random,0.8,0.8080666661262512,0.7911753207445145,0.8231211453676224,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,random/within the attacked celltype
+random,0.85,0.8533886671066284,0.8411369323730469,0.868270218372345,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,random/within the attacked celltype
+random,0.9,0.9064368009567261,0.8911819308996201,0.9178116619586945,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,random/within the attacked celltype
+random,1.0,1.0,1.0,1.0,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,random/within the attacked celltype
+split,0.002,0.3281440734863281,0.17889321595430374,0.435110442340374,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,split/within the attacked celltype
+split,0.005,0.47915810346603394,0.31562619656324387,0.6274980753660202,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,split/within the attacked celltype
+split,0.01,0.6072310209274292,0.4473503828048706,0.702714592218399,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,split/within the attacked celltype
+split,0.025,0.7290942668914795,0.6357156336307526,0.796180322766304,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,split/within the attacked celltype
+split,0.05,0.8089534044265747,0.7283303439617157,0.8536139726638794,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,split/within the attacked celltype
+split,0.1,0.8430073261260986,0.7710385769605637,0.8720916509628296,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,split/within the attacked celltype
+split,0.25,0.8844770193099976,0.816061720252037,0.9309913665056229,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,split/within the attacked celltype
+split,0.5,0.9211959838867188,0.8839409947395325,0.9496893137693405,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,split/within the attacked celltype
+split,0.7,0.945680558681488,0.9148320704698563,0.9677590876817703,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,split/within the attacked celltype
+split,0.8,0.9539440274238586,0.9228522926568985,0.9805412143468857,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,split/within the attacked celltype
+split,0.85,0.9641533493995667,0.9404192268848419,0.9851994663476944,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,split/within the attacked celltype
+split,0.9,0.9824597239494324,0.9538240879774094,0.9952761679887772,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,split/within the attacked celltype
+split,1.0,1.0,1.0,1.0,"top-50 slots held by edited records
+(median over 26 celltypes, IQR)",within the attacked celltype,26,split/within the attacked celltype
+oracle,0.002,0.1331221641982707,0.11597932564168326,0.15169856046648864,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.005,0.24869716270990155,0.218288297500277,0.27359792389139187,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.01,0.31723054016047647,0.2856332603582858,0.35374145347722785,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.025,0.4054736842105263,0.35568971890419315,0.4589206347237801,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.05,0.45721637426900585,0.39616757927452534,0.523391779826079,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.1,0.4853801169590643,0.42267575040393685,0.5546848243016842,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.25,0.49384795321637426,0.4314215905939919,0.5636123070135469,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.5,0.49384795321637426,0.4314215905939919,0.5636123070135469,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.7,0.49384795321637426,0.4314215905939919,0.5636123070135469,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.8,0.49384795321637426,0.4314215905939919,0.5636123070135469,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.85,0.49384795321637426,0.4314215905939919,0.5636123070135469,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.9,0.49384795321637426,0.4314215905939919,0.5636123070135469,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,1.0,0.49384795321637426,0.4314215905939919,0.5636123070135469,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+random,0.002,0.0,0.0,0.0,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.005,0.0,0.0,0.0,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.01,0.0,0.0,0.0,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.025,0.0,0.0,0.0,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.05,0.0,0.0,0.0,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.1,4.6783625730994155e-05,0.0,0.0001641067829598243,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.25,0.0005790387955993051,0.0002202304861680293,0.0011079203567113637,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.5,0.23265497076023392,0.19418446168653608,0.27467523202256067,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.7,0.4527251461988304,0.3881878742780615,0.5234819843431813,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.8,0.46914619883040937,0.4052416787527399,0.5395439601732859,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.85,0.47578947368421054,0.4114778734612455,0.5458259994188219,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.9,0.4831812865497076,0.419391069663755,0.5521897568645402,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,1.0,0.49384795321637426,0.4314215905939919,0.5636123070135469,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+split,0.002,0.11895385669035186,0.0996662982549801,0.1395656704056399,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.005,0.22566561082099135,0.19831363705032357,0.2529128373728659,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.01,0.2978741004218711,0.2662884233786312,0.329012455056988,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.025,0.37955555555555553,0.3383855947245002,0.4274597706388447,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.05,0.43794152046783624,0.37854197152920543,0.5029936385525796,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.1,0.4663391812865497,0.4014375333875957,0.5364563335433559,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.25,0.4805614035087719,0.4171273249304897,0.5502360306155689,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.5,0.48533333333333334,0.42193978768937435,0.5552341156881277,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.7,0.48851461988304096,0.4257841475734655,0.5589185890041373,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.8,0.4892163742690058,0.426288162986258,0.5595434623721375,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.85,0.48996491228070177,0.4266476172719728,0.5602792755263829,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.9,0.49122807017543857,0.4281788883045619,0.5611251281615639,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,1.0,0.49384795321637426,0.4314215905939919,0.5636123070135469,"net attack success
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+oracle,0.002,0.0054887481438079914,0.004849731484568885,0.0061599049913097685,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"oracle/over all 49,456 queries"
+oracle,0.005,0.010879352848264766,0.009815255230161309,0.011942357073215785,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"oracle/over all 49,456 queries"
+oracle,0.01,0.01614484153344257,0.015113809356964252,0.01718286079583173,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"oracle/over all 49,456 queries"
+oracle,0.025,0.022847802028584288,0.021689627735914267,0.023858626561364067,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"oracle/over all 49,456 queries"
+oracle,0.05,0.026961489388344948,0.025547849600748105,0.02827470847288784,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"oracle/over all 49,456 queries"
+oracle,0.1,0.029088558500323207,0.02768726866184511,0.030377319152073784,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"oracle/over all 49,456 queries"
+oracle,0.25,0.029740047448701592,0.028420406066402733,0.03099209549771812,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"oracle/over all 49,456 queries"
+oracle,0.5,0.02974681616504838,0.02842684925708615,0.03099810744376842,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"oracle/over all 49,456 queries"
+oracle,0.7,0.02974681616504838,0.02842684925708615,0.03099810744376842,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"oracle/over all 49,456 queries"
+oracle,0.8,0.02974681616504838,0.02842684925708615,0.03099810744376842,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"oracle/over all 49,456 queries"
+oracle,0.85,0.02974681616504838,0.02842684925708615,0.03099810744376842,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"oracle/over all 49,456 queries"
+oracle,0.9,0.02974681616504838,0.02842684925708615,0.03099810744376842,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"oracle/over all 49,456 queries"
+oracle,1.0,0.02974681616504838,0.02842684925708615,0.03099810744376842,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"oracle/over all 49,456 queries"
+random,0.002,0.0,0.0,0.0,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"random/over all 49,456 queries"
+random,0.005,0.0,0.0,0.0,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"random/over all 49,456 queries"
+random,0.01,2.952334558552175e-06,0.0,7.539651424389341e-06,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"random/over all 49,456 queries"
+random,0.025,6.200223828080194e-06,1.343759048174146e-06,1.2409290725948851e-05,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"random/over all 49,456 queries"
+random,0.05,1.015307452018262e-05,2.956549798724509e-06,2.2274477093136513e-05,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"random/over all 49,456 queries"
+random,0.1,2.8047178306245665e-05,1.173902770957227e-05,4.3446894305246486e-05,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"random/over all 49,456 queries"
+random,0.25,8.709386947728917e-05,5.7801317811508174e-05,0.00012179690775929006,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"random/over all 49,456 queries"
+random,0.5,0.013772640715645898,0.012699236298310615,0.014949149357853733,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"random/over all 49,456 queries"
+random,0.7,0.026853189926796334,0.02535105374049307,0.028301845370454742,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"random/over all 49,456 queries"
+random,0.8,0.027985257735796694,0.026566964714385945,0.029367473944446082,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"random/over all 49,456 queries"
+random,0.85,0.02841507122381776,0.027023930962122297,0.029766742101798787,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"random/over all 49,456 queries"
+random,0.9,0.028931185845260377,0.027566732712439628,0.030255434770861636,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"random/over all 49,456 queries"
+random,1.0,0.02974681616504838,0.02842684925708615,0.03099810744376842,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"random/over all 49,456 queries"
+split,0.002,0.004883161359845298,0.004211899640329772,0.005556574371930065,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"split/over all 49,456 queries"
+split,0.005,0.009933129622248793,0.008942435604493043,0.010891160625543208,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"split/over all 49,456 queries"
+split,0.01,0.015244379493084156,0.01423788803496689,0.016326066903344087,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"split/over all 49,456 queries"
+split,0.025,0.0213214564923835,0.020184645586540373,0.022270926597376683,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"split/over all 49,456 queries"
+split,0.05,0.025724506475969366,0.024285432576234566,0.027008699650313047,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"split/over all 49,456 queries"
+split,0.1,0.027997102989403576,0.026498733296065696,0.029347217394857062,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"split/over all 49,456 queries"
+split,0.25,0.028961645068820922,0.02757224501620108,0.030245277746659652,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"split/over all 49,456 queries"
+split,0.5,0.029229009364519064,0.02782695269483664,0.030517528077197178,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"split/over all 49,456 queries"
+split,0.7,0.029455761362136477,0.02808849092456736,0.03073142648292428,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"split/over all 49,456 queries"
+split,0.8,0.02950652673473739,0.02814013564740072,0.030784893166782148,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"split/over all 49,456 queries"
+split,0.85,0.029548831211904818,0.028181779102460454,0.030829163247786263,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"split/over all 49,456 queries"
+split,0.9,0.029611441838112613,0.028262156918460228,0.030868705856278995,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"split/over all 49,456 queries"
+split,1.0,0.02974681616504838,0.02842684925708615,0.03099810744376842,"net attack success
+(pooled, 95% donor-paired CI)","over all 49,456 queries",26,"split/over all 49,456 queries"
+oracle,0.002,0.3318637102987758,0.2787102416483869,0.3965268158360725,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.005,0.21479325400222585,0.17140328817841716,0.27243422754694546,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.01,0.14395171646263163,0.10871382883112866,0.19093730571289902,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.025,0.06544816368461605,0.0488183507753911,0.08631330007380024,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.05,0.0237565276945467,0.017475508696686806,0.03137011778670318,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.1,0.004818713450292398,0.0032877673046545755,0.006695328736729143,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.25,0.0,0.0,0.0,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.5,0.0,0.0,0.0,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.7,0.0,0.0,0.0,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.8,0.0,0.0,0.0,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.85,0.0,0.0,0.0,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,0.9,0.0,0.0,0.0,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+oracle,1.0,0.0,0.0,0.0,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,oracle/within the attacked celltype
+random,0.002,0.49239766081871345,0.4298386013677707,0.5620379710930029,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.005,0.4922105263157895,0.4296993463306501,0.5615929685783324,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.01,0.49188304093567253,0.42922103509773496,0.5612912011081893,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.025,0.49019883040935675,0.42731616995953214,0.559598220824785,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.05,0.48687719298245613,0.4236245993496196,0.556902601358553,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.1,0.4807017543859649,0.41653734216073757,0.5509983260266466,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.25,0.45941520467836255,0.39466048917090835,0.5308725798828676,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.5,0.20229239766081872,0.17295532734046754,0.23800565774347068,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.7,0.0014125502953514254,0.0009244935198018777,0.0020812583573167668,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.8,0.0,0.0,0.0,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.85,0.0,0.0,0.0,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,0.9,0.0,0.0,0.0,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+random,1.0,0.0,0.0,0.0,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,random/within the attacked celltype
+split,0.002,0.3461604314699084,0.28983415391822553,0.4101152939416745,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.005,0.23786490882629913,0.18954462668398905,0.29759351154318825,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.01,0.16518277544730758,0.12541181159773124,0.21657197341307255,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.025,0.08239876722883314,0.06172961317086494,0.1079427559970694,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.05,0.03638387124390035,0.027735707387946153,0.046528500987394104,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.1,0.01579488057529321,0.011920013562498187,0.02040157956689266,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.25,0.007233969694375481,0.005165277486588922,0.009506597280062616,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.5,0.0032103415803441484,0.002197377662898003,0.0043532607194536835,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.7,0.0018834003938019005,0.0011886824873805178,0.002677955759143766,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.8,0.0011557229689238935,0.0007181042635552217,0.0016752356827117697,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.85,0.0010701138601147161,0.0005959724815954596,0.001562677461524352,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,0.9,0.0005992637616642411,0.00023043522634347524,0.0010232013140379125,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype
+split,1.0,0.0,0.0,0.0,"accuracy of the attacked celltype
+(pooled, 95% donor-paired CI)",within the attacked celltype,26,split/within the attacked celltype

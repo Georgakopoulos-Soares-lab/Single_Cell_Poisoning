@@ -1,0 +1,21 @@
+started: 2026-09-28T08:06:29Z
+script:  v02/1_scripts/02_b_attack_celltype/02b_30_no_access_query_view.py
+profile: none (direct python; 8 approved conditions)
+[provenance] 02b_30_no_access_query_view.py sha 65205abb (DIRTY, diff 0742503ccadc, code 1 changed +2 untracked, elsewhere +22 untracked) branch restructure-v01-v02 full 65205abb10acd7182b1f5bffe010cd0c70a8674f
+[1s] 26 attackable celltypes, covering 46,196 of 49,456 queries
+[5s] vocabulary 204 terms; lineage and distance tables built (406 of 41,616 ordered pairs unreachable, all of them involving a term with no ontology id)
+[5s] clean graph baseline: accuracy 0.46368 exact (0.45930-0.46494 over ties), 0.88491 lineage-tolerant, mean error 1.423 hops over 64 unreachable pairs
+<HOME>/miniforge3/envs/biorag/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+[29s] query layout fitted on 49,456 cells; wrote 02b_30_no_access_query_umap_xy.parquet
+[29s] clean graph predictions: accuracy 0.46368
+[    55s] 1/8 CL:0000623 -> CL:0000084 hub     dose 0.25  n_p  47,105  queries 49,456  within 1,858  within on target 0.8412  global on target 0.1184  (26s)
+[    97s] 2/8 CL:0000623 -> CL:0000084 hub     dose 1.0   n_p 188,421  queries 49,456  within 1,858  within on target 0.8471  global on target 0.1187  (43s)
+[   144s] 3/8 CL:0000623 -> CL:0000084 uniform dose 1.0   n_p 188,421  queries 49,456  within 1,858  within on target 0.8477  global on target 0.1187  (47s)
+[   193s] 4/8 CL:0000623 -> CL:0000084 hub     dose 1.25  n_p 235,526  queries 49,456  within 1,858  within on target 0.9629  global on target 0.1242  (49s)
+[   218s] 5/8 CL:0000057 -> CL:0000097 hub     dose 0.25  n_p  49,060  queries 49,456  within 416  within on target 0.1562  global on target 0.0081  (25s)
+[   256s] 6/8 CL:0000057 -> CL:0000097 hub     dose 1.0   n_p 196,242  queries 49,456  within 416  within on target 0.1731  global on target 0.0085  (38s)
+[   300s] 7/8 CL:0000057 -> CL:0000097 uniform dose 1.0   n_p 196,242  queries 49,456  within 416  within on target 0.1587  global on target 0.0080  (43s)
+[   342s] 8/8 CL:0000057 -> CL:0000097 hub     dose 1.25  n_p 245,302  queries 49,456  within 416  within on target 0.9832  global on target 0.0243  (43s)
+
+[342s] wrote 395,648 rows (8 conditions x 49,456 queries) to <REPO>/v02/2_results/GSE136831/02_b_attack_celltype/02b_30_no_access_per_query.parquet

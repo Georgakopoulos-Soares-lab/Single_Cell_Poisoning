@@ -1,0 +1,7 @@
+started: 2026-10-10T18:43:05Z
+script:  v02/1_scripts/03_b_defence_vs_modify/03b_01_with_access_layer_matrix.py
+         label-only arm on the fixed accuracy; BIORAG_SHARD=0 BIORAG_N_SHARDS=8
+[provenance] 03b_01_with_access_layer_matrix.py sha 869175cd (DIRTY, diff 267bb33e6da4, code 1 changed +0 untracked, elsewhere +78 untracked) branch restructure-v01-v02 full 869175cd305ec9cc92f56e307ee0d2d34858ffd2
+[5s] reference kNN cache: 197,981 rows
+[6s] 104 conditions; 6 budget-free configs + 2 x 3 budget-dependent
+[     83s] 1/104 CL:0000057 unmoved/hub dose 0.002  n_p      392 donors   33 (77s)

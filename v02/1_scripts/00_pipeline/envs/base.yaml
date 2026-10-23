@@ -1,0 +1,36 @@
+# Base environment for biorag-guard-sc.
+# Pins mirror CLAUDE.md §2. Where this file and §2 disagree, the lockfile in
+# this directory wins and the orchestrator updates §2.
+name: biorag
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  # workflow
+  - snakemake=8.25
+  # arrays / tables / storage
+  - numpy=2.1
+  - pandas=2.2
+  - pyarrow=17.0
+  - scipy=1.14
+  # ANN index
+  - hnswlib=0.8.0
+  # single-cell
+  - scanpy=1.10.3
+  - anndata=0.10.9
+  # encoder (CPU/MPS build on osx-arm64)
+  - pytorch=2.5
+  # plotting
+  - plotnine=0.13
+  - matplotlib=3.9
+  # test / lint
+  - pytest=8.3
+  - ruff=0.7
+  - pip
+  # scimilarity 0.4.0 calls zarr.core.Array, which zarr 3.x renamed. Without
+  # this pin the encoder raises AttributeError the first time it is used.
+  - zarr<3
+  - pip:
+      # not on conda-forge
+      - scimilarity==0.4.0

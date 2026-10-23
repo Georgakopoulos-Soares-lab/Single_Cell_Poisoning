@@ -1,0 +1,21 @@
+started: 2026-09-28T08:13:52Z
+script:  v02/1_scripts/02_b_attack_celltype/02b_30_no_access_query_view.py
+profile: none (direct python; the 8 approved conditions, rerun to carry the tie columns CLAUDE.md 7 requires)
+[provenance] 02b_30_no_access_query_view.py sha 65205abb (DIRTY, diff 542521c28712, code 1 changed +2 untracked, elsewhere +25 untracked) branch restructure-v01-v02 full 65205abb10acd7182b1f5bffe010cd0c70a8674f
+[1s] 26 attackable celltypes, covering 46,196 of 49,456 queries
+[5s] vocabulary 204 terms; lineage and distance tables built (406 of 41,616 ordered pairs unreachable, all of them involving a term with no ontology id)
+[5s] clean graph baseline: accuracy 0.46368 exact (0.45930-0.46494 over ties), 0.88491 lineage-tolerant, mean error 1.423 hops over 64 unreachable pairs
+<HOME>/miniforge3/envs/biorag/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+[27s] query layout fitted on 49,456 cells; wrote 02b_30_no_access_query_umap_xy.parquet
+[28s] clean graph predictions: accuracy 0.46368, tie-broken on 0.00564 of queries
+[    52s] 1/8 CL:0000623 -> CL:0000084 hub     dose 0.25  n_p  47,105  queries 49,456  within 1,858  within on target 0.8568  global on target 0.1191  within tie-decided 0.5188  (25s)
+[    94s] 2/8 CL:0000623 -> CL:0000084 hub     dose 1.0   n_p 188,421  queries 49,456  within 1,858  within on target 0.8488  global on target 0.1188  within tie-decided 0.5167  (42s)
+[   140s] 3/8 CL:0000623 -> CL:0000084 uniform dose 1.0   n_p 188,421  queries 49,456  within 1,858  within on target 0.8488  global on target 0.1187  within tie-decided 0.5205  (46s)
+[   187s] 4/8 CL:0000623 -> CL:0000084 hub     dose 1.25  n_p 235,526  queries 49,456  within 1,858  within on target 0.9623  global on target 0.1241  within tie-decided 0.0016  (48s)
+[   212s] 5/8 CL:0000057 -> CL:0000097 hub     dose 0.25  n_p  49,060  queries 49,456  within 416  within on target 0.1755  global on target 0.0083  within tie-decided 0.5913  (25s)
+[   252s] 6/8 CL:0000057 -> CL:0000097 hub     dose 1.0   n_p 196,242  queries 49,456  within 416  within on target 0.1923  global on target 0.0085  within tie-decided 0.6010  (40s)
+[   296s] 7/8 CL:0000057 -> CL:0000097 uniform dose 1.0   n_p 196,242  queries 49,456  within 416  within on target 0.1611  global on target 0.0082  within tie-decided 0.6034  (43s)
+[   340s] 8/8 CL:0000057 -> CL:0000097 hub     dose 1.25  n_p 245,302  queries 49,456  within 416  within on target 0.9832  global on target 0.0243  within tie-decided 0.0000  (44s)
+
+[340s] wrote 395,648 rows (8 conditions x 49,456 queries) to <REPO>/v02/2_results/GSE136831/02_b_attack_celltype/02b_30_no_access_per_query.parquet

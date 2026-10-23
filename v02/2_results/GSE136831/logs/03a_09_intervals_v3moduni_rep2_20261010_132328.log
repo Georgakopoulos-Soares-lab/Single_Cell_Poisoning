@@ -1,0 +1,11 @@
+started: 2026-10-10T18:23:28Z
+script:  v02/1_scripts/03_a_defence_vs_insert/03a_09_both_intervals.py
+profile: none; driver archive/workers_2026-10/drive_03a09_tags.sh
+         BIORAG_TAG=v3moduni_rep2, single process
+[provenance] 03a_09_both_intervals.py sha 463fd21c (DIRTY, diff 267bb33e6da4, code 1 changed +0 untracked, elsewhere +77 untracked) branch restructure-v01-v02 full 463fd21cc59a7a622f58041b5b5d784a70766d8f
+[0s] modify_graph: 632,736 donor rows, 8,112 conditions
+[19s]   676 conditions x 6 metrics intervalled
+[19s] point estimates agree with the committed matrices on 16,224 comparisons (tol 1e-06)
+[19s] wrote 8,112 rows to 03a_09_both_intervals_v3moduni_rep2.parquet
+  1,821 of 8,112 (condition, layer) rows have a within_attack_success reduction whose 95% interval excludes zero
+exit: 0

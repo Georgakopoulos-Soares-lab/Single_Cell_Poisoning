@@ -1,0 +1,61 @@
+arm,rate,value,lo,hi,panel,metric,n_draws
+overwrite / hub,0.001,0.941422700881958,0.941422700881958,0.941422700881958,poison reached the top-50,retrieval,5
+overwrite / hub,0.005,0.995046079158783,0.995046079158783,0.995046079158783,poison reached the top-50,retrieval,5
+overwrite / hub,0.01,0.9993529319763184,0.9993529319763184,0.9993529319763184,poison reached the top-50,retrieval,5
+overwrite / hub,0.02,1.0,1.0,1.0,poison reached the top-50,retrieval,5
+overwrite / hub,0.05,1.0,1.0,1.0,poison reached the top-50,retrieval,5
+overwrite / hub,0.1,1.0,1.0,1.0,poison reached the top-50,retrieval,5
+overwrite / uniform,0.001,0.045761889591813085,0.02770139090716839,0.05720236152410507,poison reached the top-50,retrieval,5
+overwrite / uniform,0.005,0.23909737765789033,0.18024101853370667,0.31138789653778076,poison reached the top-50,retrieval,5
+overwrite / uniform,0.01,0.4202523469924927,0.37987300753593445,0.45357489585876465,poison reached the top-50,retrieval,5
+overwrite / uniform,0.02,0.639259147644043,0.589817225933075,0.6821417212486267,poison reached the top-50,retrieval,5
+overwrite / uniform,0.05,0.9296708106994629,0.922294557094574,0.9382076859474182,poison reached the top-50,retrieval,5
+overwrite / uniform,0.1,0.9945122957229614,0.9918513298034668,0.9973309636116028,poison reached the top-50,retrieval,5
+submit / uniform,0.001,0.046109673244904566,0.027499191200258816,0.0634098997088321,poison reached the top-50,retrieval,5
+submit / uniform,0.005,0.21276690391459074,0.1650962471692009,0.25651083791653184,poison reached the top-50,retrieval,5
+submit / uniform,0.01,0.4125768359754125,0.3810862180524102,0.4416046586865092,poison reached the top-50,retrieval,5
+submit / uniform,0.02,0.6369338401811712,0.6085611452604335,0.6876213199611776,poison reached the top-50,retrieval,5
+submit / uniform,0.05,0.9229901326431575,0.9085045292785506,0.9385109996764801,poison reached the top-50,retrieval,5
+submit / uniform,0.1,0.9955152054351343,0.9929432222581689,0.9966839210611452,poison reached the top-50,retrieval,5
+overwrite / hub,0.001,-0.15410061478614806,-0.1560983508825302,-0.14837431907653809,change in atlas accuracy,accuracy_delta,5
+overwrite / hub,0.005,-0.30135068893432615,-0.3026326298713684,-0.29747653007507324,change in atlas accuracy,accuracy_delta,5
+overwrite / hub,0.01,-0.37167583107948304,-0.3728162348270416,-0.3700663149356842,change in atlas accuracy,accuracy_delta,5
+overwrite / hub,0.02,-0.43320527076721194,-0.43418392539024353,-0.43234390020370483,change in atlas accuracy,accuracy_delta,5
+overwrite / hub,0.05,-0.4610886454582214,-0.4619055390357971,-0.4601666033267975,change in atlas accuracy,accuracy_delta,5
+overwrite / hub,0.1,-0.4594427406787872,-0.46160224080085754,-0.45721450448036194,change in atlas accuracy,accuracy_delta,5
+overwrite / uniform,0.001,-3.6395989081938754e-05,-0.00046505985665135086,0.00026285991771146655,change in atlas accuracy,accuracy_delta,5
+overwrite / uniform,0.005,-0.0001577159477164969,-0.00030329989385791123,0.00012131995754316449,change in atlas accuracy,accuracy_delta,5
+overwrite / uniform,0.01,-0.0003073439060244709,-0.0007076998008415103,-0.00010109996946994215,change in atlas accuracy,accuracy_delta,5
+overwrite / uniform,0.02,-0.00010514396708458663,-0.0006672597955912352,0.00022241992701310664,change in atlas accuracy,accuracy_delta,5
+overwrite / uniform,0.05,-0.0005459398234961554,-0.0011727595701813698,0.0001617599482415244,change in atlas accuracy,accuracy_delta,5
+overwrite / uniform,0.1,-3.2352004200220105e-05,-0.0014760595513507724,0.0007481397478841245,change in atlas accuracy,accuracy_delta,5
+submit / uniform,0.001,0.0,-4.0439987059204144e-05,2.0219993529602072e-05,change in atlas accuracy,accuracy_delta,5
+submit / uniform,0.005,-1.617599482368166e-05,-0.00016175994823681658,0.00010109996764801035,change in atlas accuracy,accuracy_delta,5
+submit / uniform,0.01,-6.470397929472663e-05,-0.00024263992235522484,6.065998058880621e-05,change in atlas accuracy,accuracy_delta,5
+submit / uniform,0.02,-0.0001455839534131349,-0.000283079909414429,0.00016175994823681658,change in atlas accuracy,accuracy_delta,5
+submit / uniform,0.05,-0.0007076997735360724,-0.0010514396635393076,-0.00032351989647363315,change in atlas accuracy,accuracy_delta,5
+submit / uniform,0.1,-0.0013709155613070203,-0.0015771594953089614,-0.0008290197347136849,change in atlas accuracy,accuracy_delta,5
+overwrite / uniform,0.001,-3.6395989081938754e-05,-0.00046505985665135086,0.00026285991771146655,"the same, uniform arms only
+— NOTE THE AXIS —",accuracy_delta,5
+overwrite / uniform,0.005,-0.0001577159477164969,-0.00030329989385791123,0.00012131995754316449,"the same, uniform arms only
+— NOTE THE AXIS —",accuracy_delta,5
+overwrite / uniform,0.01,-0.0003073439060244709,-0.0007076998008415103,-0.00010109996946994215,"the same, uniform arms only
+— NOTE THE AXIS —",accuracy_delta,5
+overwrite / uniform,0.02,-0.00010514396708458663,-0.0006672597955912352,0.00022241992701310664,"the same, uniform arms only
+— NOTE THE AXIS —",accuracy_delta,5
+overwrite / uniform,0.05,-0.0005459398234961554,-0.0011727595701813698,0.0001617599482415244,"the same, uniform arms only
+— NOTE THE AXIS —",accuracy_delta,5
+overwrite / uniform,0.1,-3.2352004200220105e-05,-0.0014760595513507724,0.0007481397478841245,"the same, uniform arms only
+— NOTE THE AXIS —",accuracy_delta,5
+submit / uniform,0.001,0.0,-4.0439987059204144e-05,2.0219993529602072e-05,"the same, uniform arms only
+— NOTE THE AXIS —",accuracy_delta,5
+submit / uniform,0.005,-1.617599482368166e-05,-0.00016175994823681658,0.00010109996764801035,"the same, uniform arms only
+— NOTE THE AXIS —",accuracy_delta,5
+submit / uniform,0.01,-6.470397929472663e-05,-0.00024263992235522484,6.065998058880621e-05,"the same, uniform arms only
+— NOTE THE AXIS —",accuracy_delta,5
+submit / uniform,0.02,-0.0001455839534131349,-0.000283079909414429,0.00016175994823681658,"the same, uniform arms only
+— NOTE THE AXIS —",accuracy_delta,5
+submit / uniform,0.05,-0.0007076997735360724,-0.0010514396635393076,-0.00032351989647363315,"the same, uniform arms only
+— NOTE THE AXIS —",accuracy_delta,5
+submit / uniform,0.1,-0.0013709155613070203,-0.0015771594953089614,-0.0008290197347136849,"the same, uniform arms only
+— NOTE THE AXIS —",accuracy_delta,5

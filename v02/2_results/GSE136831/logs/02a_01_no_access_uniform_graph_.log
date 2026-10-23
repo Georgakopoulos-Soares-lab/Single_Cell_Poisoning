@@ -1,0 +1,38 @@
+git SHA: 19c0ad52
+started: 2026-09-27T00:25:25Z
+script:  v02/1_scripts/02_a_attack_atlas/02a_01_no_access_uniform_graph.py
+profile: full, single process
+7,913,892 reference rows, 7,707,453 with a CL id, 180 classes >= 2,000
+[20s] clean graph baseline accuracy 0.46368
+[   40s] budget   0.1% draw 0  n_p   7,914  acc 0.46371  retrieval 0.0634  (20s)
+[   60s] budget   0.1% draw 1  n_p   7,914  acc 0.46364  retrieval 0.0434  (20s)
+[   80s] budget   0.1% draw 2  n_p   7,914  acc 0.46371  retrieval 0.0349  (20s)
+[  100s] budget   0.1% draw 3  n_p   7,914  acc 0.46366  retrieval 0.0275  (20s)
+[  120s] budget   0.1% draw 4  n_p   7,914  acc 0.46371  retrieval 0.0613  (20s)
+[  143s] budget   0.5% draw 0  n_p  39,569  acc 0.46352  retrieval 0.2565  (23s)
+[  166s] budget   0.5% draw 1  n_p  39,569  acc 0.46379  retrieval 0.1769  (23s)
+[  189s] budget   0.5% draw 2  n_p  39,569  acc 0.46366  retrieval 0.1651  (23s)
+[  212s] budget   0.5% draw 3  n_p  39,569  acc 0.46358  retrieval 0.2531  (23s)
+[  235s] budget   0.5% draw 4  n_p  39,569  acc 0.46379  retrieval 0.2122  (23s)
+[  262s] budget   1.0% draw 0  n_p  79,139  acc 0.46371  retrieval 0.4416  (27s)
+[  289s] budget   1.0% draw 1  n_p  79,139  acc 0.46358  retrieval 0.4379  (27s)
+[  315s] budget   1.0% draw 2  n_p  79,139  acc 0.46344  retrieval 0.4071  (27s)
+[  342s] budget   1.0% draw 3  n_p  79,139  acc 0.46362  retrieval 0.3811  (27s)
+[  369s] budget   1.0% draw 4  n_p  79,139  acc 0.46375  retrieval 0.3951  (27s)
+[  404s] budget   2.0% draw 0  n_p 158,278  acc 0.46356  retrieval 0.6212  (34s)
+[  438s] budget   2.0% draw 1  n_p 158,278  acc 0.46342  retrieval 0.6876  (35s)
+[  473s] budget   2.0% draw 2  n_p 158,278  acc 0.46346  retrieval 0.6101  (34s)
+[  507s] budget   2.0% draw 3  n_p 158,278  acc 0.46340  retrieval 0.6573  (34s)
+[  542s] budget   2.0% draw 4  n_p 158,278  acc 0.46385  retrieval 0.6086  (34s)
+[  599s] budget   5.0% draw 0  n_p 395,695  acc 0.46336  retrieval 0.9135  (57s)
+[  656s] budget   5.0% draw 1  n_p 395,695  acc 0.46284  retrieval 0.9328  (57s)
+[  712s] budget   5.0% draw 2  n_p 395,695  acc 0.46300  retrieval 0.9085  (57s)
+[  769s] budget   5.0% draw 3  n_p 395,695  acc 0.46263  retrieval 0.9216  (56s)
+[  825s] budget   5.0% draw 4  n_p 395,695  acc 0.46306  retrieval 0.9385  (56s)
+[  919s] budget  10.0% draw 0  n_p 791,389  acc 0.46211  retrieval 0.9960  (94s)
+[ 1014s] budget  10.0% draw 1  n_p 791,389  acc 0.46229  retrieval 0.9929  (94s)
+[ 1108s] budget  10.0% draw 2  n_p 791,389  acc 0.46217  retrieval 0.9966  (94s)
+[ 1202s] budget  10.0% draw 3  n_p 791,389  acc 0.46215  retrieval 0.9967  (94s)
+[ 1296s] budget  10.0% draw 4  n_p 791,389  acc 0.46286  retrieval 0.9954  (94s)
+[1296s] wrote 30 rows, 2,340 donor rows to 02a_01_no_access_uniform_graph_by_donor.parquet
+exit: 0 at 2026-09-27T00:47:02Z

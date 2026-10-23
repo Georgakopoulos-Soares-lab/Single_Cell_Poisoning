@@ -1,0 +1,94 @@
+rerun v3 started 2026-10-04 13:21; driver archive/workers_2026-10/drive_rerun_v3.sh
+insert shards 3; graph peak RSS 17.37 GB -> modify concurrency 2
+swap kill threshold 28000 MB; swap at start 1 MB
+[13:21] insert v3relhub (relabel/hub ) x3; swap 1 MB
+3 shards -> 4,368 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_v3relhub.parquet
+  removed 3 merged shard files
+3 shards -> 340,704 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_v3relhub.parquet
+  removed 3 merged shard files
+[19:49] insert v3relhub merged
+[19:49] insert v3reluni (relabel/uniform ) x3; swap 1 MB
+3 shards -> 4,368 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_v3reluni.parquet
+  removed 3 merged shard files
+3 shards -> 340,704 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_v3reluni.parquet
+  removed 3 merged shard files
+[01:36] insert v3reluni merged
+[01:36] insert v3dupcon (duplicate/concentrated ) x3; swap 1 MB
+3 shards -> 4,368 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_v3dupcon.parquet
+  removed 3 merged shard files
+3 shards -> 340,704 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_v3dupcon.parquet
+  removed 3 merged shard files
+[07:48] insert v3dupcon merged
+[07:48] insert v3intuni (interpolate/uniform ) x3; swap 1 MB
+3 shards -> 4,368 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_v3intuni.parquet
+  removed 3 merged shard files
+3 shards -> 340,704 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_v3intuni.parquet
+  removed 3 merged shard files
+[16:59] insert v3intuni merged
+[16:59] insert v3flo64 (flood/hub BIORAG_FLOOD_ANCHORS=64) x3; swap 1 MB
+3 shards -> 4,368 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_v3flo64.parquet
+  removed 3 merged shard files
+3 shards -> 340,704 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_v3flo64.parquet
+  removed 3 merged shard files
+[00:34] insert v3flo64 merged
+[00:34] insert v3flo256 (flood/hub BIORAG_FLOOD_ANCHORS=256) x3; swap 1 MB
+3 shards -> 4,368 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_v3flo256.parquet
+  removed 3 merged shard files
+3 shards -> 340,704 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_v3flo256.parquet
+  removed 3 merged shard files
+[07:01] insert v3flo256 merged
+[07:01] insert v3flo1024 (flood/hub BIORAG_FLOOD_ANCHORS=1024) x3; swap 1 MB
+3 shards -> 4,368 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_v3flo1024.parquet
+  removed 3 merged shard files
+3 shards -> 340,704 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_v3flo1024.parquet
+  removed 3 merged shard files
+[12:53] insert v3flo1024 merged
+[12:53] insert v3flo4096 (flood/hub BIORAG_FLOOD_ANCHORS=4096) x3; swap 1 MB
+3 shards -> 4,368 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_v3flo4096.parquet
+  removed 3 merged shard files
+3 shards -> 340,704 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_v3flo4096.parquet
+  removed 3 merged shard files
+[00:26] insert v3flo4096 merged
+[00:26] insert v3flo16384 (flood/hub BIORAG_FLOOD_ANCHORS=16384) x3; swap 1 MB
+3 shards -> 4,368 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_v3flo16384.parquet
+  removed 3 merged shard files
+3 shards -> 340,704 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_v3flo16384.parquet
+  removed 3 merged shard files
+[06:33] insert v3flo16384 merged
+[06:33] modify v3modhub (shifted:hub,synthesised:hub) x2; swap 1 MB
+2 shards -> 8,112 rows, 26 celltypes -> 03b_01_with_access_layer_matrix_graph_v3modhub.parquet
+  removed 2 merged shard files
+2 shards -> 632,736 rows, 26 celltypes -> 03b_01_with_access_layer_matrix_by_donor_graph_v3modhub.parquet
+  removed 2 merged shard files
+[23:19] modify v3modhub merged
+[23:19] modify v3moduni (shifted:uniform,synthesised:uniform) x2; swap 1 MB
+2 shards -> 8,112 rows, 26 celltypes -> 03b_01_with_access_layer_matrix_graph_v3moduni.parquet
+  removed 2 merged shard files
+2 shards -> 632,736 rows, 26 celltypes -> 03b_01_with_access_layer_matrix_by_donor_graph_v3moduni.parquet
+  removed 2 merged shard files
+[11:12] modify v3moduni merged
+[11:12] insert v3relunikeep (relabel/uniform BIORAG_LABEL_CHANGE=keep) x3; swap 1 MB
+3 shards -> 4,368 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_v3relunikeep.parquet
+  removed 3 merged shard files
+3 shards -> 340,704 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_v3relunikeep.parquet
+  removed 3 merged shard files
+[17:14] insert v3relunikeep merged
+[17:14] insert v3dupconkeep (duplicate/concentrated BIORAG_LABEL_CHANGE=keep) x3; swap 1 MB
+3 shards -> 4,368 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_v3dupconkeep.parquet
+  removed 3 merged shard files
+3 shards -> 340,704 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_v3dupconkeep.parquet
+  removed 3 merged shard files
+[23:11] insert v3dupconkeep merged
+[23:11] insert v3flo1024keep (flood/hub BIORAG_FLOOD_ANCHORS=1024 BIORAG_LABEL_CHANGE=keep) x3; swap 1 MB
+3 shards -> 4,368 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_v3flo1024keep.parquet
+  removed 3 merged shard files
+3 shards -> 340,704 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_v3flo1024keep.parquet
+  removed 3 merged shard files
+[05:38] insert v3flo1024keep merged
+[05:38] modify v3modkeep (shifted:hub:keep,shifted:uniform:keep) x2; swap 1 MB
+2 shards -> 8,112 rows, 26 celltypes -> 03b_01_with_access_layer_matrix_graph_v3modkeep.parquet
+  removed 2 merged shard files
+2 shards -> 632,736 rows, 26 celltypes -> 03b_01_with_access_layer_matrix_by_donor_graph_v3modkeep.parquet
+  removed 2 merged shard files
+[17:50] modify v3modkeep merged
+[17:50] 03a_09 intervals for v3 tags

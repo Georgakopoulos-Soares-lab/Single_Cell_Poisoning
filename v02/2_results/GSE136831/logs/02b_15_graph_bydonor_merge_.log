@@ -1,0 +1,13 @@
+git SHA: 19c0ad52
+merged: 2026-09-27T08:39:55Z
+canonical: 02b_15_with_access_alpha_sweep_by_donor_graph.parquet
+Traceback (most recent call last):
+  File "<REPO>/v02/1_scripts/00_pipeline/merge_shards.py", line 122, in <module>
+    sys.exit(main(sys.argv[1:]))
+             ^^^^^^^^^^^^^^^^^^
+  File "<REPO>/v02/1_scripts/00_pipeline/merge_shards.py", line 117, in main
+    merge(pathlib.Path(a))
+  File "<REPO>/v02/1_scripts/00_pipeline/merge_shards.py", line 91, in merge
+    raise ValueError(
+ValueError: 02b_15_with_access_alpha_sweep_by_donor_graph.parquet: no 'n_conditions' column, so completeness cannot be verified -- and an unverifiable merge is refused rather than written, because a partial table here is indistinguishable from a complete one downstream. The step must emit n_conditions (the GLOBAL condition count, not the shard's). Shard row counts: [25272, 25272, 22464]
+merge exit: 1 at 2026-09-27T08:39:56Z

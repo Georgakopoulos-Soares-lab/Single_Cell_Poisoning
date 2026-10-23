@@ -1,0 +1,10 @@
+git SHA: 2e37f04e
+started: 2026-09-25T04:40:09Z
+script:  v02/1_scripts/02_b_attack_celltype/02b_05_with_access_hub_split_donor.py
+profile: full
+[1s] 26 celltypes, 78 donors, 13x3x3 conditions each = 3042 rows
+[  421s] 1170 conditions
+[  830s] 2340 conditions
+[1080s] wrote 3042 rows to 02b_05_with_access_hub_split_donor.parquet
+[1080s] wrote 237,276 donor rows to 02b_05_with_access_hub_split_by_donor.parquet
+exit: 0 at 2026-09-25T04:58:09Z

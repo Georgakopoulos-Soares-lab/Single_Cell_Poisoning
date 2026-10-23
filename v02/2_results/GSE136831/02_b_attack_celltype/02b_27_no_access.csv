@@ -1,0 +1,1093 @@
+source,rate,type,value,label,tick,dose
+CL:0000057,0.002,relabel / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.002
+CL:0000057,0.005,relabel / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.005
+CL:0000057,0.01,relabel / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.01
+CL:0000057,0.025,relabel / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.025
+CL:0000057,0.05,relabel / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.05
+CL:0000057,0.1,relabel / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.1
+CL:0000057,0.25,relabel / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.25
+CL:0000057,0.5,relabel / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.5
+CL:0000057,0.7,relabel / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.7
+CL:0000057,0.8,relabel / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.8
+CL:0000057,0.85,relabel / uniform,0.0048076925,fibroblast,fibroblast  CL:0000057,0.85
+CL:0000057,0.9,relabel / uniform,0.021634616,fibroblast,fibroblast  CL:0000057,0.9
+CL:0000057,1.0,relabel / uniform,0.17788461,fibroblast,fibroblast  CL:0000057,1
+CL:0000057,1.25,relabel / uniform,0.8701923,fibroblast,fibroblast  CL:0000057,1.25
+CL:0000057,0.002,relabel / hub,0.0,fibroblast,fibroblast  CL:0000057,0.002
+CL:0000057,0.005,relabel / hub,0.0024038462,fibroblast,fibroblast  CL:0000057,0.005
+CL:0000057,0.01,relabel / hub,0.024038462,fibroblast,fibroblast  CL:0000057,0.01
+CL:0000057,0.025,relabel / hub,0.07692308,fibroblast,fibroblast  CL:0000057,0.025
+CL:0000057,0.05,relabel / hub,0.125,fibroblast,fibroblast  CL:0000057,0.05
+CL:0000057,0.1,relabel / hub,0.16586539,fibroblast,fibroblast  CL:0000057,0.1
+CL:0000057,0.25,relabel / hub,0.16586539,fibroblast,fibroblast  CL:0000057,0.25
+CL:0000057,0.5,relabel / hub,0.1923077,fibroblast,fibroblast  CL:0000057,0.5
+CL:0000057,0.7,relabel / hub,0.15625,fibroblast,fibroblast  CL:0000057,0.7
+CL:0000057,0.8,relabel / hub,0.17307693,fibroblast,fibroblast  CL:0000057,0.8
+CL:0000057,0.85,relabel / hub,0.16586539,fibroblast,fibroblast  CL:0000057,0.85
+CL:0000057,0.9,relabel / hub,0.17788461,fibroblast,fibroblast  CL:0000057,0.9
+CL:0000057,1.0,relabel / hub,0.17307693,fibroblast,fibroblast  CL:0000057,1
+CL:0000057,1.25,relabel / hub,0.9831731,fibroblast,fibroblast  CL:0000057,1.25
+CL:0000057,0.002,keep / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.002
+CL:0000057,0.005,keep / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.005
+CL:0000057,0.01,keep / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.01
+CL:0000057,0.025,keep / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.025
+CL:0000057,0.05,keep / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.05
+CL:0000057,0.1,keep / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.1
+CL:0000057,0.25,keep / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.25
+CL:0000057,0.5,keep / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.5
+CL:0000057,0.7,keep / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.7
+CL:0000057,0.8,keep / uniform,0.0,fibroblast,fibroblast  CL:0000057,0.8
+CL:0000057,0.85,keep / uniform,0.0024038462,fibroblast,fibroblast  CL:0000057,0.85
+CL:0000057,0.9,keep / uniform,0.016826924,fibroblast,fibroblast  CL:0000057,0.9
+CL:0000057,1.0,keep / uniform,0.16586539,fibroblast,fibroblast  CL:0000057,1
+CL:0000057,1.25,keep / uniform,0.87259614,fibroblast,fibroblast  CL:0000057,1.25
+CL:0000084,0.002,relabel / uniform,0.0,T cell,T cell  CL:0000084,0.002
+CL:0000084,0.005,relabel / uniform,0.0,T cell,T cell  CL:0000084,0.005
+CL:0000084,0.01,relabel / uniform,0.0,T cell,T cell  CL:0000084,0.01
+CL:0000084,0.025,relabel / uniform,0.0,T cell,T cell  CL:0000084,0.025
+CL:0000084,0.05,relabel / uniform,0.0,T cell,T cell  CL:0000084,0.05
+CL:0000084,0.1,relabel / uniform,0.0,T cell,T cell  CL:0000084,0.1
+CL:0000084,0.25,relabel / uniform,0.0,T cell,T cell  CL:0000084,0.25
+CL:0000084,0.5,relabel / uniform,0.0,T cell,T cell  CL:0000084,0.5
+CL:0000084,0.7,relabel / uniform,0.0,T cell,T cell  CL:0000084,0.7
+CL:0000084,0.8,relabel / uniform,0.0011476664,T cell,T cell  CL:0000084,0.8
+CL:0000084,0.85,relabel / uniform,0.0038255546,T cell,T cell  CL:0000084,0.85
+CL:0000084,0.9,relabel / uniform,0.017214997,T cell,T cell  CL:0000084,0.9
+CL:0000084,1.0,relabel / uniform,0.14269319,T cell,T cell  CL:0000084,1
+CL:0000084,1.25,relabel / uniform,0.7042846,T cell,T cell  CL:0000084,1.25
+CL:0000084,0.002,relabel / hub,0.0,T cell,T cell  CL:0000084,0.002
+CL:0000084,0.005,relabel / hub,0.0,T cell,T cell  CL:0000084,0.005
+CL:0000084,0.01,relabel / hub,0.0022953327,T cell,T cell  CL:0000084,0.01
+CL:0000084,0.025,relabel / hub,0.017597552,T cell,T cell  CL:0000084,0.025
+CL:0000084,0.05,relabel / hub,0.046289213,T cell,T cell  CL:0000084,0.05
+CL:0000084,0.1,relabel / hub,0.080336645,T cell,T cell  CL:0000084,0.1
+CL:0000084,0.25,relabel / hub,0.14039786,T cell,T cell  CL:0000084,0.25
+CL:0000084,0.5,relabel / hub,0.1365723,T cell,T cell  CL:0000084,0.5
+CL:0000084,0.7,relabel / hub,0.1434583,T cell,T cell  CL:0000084,0.7
+CL:0000084,0.8,relabel / hub,0.14804897,T cell,T cell  CL:0000084,0.8
+CL:0000084,0.85,relabel / hub,0.14231063,T cell,T cell  CL:0000084,0.85
+CL:0000084,0.9,relabel / hub,0.12815608,T cell,T cell  CL:0000084,0.9
+CL:0000084,1.0,relabel / hub,0.14039786,T cell,T cell  CL:0000084,1
+CL:0000084,1.25,relabel / hub,0.8902066,T cell,T cell  CL:0000084,1.25
+CL:0000084,0.002,keep / uniform,0.0,T cell,T cell  CL:0000084,0.002
+CL:0000084,0.005,keep / uniform,0.0,T cell,T cell  CL:0000084,0.005
+CL:0000084,0.01,keep / uniform,0.0,T cell,T cell  CL:0000084,0.01
+CL:0000084,0.025,keep / uniform,0.0,T cell,T cell  CL:0000084,0.025
+CL:0000084,0.05,keep / uniform,0.0,T cell,T cell  CL:0000084,0.05
+CL:0000084,0.1,keep / uniform,0.0,T cell,T cell  CL:0000084,0.1
+CL:0000084,0.25,keep / uniform,0.0,T cell,T cell  CL:0000084,0.25
+CL:0000084,0.5,keep / uniform,0.0,T cell,T cell  CL:0000084,0.5
+CL:0000084,0.7,keep / uniform,0.0,T cell,T cell  CL:0000084,0.7
+CL:0000084,0.8,keep / uniform,0.0019127773,T cell,T cell  CL:0000084,0.8
+CL:0000084,0.85,keep / uniform,0.0042081103,T cell,T cell  CL:0000084,0.85
+CL:0000084,0.9,keep / uniform,0.016449885,T cell,T cell  CL:0000084,0.9
+CL:0000084,1.0,keep / uniform,0.13121653,T cell,T cell  CL:0000084,1
+CL:0000084,1.25,keep / uniform,0.70390207,T cell,T cell  CL:0000084,1.25
+CL:0000097,0.002,relabel / uniform,0.0,mast cell,mast cell  CL:0000097,0.002
+CL:0000097,0.005,relabel / uniform,0.0,mast cell,mast cell  CL:0000097,0.005
+CL:0000097,0.01,relabel / uniform,0.0,mast cell,mast cell  CL:0000097,0.01
+CL:0000097,0.025,relabel / uniform,0.0,mast cell,mast cell  CL:0000097,0.025
+CL:0000097,0.05,relabel / uniform,0.0,mast cell,mast cell  CL:0000097,0.05
+CL:0000097,0.1,relabel / uniform,0.0,mast cell,mast cell  CL:0000097,0.1
+CL:0000097,0.25,relabel / uniform,0.0,mast cell,mast cell  CL:0000097,0.25
+CL:0000097,0.5,relabel / uniform,0.0,mast cell,mast cell  CL:0000097,0.5
+CL:0000097,0.7,relabel / uniform,0.0,mast cell,mast cell  CL:0000097,0.7
+CL:0000097,0.8,relabel / uniform,0.020920502,mast cell,mast cell  CL:0000097,0.8
+CL:0000097,0.85,relabel / uniform,0.025104603,mast cell,mast cell  CL:0000097,0.85
+CL:0000097,0.9,relabel / uniform,0.10460251,mast cell,mast cell  CL:0000097,0.9
+CL:0000097,1.0,relabel / uniform,0.748954,mast cell,mast cell  CL:0000097,1
+CL:0000097,1.25,relabel / uniform,0.79079497,mast cell,mast cell  CL:0000097,1.25
+CL:0000097,0.002,relabel / hub,0.0,mast cell,mast cell  CL:0000097,0.002
+CL:0000097,0.005,relabel / hub,0.016736401,mast cell,mast cell  CL:0000097,0.005
+CL:0000097,0.01,relabel / hub,0.09205021,mast cell,mast cell  CL:0000097,0.01
+CL:0000097,0.025,relabel / hub,0.30125523,mast cell,mast cell  CL:0000097,0.025
+CL:0000097,0.05,relabel / hub,0.5146443,mast cell,mast cell  CL:0000097,0.05
+CL:0000097,0.1,relabel / hub,0.76150626,mast cell,mast cell  CL:0000097,0.1
+CL:0000097,0.25,relabel / hub,0.7364017,mast cell,mast cell  CL:0000097,0.25
+CL:0000097,0.5,relabel / hub,0.7824268,mast cell,mast cell  CL:0000097,0.5
+CL:0000097,0.7,relabel / hub,0.76987445,mast cell,mast cell  CL:0000097,0.7
+CL:0000097,0.8,relabel / hub,0.7573222,mast cell,mast cell  CL:0000097,0.8
+CL:0000097,0.85,relabel / hub,0.7782427,mast cell,mast cell  CL:0000097,0.85
+CL:0000097,0.9,relabel / hub,0.7656904,mast cell,mast cell  CL:0000097,0.9
+CL:0000097,1.0,relabel / hub,0.7866109,mast cell,mast cell  CL:0000097,1
+CL:0000097,1.25,relabel / hub,0.9665272,mast cell,mast cell  CL:0000097,1.25
+CL:0000097,0.002,keep / uniform,0.0,mast cell,mast cell  CL:0000097,0.002
+CL:0000097,0.005,keep / uniform,0.0,mast cell,mast cell  CL:0000097,0.005
+CL:0000097,0.01,keep / uniform,0.0,mast cell,mast cell  CL:0000097,0.01
+CL:0000097,0.025,keep / uniform,0.0,mast cell,mast cell  CL:0000097,0.025
+CL:0000097,0.05,keep / uniform,0.0,mast cell,mast cell  CL:0000097,0.05
+CL:0000097,0.1,keep / uniform,0.0,mast cell,mast cell  CL:0000097,0.1
+CL:0000097,0.25,keep / uniform,0.0,mast cell,mast cell  CL:0000097,0.25
+CL:0000097,0.5,keep / uniform,0.0,mast cell,mast cell  CL:0000097,0.5
+CL:0000097,0.7,keep / uniform,0.0,mast cell,mast cell  CL:0000097,0.7
+CL:0000097,0.8,keep / uniform,0.016736401,mast cell,mast cell  CL:0000097,0.8
+CL:0000097,0.85,keep / uniform,0.025104603,mast cell,mast cell  CL:0000097,0.85
+CL:0000097,0.9,keep / uniform,0.10460251,mast cell,mast cell  CL:0000097,0.9
+CL:0000097,1.0,keep / uniform,0.76150626,mast cell,mast cell  CL:0000097,1
+CL:0000097,1.25,keep / uniform,0.7866109,mast cell,mast cell  CL:0000097,1.25
+CL:0000158,0.002,relabel / uniform,0.0,club cell,club cell  CL:0000158,0.002
+CL:0000158,0.005,relabel / uniform,0.0,club cell,club cell  CL:0000158,0.005
+CL:0000158,0.01,relabel / uniform,0.0,club cell,club cell  CL:0000158,0.01
+CL:0000158,0.025,relabel / uniform,0.0,club cell,club cell  CL:0000158,0.025
+CL:0000158,0.05,relabel / uniform,0.0,club cell,club cell  CL:0000158,0.05
+CL:0000158,0.1,relabel / uniform,0.0,club cell,club cell  CL:0000158,0.1
+CL:0000158,0.25,relabel / uniform,0.0,club cell,club cell  CL:0000158,0.25
+CL:0000158,0.5,relabel / uniform,0.0,club cell,club cell  CL:0000158,0.5
+CL:0000158,0.7,relabel / uniform,0.0023310024,club cell,club cell  CL:0000158,0.7
+CL:0000158,0.8,relabel / uniform,0.02097902,club cell,club cell  CL:0000158,0.8
+CL:0000158,0.85,relabel / uniform,0.067599066,club cell,club cell  CL:0000158,0.85
+CL:0000158,0.9,relabel / uniform,0.08158508,club cell,club cell  CL:0000158,0.9
+CL:0000158,1.0,relabel / uniform,0.3916084,club cell,club cell  CL:0000158,1
+CL:0000158,1.25,relabel / uniform,0.4801865,club cell,club cell  CL:0000158,1.25
+CL:0000158,0.002,relabel / hub,0.0,club cell,club cell  CL:0000158,0.002
+CL:0000158,0.005,relabel / hub,0.0,club cell,club cell  CL:0000158,0.005
+CL:0000158,0.01,relabel / hub,0.018648019,club cell,club cell  CL:0000158,0.01
+CL:0000158,0.025,relabel / hub,0.1072261,club cell,club cell  CL:0000158,0.025
+CL:0000158,0.05,relabel / hub,0.2027972,club cell,club cell  CL:0000158,0.05
+CL:0000158,0.1,relabel / hub,0.3216783,club cell,club cell  CL:0000158,0.1
+CL:0000158,0.25,relabel / hub,0.41958043,club cell,club cell  CL:0000158,0.25
+CL:0000158,0.5,relabel / hub,0.41491842,club cell,club cell  CL:0000158,0.5
+CL:0000158,0.7,relabel / hub,0.4079254,club cell,club cell  CL:0000158,0.7
+CL:0000158,0.8,relabel / hub,0.4055944,club cell,club cell  CL:0000158,0.8
+CL:0000158,0.85,relabel / hub,0.42424244,club cell,club cell  CL:0000158,0.85
+CL:0000158,0.9,relabel / hub,0.41491842,club cell,club cell  CL:0000158,0.9
+CL:0000158,1.0,relabel / hub,0.3986014,club cell,club cell  CL:0000158,1
+CL:0000158,1.25,relabel / hub,0.6037296,club cell,club cell  CL:0000158,1.25
+CL:0000158,0.002,keep / uniform,0.0,club cell,club cell  CL:0000158,0.002
+CL:0000158,0.005,keep / uniform,0.0,club cell,club cell  CL:0000158,0.005
+CL:0000158,0.01,keep / uniform,0.0,club cell,club cell  CL:0000158,0.01
+CL:0000158,0.025,keep / uniform,0.0,club cell,club cell  CL:0000158,0.025
+CL:0000158,0.05,keep / uniform,0.0,club cell,club cell  CL:0000158,0.05
+CL:0000158,0.1,keep / uniform,0.0,club cell,club cell  CL:0000158,0.1
+CL:0000158,0.25,keep / uniform,0.0,club cell,club cell  CL:0000158,0.25
+CL:0000158,0.5,keep / uniform,0.0,club cell,club cell  CL:0000158,0.5
+CL:0000158,0.7,keep / uniform,0.0023310024,club cell,club cell  CL:0000158,0.7
+CL:0000158,0.8,keep / uniform,0.02097902,club cell,club cell  CL:0000158,0.8
+CL:0000158,0.85,keep / uniform,0.06993007,club cell,club cell  CL:0000158,0.85
+CL:0000158,0.9,keep / uniform,0.08158508,club cell,club cell  CL:0000158,0.9
+CL:0000158,1.0,keep / uniform,0.3892774,club cell,club cell  CL:0000158,1
+CL:0000158,1.25,keep / uniform,0.48251748,club cell,club cell  CL:0000158,1.25
+CL:0000160,0.002,relabel / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.002
+CL:0000160,0.005,relabel / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.005
+CL:0000160,0.01,relabel / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.01
+CL:0000160,0.025,relabel / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.025
+CL:0000160,0.05,relabel / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.05
+CL:0000160,0.1,relabel / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.1
+CL:0000160,0.25,relabel / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.25
+CL:0000160,0.5,relabel / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.5
+CL:0000160,0.7,relabel / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.7
+CL:0000160,0.8,relabel / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.8
+CL:0000160,0.85,relabel / uniform,0.0043290043,goblet cell,goblet cell  CL:0000160,0.85
+CL:0000160,0.9,relabel / uniform,0.034632035,goblet cell,goblet cell  CL:0000160,0.9
+CL:0000160,1.0,relabel / uniform,0.16017316,goblet cell,goblet cell  CL:0000160,1
+CL:0000160,1.25,relabel / uniform,0.2900433,goblet cell,goblet cell  CL:0000160,1.25
+CL:0000160,0.002,relabel / hub,0.0,goblet cell,goblet cell  CL:0000160,0.002
+CL:0000160,0.005,relabel / hub,0.021645023,goblet cell,goblet cell  CL:0000160,0.005
+CL:0000160,0.01,relabel / hub,0.0952381,goblet cell,goblet cell  CL:0000160,0.01
+CL:0000160,0.025,relabel / hub,0.16450216,goblet cell,goblet cell  CL:0000160,0.025
+CL:0000160,0.05,relabel / hub,0.17748918,goblet cell,goblet cell  CL:0000160,0.05
+CL:0000160,0.1,relabel / hub,0.17316018,goblet cell,goblet cell  CL:0000160,0.1
+CL:0000160,0.25,relabel / hub,0.17748918,goblet cell,goblet cell  CL:0000160,0.25
+CL:0000160,0.5,relabel / hub,0.16883117,goblet cell,goblet cell  CL:0000160,0.5
+CL:0000160,0.7,relabel / hub,0.15151516,goblet cell,goblet cell  CL:0000160,0.7
+CL:0000160,0.8,relabel / hub,0.16883117,goblet cell,goblet cell  CL:0000160,0.8
+CL:0000160,0.85,relabel / hub,0.16450216,goblet cell,goblet cell  CL:0000160,0.85
+CL:0000160,0.9,relabel / hub,0.16883117,goblet cell,goblet cell  CL:0000160,0.9
+CL:0000160,1.0,relabel / hub,0.16450216,goblet cell,goblet cell  CL:0000160,1
+CL:0000160,1.25,relabel / hub,0.43290043,goblet cell,goblet cell  CL:0000160,1.25
+CL:0000160,0.002,keep / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.002
+CL:0000160,0.005,keep / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.005
+CL:0000160,0.01,keep / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.01
+CL:0000160,0.025,keep / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.025
+CL:0000160,0.05,keep / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.05
+CL:0000160,0.1,keep / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.1
+CL:0000160,0.25,keep / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.25
+CL:0000160,0.5,keep / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.5
+CL:0000160,0.7,keep / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.7
+CL:0000160,0.8,keep / uniform,0.0,goblet cell,goblet cell  CL:0000160,0.8
+CL:0000160,0.85,keep / uniform,0.0043290043,goblet cell,goblet cell  CL:0000160,0.85
+CL:0000160,0.9,keep / uniform,0.034632035,goblet cell,goblet cell  CL:0000160,0.9
+CL:0000160,1.0,keep / uniform,0.17316018,goblet cell,goblet cell  CL:0000160,1
+CL:0000160,1.25,keep / uniform,0.2900433,goblet cell,goblet cell  CL:0000160,1.25
+CL:0000186,0.002,relabel / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.002
+CL:0000186,0.005,relabel / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.005
+CL:0000186,0.01,relabel / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.01
+CL:0000186,0.025,relabel / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.025
+CL:0000186,0.05,relabel / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.05
+CL:0000186,0.1,relabel / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.1
+CL:0000186,0.25,relabel / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.25
+CL:0000186,0.5,relabel / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.5
+CL:0000186,0.7,relabel / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.7
+CL:0000186,0.8,relabel / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.8
+CL:0000186,0.85,relabel / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.85
+CL:0000186,0.9,relabel / uniform,0.0017825312,myofibroblast cell,myofibroblast cell  CL:0000186,0.9
+CL:0000186,1.0,relabel / uniform,0.019607844,myofibroblast cell,myofibroblast cell  CL:0000186,1
+CL:0000186,1.25,relabel / uniform,0.035650622,myofibroblast cell,myofibroblast cell  CL:0000186,1.25
+CL:0000186,0.002,relabel / hub,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.002
+CL:0000186,0.005,relabel / hub,0.0017825312,myofibroblast cell,myofibroblast cell  CL:0000186,0.005
+CL:0000186,0.01,relabel / hub,0.0071301246,myofibroblast cell,myofibroblast cell  CL:0000186,0.01
+CL:0000186,0.025,relabel / hub,0.014260249,myofibroblast cell,myofibroblast cell  CL:0000186,0.025
+CL:0000186,0.05,relabel / hub,0.01604278,myofibroblast cell,myofibroblast cell  CL:0000186,0.05
+CL:0000186,0.1,relabel / hub,0.01604278,myofibroblast cell,myofibroblast cell  CL:0000186,0.1
+CL:0000186,0.25,relabel / hub,0.014260249,myofibroblast cell,myofibroblast cell  CL:0000186,0.25
+CL:0000186,0.5,relabel / hub,0.01604278,myofibroblast cell,myofibroblast cell  CL:0000186,0.5
+CL:0000186,0.7,relabel / hub,0.014260249,myofibroblast cell,myofibroblast cell  CL:0000186,0.7
+CL:0000186,0.8,relabel / hub,0.01604278,myofibroblast cell,myofibroblast cell  CL:0000186,0.8
+CL:0000186,0.85,relabel / hub,0.01604278,myofibroblast cell,myofibroblast cell  CL:0000186,0.85
+CL:0000186,0.9,relabel / hub,0.017825311,myofibroblast cell,myofibroblast cell  CL:0000186,0.9
+CL:0000186,1.0,relabel / hub,0.017825311,myofibroblast cell,myofibroblast cell  CL:0000186,1
+CL:0000186,1.25,relabel / hub,0.053475935,myofibroblast cell,myofibroblast cell  CL:0000186,1.25
+CL:0000186,0.002,keep / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.002
+CL:0000186,0.005,keep / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.005
+CL:0000186,0.01,keep / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.01
+CL:0000186,0.025,keep / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.025
+CL:0000186,0.05,keep / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.05
+CL:0000186,0.1,keep / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.1
+CL:0000186,0.25,keep / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.25
+CL:0000186,0.5,keep / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.5
+CL:0000186,0.7,keep / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.7
+CL:0000186,0.8,keep / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.8
+CL:0000186,0.85,keep / uniform,0.0,myofibroblast cell,myofibroblast cell  CL:0000186,0.85
+CL:0000186,0.9,keep / uniform,0.0017825312,myofibroblast cell,myofibroblast cell  CL:0000186,0.9
+CL:0000186,1.0,keep / uniform,0.019607844,myofibroblast cell,myofibroblast cell  CL:0000186,1
+CL:0000186,1.25,keep / uniform,0.035650622,myofibroblast cell,myofibroblast cell  CL:0000186,1.25
+CL:0000192,0.002,relabel / uniform,0.0,smooth muscle cell,smooth muscle cell  CL:0000192,0.002
+CL:0000192,0.005,relabel / uniform,0.0,smooth muscle cell,smooth muscle cell  CL:0000192,0.005
+CL:0000192,0.01,relabel / uniform,0.0,smooth muscle cell,smooth muscle cell  CL:0000192,0.01
+CL:0000192,0.025,relabel / uniform,0.0,smooth muscle cell,smooth muscle cell  CL:0000192,0.025
+CL:0000192,0.05,relabel / uniform,0.0,smooth muscle cell,smooth muscle cell  CL:0000192,0.05
+CL:0000192,0.1,relabel / uniform,0.0,smooth muscle cell,smooth muscle cell  CL:0000192,0.1
+CL:0000192,0.25,relabel / uniform,0.0,smooth muscle cell,smooth muscle cell  CL:0000192,0.25
+CL:0000192,0.5,relabel / uniform,0.0,smooth muscle cell,smooth muscle cell  CL:0000192,0.5
+CL:0000192,0.7,relabel / uniform,0.025,smooth muscle cell,smooth muscle cell  CL:0000192,0.7
+CL:0000192,0.8,relabel / uniform,0.06666667,smooth muscle cell,smooth muscle cell  CL:0000192,0.8
+CL:0000192,0.85,relabel / uniform,0.075,smooth muscle cell,smooth muscle cell  CL:0000192,0.85
+CL:0000192,0.9,relabel / uniform,0.06666667,smooth muscle cell,smooth muscle cell  CL:0000192,0.9
+CL:0000192,1.0,relabel / uniform,0.24166666,smooth muscle cell,smooth muscle cell  CL:0000192,1
+CL:0000192,1.25,relabel / uniform,0.38333333,smooth muscle cell,smooth muscle cell  CL:0000192,1.25
+CL:0000192,0.002,relabel / hub,0.0,smooth muscle cell,smooth muscle cell  CL:0000192,0.002
+CL:0000192,0.005,relabel / hub,0.0,smooth muscle cell,smooth muscle cell  CL:0000192,0.005
+CL:0000192,0.01,relabel / hub,0.008333334,smooth muscle cell,smooth muscle cell  CL:0000192,0.01
+CL:0000192,0.025,relabel / hub,0.108333334,smooth muscle cell,smooth muscle cell  CL:0000192,0.025
+CL:0000192,0.05,relabel / hub,0.25833333,smooth muscle cell,smooth muscle cell  CL:0000192,0.05
+CL:0000192,0.1,relabel / hub,0.275,smooth muscle cell,smooth muscle cell  CL:0000192,0.1
+CL:0000192,0.25,relabel / hub,0.275,smooth muscle cell,smooth muscle cell  CL:0000192,0.25
+CL:0000192,0.5,relabel / hub,0.28333333,smooth muscle cell,smooth muscle cell  CL:0000192,0.5
+CL:0000192,0.7,relabel / hub,0.29166666,smooth muscle cell,smooth muscle cell  CL:0000192,0.7
+CL:0000192,0.8,relabel / hub,0.29166666,smooth muscle cell,smooth muscle cell  CL:0000192,0.8
+CL:0000192,0.85,relabel / hub,0.28333333,smooth muscle cell,smooth muscle cell  CL:0000192,0.85
+CL:0000192,0.9,relabel / hub,0.275,smooth muscle cell,smooth muscle cell  CL:0000192,0.9
+CL:0000192,1.0,relabel / hub,0.275,smooth muscle cell,smooth muscle cell  CL:0000192,1
+CL:0000192,1.25,relabel / hub,0.425,smooth muscle cell,smooth muscle cell  CL:0000192,1.25
+CL:0000192,0.002,keep / uniform,0.0,smooth muscle cell,smooth muscle cell  CL:0000192,0.002
+CL:0000192,0.005,keep / uniform,0.0,smooth muscle cell,smooth muscle cell  CL:0000192,0.005
+CL:0000192,0.01,keep / uniform,0.0,smooth muscle cell,smooth muscle cell  CL:0000192,0.01
+CL:0000192,0.025,keep / uniform,0.0,smooth muscle cell,smooth muscle cell  CL:0000192,0.025
+CL:0000192,0.05,keep / uniform,0.0,smooth muscle cell,smooth muscle cell  CL:0000192,0.05
+CL:0000192,0.1,keep / uniform,0.0,smooth muscle cell,smooth muscle cell  CL:0000192,0.1
+CL:0000192,0.25,keep / uniform,0.0,smooth muscle cell,smooth muscle cell  CL:0000192,0.25
+CL:0000192,0.5,keep / uniform,0.0,smooth muscle cell,smooth muscle cell  CL:0000192,0.5
+CL:0000192,0.7,keep / uniform,0.025,smooth muscle cell,smooth muscle cell  CL:0000192,0.7
+CL:0000192,0.8,keep / uniform,0.06666667,smooth muscle cell,smooth muscle cell  CL:0000192,0.8
+CL:0000192,0.85,keep / uniform,0.075,smooth muscle cell,smooth muscle cell  CL:0000192,0.85
+CL:0000192,0.9,keep / uniform,0.06666667,smooth muscle cell,smooth muscle cell  CL:0000192,0.9
+CL:0000192,1.0,keep / uniform,0.26666668,smooth muscle cell,smooth muscle cell  CL:0000192,1
+CL:0000192,1.25,keep / uniform,0.38333333,smooth muscle cell,smooth muscle cell  CL:0000192,1.25
+CL:0000235,0.002,relabel / uniform,0.0,macrophage,macrophage  CL:0000235,0.002
+CL:0000235,0.005,relabel / uniform,0.0,macrophage,macrophage  CL:0000235,0.005
+CL:0000235,0.01,relabel / uniform,0.0,macrophage,macrophage  CL:0000235,0.01
+CL:0000235,0.025,relabel / uniform,0.0,macrophage,macrophage  CL:0000235,0.025
+CL:0000235,0.05,relabel / uniform,0.0,macrophage,macrophage  CL:0000235,0.05
+CL:0000235,0.1,relabel / uniform,0.0,macrophage,macrophage  CL:0000235,0.1
+CL:0000235,0.25,relabel / uniform,0.0,macrophage,macrophage  CL:0000235,0.25
+CL:0000235,0.5,relabel / uniform,0.0,macrophage,macrophage  CL:0000235,0.5
+CL:0000235,0.7,relabel / uniform,0.00045529567,macrophage,macrophage  CL:0000235,0.7
+CL:0000235,0.8,relabel / uniform,0.008479882,macrophage,macrophage  CL:0000235,0.8
+CL:0000235,0.85,relabel / uniform,0.020772865,macrophage,macrophage  CL:0000235,0.85
+CL:0000235,0.9,relabel / uniform,0.052188266,macrophage,macrophage  CL:0000235,0.9
+CL:0000235,1.0,relabel / uniform,0.22559899,macrophage,macrophage  CL:0000235,1
+CL:0000235,1.25,relabel / uniform,0.25627455,macrophage,macrophage  CL:0000235,1.25
+CL:0000235,0.002,relabel / hub,0.0,macrophage,macrophage  CL:0000235,0.002
+CL:0000235,0.005,relabel / hub,0.0046667806,macrophage,macrophage  CL:0000235,0.005
+CL:0000235,0.01,relabel / hub,0.023959935,macrophage,macrophage  CL:0000235,0.01
+CL:0000235,0.025,relabel / hub,0.07648967,macrophage,macrophage  CL:0000235,0.025
+CL:0000235,0.05,relabel / hub,0.13192192,macrophage,macrophage  CL:0000235,0.05
+CL:0000235,0.1,relabel / hub,0.17904502,macrophage,macrophage  CL:0000235,0.1
+CL:0000235,0.25,relabel / hub,0.22713563,macrophage,macrophage  CL:0000235,0.25
+CL:0000235,0.5,relabel / hub,0.22690797,macrophage,macrophage  CL:0000235,0.5
+CL:0000235,0.7,relabel / hub,0.22685106,macrophage,macrophage  CL:0000235,0.7
+CL:0000235,0.8,relabel / hub,0.22690797,macrophage,macrophage  CL:0000235,0.8
+CL:0000235,0.85,relabel / hub,0.22747709,macrophage,macrophage  CL:0000235,0.85
+CL:0000235,0.9,relabel / hub,0.22759092,macrophage,macrophage  CL:0000235,0.9
+CL:0000235,1.0,relabel / hub,0.2279893,macrophage,macrophage  CL:0000235,1
+CL:0000235,1.25,relabel / hub,0.38580614,macrophage,macrophage  CL:0000235,1.25
+CL:0000235,0.002,keep / uniform,0.0,macrophage,macrophage  CL:0000235,0.002
+CL:0000235,0.005,keep / uniform,0.0,macrophage,macrophage  CL:0000235,0.005
+CL:0000235,0.01,keep / uniform,0.0,macrophage,macrophage  CL:0000235,0.01
+CL:0000235,0.025,keep / uniform,0.0,macrophage,macrophage  CL:0000235,0.025
+CL:0000235,0.05,keep / uniform,0.0,macrophage,macrophage  CL:0000235,0.05
+CL:0000235,0.1,keep / uniform,0.0,macrophage,macrophage  CL:0000235,0.1
+CL:0000235,0.25,keep / uniform,0.0,macrophage,macrophage  CL:0000235,0.25
+CL:0000235,0.5,keep / uniform,0.0,macrophage,macrophage  CL:0000235,0.5
+CL:0000235,0.7,keep / uniform,0.00045529567,macrophage,macrophage  CL:0000235,0.7
+CL:0000235,0.8,keep / uniform,0.00813841,macrophage,macrophage  CL:0000235,0.8
+CL:0000235,0.85,keep / uniform,0.020715952,macrophage,macrophage  CL:0000235,0.85
+CL:0000235,0.9,keep / uniform,0.052245177,macrophage,macrophage  CL:0000235,0.9
+CL:0000235,1.0,keep / uniform,0.22594047,macrophage,macrophage  CL:0000235,1
+CL:0000235,1.25,keep / uniform,0.2561607,macrophage,macrophage  CL:0000235,1.25
+CL:0000236,0.002,relabel / uniform,0.0,B cell,B cell  CL:0000236,0.002
+CL:0000236,0.005,relabel / uniform,0.0,B cell,B cell  CL:0000236,0.005
+CL:0000236,0.01,relabel / uniform,0.0,B cell,B cell  CL:0000236,0.01
+CL:0000236,0.025,relabel / uniform,0.0,B cell,B cell  CL:0000236,0.025
+CL:0000236,0.05,relabel / uniform,0.0,B cell,B cell  CL:0000236,0.05
+CL:0000236,0.1,relabel / uniform,0.0,B cell,B cell  CL:0000236,0.1
+CL:0000236,0.25,relabel / uniform,0.0,B cell,B cell  CL:0000236,0.25
+CL:0000236,0.5,relabel / uniform,0.0008149959,B cell,B cell  CL:0000236,0.5
+CL:0000236,0.7,relabel / uniform,0.0032599836,B cell,B cell  CL:0000236,0.7
+CL:0000236,0.8,relabel / uniform,0.014669927,B cell,B cell  CL:0000236,0.8
+CL:0000236,0.85,relabel / uniform,0.06356968,B cell,B cell  CL:0000236,0.85
+CL:0000236,0.9,relabel / uniform,0.12224939,B cell,B cell  CL:0000236,0.9
+CL:0000236,1.0,relabel / uniform,0.6772616,B cell,B cell  CL:0000236,1
+CL:0000236,1.25,relabel / uniform,0.7758761,B cell,B cell  CL:0000236,1.25
+CL:0000236,0.002,relabel / hub,0.013039934,B cell,B cell  CL:0000236,0.002
+CL:0000236,0.005,relabel / hub,0.09861451,B cell,B cell  CL:0000236,0.005
+CL:0000236,0.01,relabel / hub,0.20863895,B cell,B cell  CL:0000236,0.01
+CL:0000236,0.025,relabel / hub,0.35696822,B cell,B cell  CL:0000236,0.025
+CL:0000236,0.05,relabel / hub,0.57049716,B cell,B cell  CL:0000236,0.05
+CL:0000236,0.1,relabel / hub,0.65525675,B cell,B cell  CL:0000236,0.1
+CL:0000236,0.25,relabel / hub,0.6642217,B cell,B cell  CL:0000236,0.25
+CL:0000236,0.5,relabel / hub,0.66992664,B cell,B cell  CL:0000236,0.5
+CL:0000236,0.7,relabel / hub,0.66829664,B cell,B cell  CL:0000236,0.7
+CL:0000236,0.8,relabel / hub,0.65770173,B cell,B cell  CL:0000236,0.8
+CL:0000236,0.85,relabel / hub,0.6642217,B cell,B cell  CL:0000236,0.85
+CL:0000236,0.9,relabel / hub,0.66340667,B cell,B cell  CL:0000236,0.9
+CL:0000236,1.0,relabel / hub,0.65199673,B cell,B cell  CL:0000236,1
+CL:0000236,1.25,relabel / hub,0.89242053,B cell,B cell  CL:0000236,1.25
+CL:0000236,0.002,keep / uniform,0.0,B cell,B cell  CL:0000236,0.002
+CL:0000236,0.005,keep / uniform,0.0,B cell,B cell  CL:0000236,0.005
+CL:0000236,0.01,keep / uniform,0.0,B cell,B cell  CL:0000236,0.01
+CL:0000236,0.025,keep / uniform,0.0,B cell,B cell  CL:0000236,0.025
+CL:0000236,0.05,keep / uniform,0.0,B cell,B cell  CL:0000236,0.05
+CL:0000236,0.1,keep / uniform,0.0,B cell,B cell  CL:0000236,0.1
+CL:0000236,0.25,keep / uniform,0.0,B cell,B cell  CL:0000236,0.25
+CL:0000236,0.5,keep / uniform,0.0008149959,B cell,B cell  CL:0000236,0.5
+CL:0000236,0.7,keep / uniform,0.0032599836,B cell,B cell  CL:0000236,0.7
+CL:0000236,0.8,keep / uniform,0.016299918,B cell,B cell  CL:0000236,0.8
+CL:0000236,0.85,keep / uniform,0.06601467,B cell,B cell  CL:0000236,0.85
+CL:0000236,0.9,keep / uniform,0.13284433,B cell,B cell  CL:0000236,0.9
+CL:0000236,1.0,keep / uniform,0.66992664,B cell,B cell  CL:0000236,1
+CL:0000236,1.25,keep / uniform,0.77261615,B cell,B cell  CL:0000236,1.25
+CL:0000451,0.002,relabel / uniform,0.0,dendritic cell,dendritic cell  CL:0000451,0.002
+CL:0000451,0.005,relabel / uniform,0.0,dendritic cell,dendritic cell  CL:0000451,0.005
+CL:0000451,0.01,relabel / uniform,0.0,dendritic cell,dendritic cell  CL:0000451,0.01
+CL:0000451,0.025,relabel / uniform,0.0,dendritic cell,dendritic cell  CL:0000451,0.025
+CL:0000451,0.05,relabel / uniform,0.0,dendritic cell,dendritic cell  CL:0000451,0.05
+CL:0000451,0.1,relabel / uniform,0.0,dendritic cell,dendritic cell  CL:0000451,0.1
+CL:0000451,0.25,relabel / uniform,0.0,dendritic cell,dendritic cell  CL:0000451,0.25
+CL:0000451,0.5,relabel / uniform,0.0,dendritic cell,dendritic cell  CL:0000451,0.5
+CL:0000451,0.7,relabel / uniform,0.0007057163,dendritic cell,dendritic cell  CL:0000451,0.7
+CL:0000451,0.8,relabel / uniform,0.0021171488,dendritic cell,dendritic cell  CL:0000451,0.8
+CL:0000451,0.85,relabel / uniform,0.0042342977,dendritic cell,dendritic cell  CL:0000451,0.85
+CL:0000451,0.9,relabel / uniform,0.007762879,dendritic cell,dendritic cell  CL:0000451,0.9
+CL:0000451,1.0,relabel / uniform,0.038814396,dendritic cell,dendritic cell  CL:0000451,1
+CL:0000451,1.25,relabel / uniform,0.05928017,dendritic cell,dendritic cell  CL:0000451,1.25
+CL:0000451,0.002,relabel / hub,0.0,dendritic cell,dendritic cell  CL:0000451,0.002
+CL:0000451,0.005,relabel / hub,0.0,dendritic cell,dendritic cell  CL:0000451,0.005
+CL:0000451,0.01,relabel / hub,0.0,dendritic cell,dendritic cell  CL:0000451,0.01
+CL:0000451,0.025,relabel / hub,0.0091743115,dendritic cell,dendritic cell  CL:0000451,0.025
+CL:0000451,0.05,relabel / hub,0.027522936,dendritic cell,dendritic cell  CL:0000451,0.05
+CL:0000451,0.1,relabel / hub,0.038814396,dendritic cell,dendritic cell  CL:0000451,0.1
+CL:0000451,0.25,relabel / hub,0.038814396,dendritic cell,dendritic cell  CL:0000451,0.25
+CL:0000451,0.5,relabel / hub,0.038814396,dendritic cell,dendritic cell  CL:0000451,0.5
+CL:0000451,0.7,relabel / hub,0.038814396,dendritic cell,dendritic cell  CL:0000451,0.7
+CL:0000451,0.8,relabel / hub,0.037402965,dendritic cell,dendritic cell  CL:0000451,0.8
+CL:0000451,0.85,relabel / hub,0.03810868,dendritic cell,dendritic cell  CL:0000451,0.85
+CL:0000451,0.9,relabel / hub,0.03810868,dendritic cell,dendritic cell  CL:0000451,0.9
+CL:0000451,1.0,relabel / hub,0.038814396,dendritic cell,dendritic cell  CL:0000451,1
+CL:0000451,1.25,relabel / hub,0.10585745,dendritic cell,dendritic cell  CL:0000451,1.25
+CL:0000451,0.002,keep / uniform,0.0,dendritic cell,dendritic cell  CL:0000451,0.002
+CL:0000451,0.005,keep / uniform,0.0,dendritic cell,dendritic cell  CL:0000451,0.005
+CL:0000451,0.01,keep / uniform,0.0,dendritic cell,dendritic cell  CL:0000451,0.01
+CL:0000451,0.025,keep / uniform,0.0,dendritic cell,dendritic cell  CL:0000451,0.025
+CL:0000451,0.05,keep / uniform,0.0,dendritic cell,dendritic cell  CL:0000451,0.05
+CL:0000451,0.1,keep / uniform,0.0,dendritic cell,dendritic cell  CL:0000451,0.1
+CL:0000451,0.25,keep / uniform,0.0,dendritic cell,dendritic cell  CL:0000451,0.25
+CL:0000451,0.5,keep / uniform,0.0,dendritic cell,dendritic cell  CL:0000451,0.5
+CL:0000451,0.7,keep / uniform,0.0007057163,dendritic cell,dendritic cell  CL:0000451,0.7
+CL:0000451,0.8,keep / uniform,0.0021171488,dendritic cell,dendritic cell  CL:0000451,0.8
+CL:0000451,0.85,keep / uniform,0.0042342977,dendritic cell,dendritic cell  CL:0000451,0.85
+CL:0000451,0.9,keep / uniform,0.007762879,dendritic cell,dendritic cell  CL:0000451,0.9
+CL:0000451,1.0,keep / uniform,0.039520115,dendritic cell,dendritic cell  CL:0000451,1
+CL:0000451,1.25,keep / uniform,0.05928017,dendritic cell,dendritic cell  CL:0000451,1.25
+CL:0000583,0.002,relabel / uniform,0.0,alveolar macrophage,alveolar macrophage  CL:0000583,0.002
+CL:0000583,0.005,relabel / uniform,0.0,alveolar macrophage,alveolar macrophage  CL:0000583,0.005
+CL:0000583,0.01,relabel / uniform,0.0,alveolar macrophage,alveolar macrophage  CL:0000583,0.01
+CL:0000583,0.025,relabel / uniform,0.0,alveolar macrophage,alveolar macrophage  CL:0000583,0.025
+CL:0000583,0.05,relabel / uniform,0.0,alveolar macrophage,alveolar macrophage  CL:0000583,0.05
+CL:0000583,0.1,relabel / uniform,0.0,alveolar macrophage,alveolar macrophage  CL:0000583,0.1
+CL:0000583,0.25,relabel / uniform,0.0,alveolar macrophage,alveolar macrophage  CL:0000583,0.25
+CL:0000583,0.5,relabel / uniform,0.0,alveolar macrophage,alveolar macrophage  CL:0000583,0.5
+CL:0000583,0.7,relabel / uniform,0.0005988024,alveolar macrophage,alveolar macrophage  CL:0000583,0.7
+CL:0000583,0.8,relabel / uniform,0.0066723693,alveolar macrophage,alveolar macrophage  CL:0000583,0.8
+CL:0000583,0.85,relabel / uniform,0.044482462,alveolar macrophage,alveolar macrophage  CL:0000583,0.85
+CL:0000583,0.9,relabel / uniform,0.186142,alveolar macrophage,alveolar macrophage  CL:0000583,0.9
+CL:0000583,1.0,relabel / uniform,0.78434557,alveolar macrophage,alveolar macrophage  CL:0000583,1
+CL:0000583,1.25,relabel / uniform,0.6952951,alveolar macrophage,alveolar macrophage  CL:0000583,1.25
+CL:0000583,0.002,relabel / hub,0.014542344,alveolar macrophage,alveolar macrophage  CL:0000583,0.002
+CL:0000583,0.005,relabel / hub,0.10162532,alveolar macrophage,alveolar macrophage  CL:0000583,0.005
+CL:0000583,0.01,relabel / hub,0.24097519,alveolar macrophage,alveolar macrophage  CL:0000583,0.01
+CL:0000583,0.025,relabel / hub,0.4441403,alveolar macrophage,alveolar macrophage  CL:0000583,0.025
+CL:0000583,0.05,relabel / hub,0.57091534,alveolar macrophage,alveolar macrophage  CL:0000583,0.05
+CL:0000583,0.1,relabel / hub,0.6772455,alveolar macrophage,alveolar macrophage  CL:0000583,0.1
+CL:0000583,0.25,relabel / hub,0.7637297,alveolar macrophage,alveolar macrophage  CL:0000583,0.25
+CL:0000583,0.5,relabel / hub,0.77596235,alveolar macrophage,alveolar macrophage  CL:0000583,0.5
+CL:0000583,0.7,relabel / hub,0.77228403,alveolar macrophage,alveolar macrophage  CL:0000583,0.7
+CL:0000583,0.8,relabel / hub,0.7787853,alveolar macrophage,alveolar macrophage  CL:0000583,0.8
+CL:0000583,0.85,relabel / hub,0.78571427,alveolar macrophage,alveolar macrophage  CL:0000583,0.85
+CL:0000583,0.9,relabel / hub,0.7881095,alveolar macrophage,alveolar macrophage  CL:0000583,0.9
+CL:0000583,1.0,relabel / hub,0.7788708,alveolar macrophage,alveolar macrophage  CL:0000583,1
+CL:0000583,1.25,relabel / hub,0.8736527,alveolar macrophage,alveolar macrophage  CL:0000583,1.25
+CL:0000583,0.002,keep / uniform,0.0,alveolar macrophage,alveolar macrophage  CL:0000583,0.002
+CL:0000583,0.005,keep / uniform,0.0,alveolar macrophage,alveolar macrophage  CL:0000583,0.005
+CL:0000583,0.01,keep / uniform,0.0,alveolar macrophage,alveolar macrophage  CL:0000583,0.01
+CL:0000583,0.025,keep / uniform,0.0,alveolar macrophage,alveolar macrophage  CL:0000583,0.025
+CL:0000583,0.05,keep / uniform,0.0,alveolar macrophage,alveolar macrophage  CL:0000583,0.05
+CL:0000583,0.1,keep / uniform,0.0,alveolar macrophage,alveolar macrophage  CL:0000583,0.1
+CL:0000583,0.25,keep / uniform,0.0,alveolar macrophage,alveolar macrophage  CL:0000583,0.25
+CL:0000583,0.5,keep / uniform,0.0,alveolar macrophage,alveolar macrophage  CL:0000583,0.5
+CL:0000583,0.7,keep / uniform,0.0006843456,alveolar macrophage,alveolar macrophage  CL:0000583,0.7
+CL:0000583,0.8,keep / uniform,0.0065868264,alveolar macrophage,alveolar macrophage  CL:0000583,0.8
+CL:0000583,0.85,keep / uniform,0.044739094,alveolar macrophage,alveolar macrophage  CL:0000583,0.85
+CL:0000583,0.9,keep / uniform,0.18331908,alveolar macrophage,alveolar macrophage  CL:0000583,0.9
+CL:0000583,1.0,keep / uniform,0.7851155,alveolar macrophage,alveolar macrophage  CL:0000583,1
+CL:0000583,1.25,keep / uniform,0.69358426,alveolar macrophage,alveolar macrophage  CL:0000583,1.25
+CL:0000623,0.002,relabel / uniform,0.0,natural killer cell,natural killer cell  CL:0000623,0.002
+CL:0000623,0.005,relabel / uniform,0.0,natural killer cell,natural killer cell  CL:0000623,0.005
+CL:0000623,0.01,relabel / uniform,0.0,natural killer cell,natural killer cell  CL:0000623,0.01
+CL:0000623,0.025,relabel / uniform,0.0,natural killer cell,natural killer cell  CL:0000623,0.025
+CL:0000623,0.05,relabel / uniform,0.0005382131,natural killer cell,natural killer cell  CL:0000623,0.05
+CL:0000623,0.1,relabel / uniform,0.0010764262,natural killer cell,natural killer cell  CL:0000623,0.1
+CL:0000623,0.25,relabel / uniform,0.004843918,natural killer cell,natural killer cell  CL:0000623,0.25
+CL:0000623,0.5,relabel / uniform,0.009149623,natural killer cell,natural killer cell  CL:0000623,0.5
+CL:0000623,0.7,relabel / uniform,0.031754576,natural killer cell,natural killer cell  CL:0000623,0.7
+CL:0000623,0.8,relabel / uniform,0.08234661,natural killer cell,natural killer cell  CL:0000623,0.8
+CL:0000623,0.85,relabel / uniform,0.10118407,natural killer cell,natural killer cell  CL:0000623,0.85
+CL:0000623,0.9,relabel / uniform,0.22443488,natural killer cell,natural killer cell  CL:0000623,0.9
+CL:0000623,1.0,relabel / uniform,0.8503767,natural killer cell,natural killer cell  CL:0000623,1
+CL:0000623,1.25,relabel / uniform,0.8972013,natural killer cell,natural killer cell  CL:0000623,1.25
+CL:0000623,0.002,relabel / hub,0.09634015,natural killer cell,natural killer cell  CL:0000623,0.002
+CL:0000623,0.005,relabel / hub,0.30032292,natural killer cell,natural killer cell  CL:0000623,0.005
+CL:0000623,0.01,relabel / hub,0.48493004,natural killer cell,natural killer cell  CL:0000623,0.01
+CL:0000623,0.025,relabel / hub,0.6813778,natural killer cell,natural killer cell  CL:0000623,0.025
+CL:0000623,0.05,relabel / hub,0.8487621,natural killer cell,natural killer cell  CL:0000623,0.05
+CL:0000623,0.1,relabel / hub,0.84445643,natural killer cell,natural killer cell  CL:0000623,0.1
+CL:0000623,0.25,relabel / hub,0.8487621,natural killer cell,natural killer cell  CL:0000623,0.25
+CL:0000623,0.5,relabel / hub,0.84607106,natural killer cell,natural killer cell  CL:0000623,0.5
+CL:0000623,0.7,relabel / hub,0.8401507,natural killer cell,natural killer cell  CL:0000623,0.7
+CL:0000623,0.8,relabel / hub,0.8423036,natural killer cell,natural killer cell  CL:0000623,0.8
+CL:0000623,0.85,relabel / hub,0.8401507,natural killer cell,natural killer cell  CL:0000623,0.85
+CL:0000623,0.9,relabel / hub,0.8439182,natural killer cell,natural killer cell  CL:0000623,0.9
+CL:0000623,1.0,relabel / hub,0.8514532,natural killer cell,natural killer cell  CL:0000623,1
+CL:0000623,1.25,relabel / hub,0.9580194,natural killer cell,natural killer cell  CL:0000623,1.25
+CL:0000623,0.002,keep / uniform,0.0,natural killer cell,natural killer cell  CL:0000623,0.002
+CL:0000623,0.005,keep / uniform,0.0,natural killer cell,natural killer cell  CL:0000623,0.005
+CL:0000623,0.01,keep / uniform,0.0,natural killer cell,natural killer cell  CL:0000623,0.01
+CL:0000623,0.025,keep / uniform,0.0,natural killer cell,natural killer cell  CL:0000623,0.025
+CL:0000623,0.05,keep / uniform,0.0005382131,natural killer cell,natural killer cell  CL:0000623,0.05
+CL:0000623,0.1,keep / uniform,0.0010764262,natural killer cell,natural killer cell  CL:0000623,0.1
+CL:0000623,0.25,keep / uniform,0.004843918,natural killer cell,natural killer cell  CL:0000623,0.25
+CL:0000623,0.5,keep / uniform,0.009149623,natural killer cell,natural killer cell  CL:0000623,0.5
+CL:0000623,0.7,keep / uniform,0.033369213,natural killer cell,natural killer cell  CL:0000623,0.7
+CL:0000623,0.8,keep / uniform,0.081808396,natural killer cell,natural killer cell  CL:0000623,0.8
+CL:0000623,0.85,keep / uniform,0.1065662,natural killer cell,natural killer cell  CL:0000623,0.85
+CL:0000623,0.9,keep / uniform,0.22228202,natural killer cell,natural killer cell  CL:0000623,0.9
+CL:0000623,1.0,keep / uniform,0.84284174,natural killer cell,natural killer cell  CL:0000623,1
+CL:0000623,1.25,keep / uniform,0.8972013,natural killer cell,natural killer cell  CL:0000623,1.25
+CL:0000646,0.002,relabel / uniform,0.0,basal cell,basal cell  CL:0000646,0.002
+CL:0000646,0.005,relabel / uniform,0.0,basal cell,basal cell  CL:0000646,0.005
+CL:0000646,0.01,relabel / uniform,0.0,basal cell,basal cell  CL:0000646,0.01
+CL:0000646,0.025,relabel / uniform,0.0,basal cell,basal cell  CL:0000646,0.025
+CL:0000646,0.05,relabel / uniform,0.0,basal cell,basal cell  CL:0000646,0.05
+CL:0000646,0.1,relabel / uniform,0.0,basal cell,basal cell  CL:0000646,0.1
+CL:0000646,0.25,relabel / uniform,0.0,basal cell,basal cell  CL:0000646,0.25
+CL:0000646,0.5,relabel / uniform,0.0,basal cell,basal cell  CL:0000646,0.5
+CL:0000646,0.7,relabel / uniform,0.0,basal cell,basal cell  CL:0000646,0.7
+CL:0000646,0.8,relabel / uniform,0.011204482,basal cell,basal cell  CL:0000646,0.8
+CL:0000646,0.85,relabel / uniform,0.033613447,basal cell,basal cell  CL:0000646,0.85
+CL:0000646,0.9,relabel / uniform,0.05322129,basal cell,basal cell  CL:0000646,0.9
+CL:0000646,1.0,relabel / uniform,0.32492998,basal cell,basal cell  CL:0000646,1
+CL:0000646,1.25,relabel / uniform,0.39215687,basal cell,basal cell  CL:0000646,1.25
+CL:0000646,0.002,relabel / hub,0.0,basal cell,basal cell  CL:0000646,0.002
+CL:0000646,0.005,relabel / hub,0.014005602,basal cell,basal cell  CL:0000646,0.005
+CL:0000646,0.01,relabel / hub,0.05042017,basal cell,basal cell  CL:0000646,0.01
+CL:0000646,0.025,relabel / hub,0.14005603,basal cell,basal cell  CL:0000646,0.025
+CL:0000646,0.05,relabel / hub,0.29691878,basal cell,basal cell  CL:0000646,0.05
+CL:0000646,0.1,relabel / hub,0.30812326,basal cell,basal cell  CL:0000646,0.1
+CL:0000646,0.25,relabel / hub,0.31932774,basal cell,basal cell  CL:0000646,0.25
+CL:0000646,0.5,relabel / hub,0.30532214,basal cell,basal cell  CL:0000646,0.5
+CL:0000646,0.7,relabel / hub,0.3137255,basal cell,basal cell  CL:0000646,0.7
+CL:0000646,0.8,relabel / hub,0.3137255,basal cell,basal cell  CL:0000646,0.8
+CL:0000646,0.85,relabel / hub,0.30532214,basal cell,basal cell  CL:0000646,0.85
+CL:0000646,0.9,relabel / hub,0.30812326,basal cell,basal cell  CL:0000646,0.9
+CL:0000646,1.0,relabel / hub,0.32212886,basal cell,basal cell  CL:0000646,1
+CL:0000646,1.25,relabel / hub,0.52100843,basal cell,basal cell  CL:0000646,1.25
+CL:0000646,0.002,keep / uniform,0.0,basal cell,basal cell  CL:0000646,0.002
+CL:0000646,0.005,keep / uniform,0.0,basal cell,basal cell  CL:0000646,0.005
+CL:0000646,0.01,keep / uniform,0.0,basal cell,basal cell  CL:0000646,0.01
+CL:0000646,0.025,keep / uniform,0.0,basal cell,basal cell  CL:0000646,0.025
+CL:0000646,0.05,keep / uniform,0.0,basal cell,basal cell  CL:0000646,0.05
+CL:0000646,0.1,keep / uniform,0.0,basal cell,basal cell  CL:0000646,0.1
+CL:0000646,0.25,keep / uniform,0.0,basal cell,basal cell  CL:0000646,0.25
+CL:0000646,0.5,keep / uniform,0.0,basal cell,basal cell  CL:0000646,0.5
+CL:0000646,0.7,keep / uniform,0.0,basal cell,basal cell  CL:0000646,0.7
+CL:0000646,0.8,keep / uniform,0.011204482,basal cell,basal cell  CL:0000646,0.8
+CL:0000646,0.85,keep / uniform,0.033613447,basal cell,basal cell  CL:0000646,0.85
+CL:0000646,0.9,keep / uniform,0.05322129,basal cell,basal cell  CL:0000646,0.9
+CL:0000646,1.0,keep / uniform,0.32212886,basal cell,basal cell  CL:0000646,1
+CL:0000646,1.25,keep / uniform,0.394958,basal cell,basal cell  CL:0000646,1.25
+CL:0000784,0.002,relabel / uniform,0.0,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.002
+CL:0000784,0.005,relabel / uniform,0.0,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.005
+CL:0000784,0.01,relabel / uniform,0.0,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.01
+CL:0000784,0.025,relabel / uniform,0.0,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.025
+CL:0000784,0.05,relabel / uniform,0.0,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.05
+CL:0000784,0.1,relabel / uniform,0.0,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.1
+CL:0000784,0.25,relabel / uniform,0.0,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.25
+CL:0000784,0.5,relabel / uniform,0.0,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.5
+CL:0000784,0.7,relabel / uniform,0.0,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.7
+CL:0000784,0.8,relabel / uniform,0.016129032,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.8
+CL:0000784,0.85,relabel / uniform,0.008064516,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.85
+CL:0000784,0.9,relabel / uniform,0.21774194,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.9
+CL:0000784,1.0,relabel / uniform,0.5,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,1
+CL:0000784,1.25,relabel / uniform,0.5080645,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,1.25
+CL:0000784,0.002,relabel / hub,0.0,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.002
+CL:0000784,0.005,relabel / hub,0.07258064,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.005
+CL:0000784,0.01,relabel / hub,0.12903225,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.01
+CL:0000784,0.025,relabel / hub,0.28225806,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.025
+CL:0000784,0.05,relabel / hub,0.48387095,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.05
+CL:0000784,0.1,relabel / hub,0.45967743,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.1
+CL:0000784,0.25,relabel / hub,0.48387095,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.25
+CL:0000784,0.5,relabel / hub,0.4919355,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.5
+CL:0000784,0.7,relabel / hub,0.5,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.7
+CL:0000784,0.8,relabel / hub,0.4516129,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.8
+CL:0000784,0.85,relabel / hub,0.47580644,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.85
+CL:0000784,0.9,relabel / hub,0.4919355,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.9
+CL:0000784,1.0,relabel / hub,0.47580644,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,1
+CL:0000784,1.25,relabel / hub,0.6935484,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,1.25
+CL:0000784,0.002,keep / uniform,0.0,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.002
+CL:0000784,0.005,keep / uniform,0.0,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.005
+CL:0000784,0.01,keep / uniform,0.0,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.01
+CL:0000784,0.025,keep / uniform,0.0,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.025
+CL:0000784,0.05,keep / uniform,0.0,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.05
+CL:0000784,0.1,keep / uniform,0.0,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.1
+CL:0000784,0.25,keep / uniform,0.0,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.25
+CL:0000784,0.5,keep / uniform,0.0,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.5
+CL:0000784,0.7,keep / uniform,0.0,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.7
+CL:0000784,0.8,keep / uniform,0.016129032,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.8
+CL:0000784,0.85,keep / uniform,0.008064516,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.85
+CL:0000784,0.9,keep / uniform,0.21774194,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,0.9
+CL:0000784,1.0,keep / uniform,0.46774194,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,1
+CL:0000784,1.25,keep / uniform,0.5080645,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,1.25
+CL:0000786,0.002,relabel / uniform,0.0,plasma cell,plasma cell  CL:0000786,0.002
+CL:0000786,0.005,relabel / uniform,0.0,plasma cell,plasma cell  CL:0000786,0.005
+CL:0000786,0.01,relabel / uniform,0.0,plasma cell,plasma cell  CL:0000786,0.01
+CL:0000786,0.025,relabel / uniform,0.0,plasma cell,plasma cell  CL:0000786,0.025
+CL:0000786,0.05,relabel / uniform,0.0,plasma cell,plasma cell  CL:0000786,0.05
+CL:0000786,0.1,relabel / uniform,0.0,plasma cell,plasma cell  CL:0000786,0.1
+CL:0000786,0.25,relabel / uniform,0.0,plasma cell,plasma cell  CL:0000786,0.25
+CL:0000786,0.5,relabel / uniform,0.0,plasma cell,plasma cell  CL:0000786,0.5
+CL:0000786,0.7,relabel / uniform,0.0,plasma cell,plasma cell  CL:0000786,0.7
+CL:0000786,0.8,relabel / uniform,0.0057471264,plasma cell,plasma cell  CL:0000786,0.8
+CL:0000786,0.85,relabel / uniform,0.028735632,plasma cell,plasma cell  CL:0000786,0.85
+CL:0000786,0.9,relabel / uniform,0.09770115,plasma cell,plasma cell  CL:0000786,0.9
+CL:0000786,1.0,relabel / uniform,0.48850575,plasma cell,plasma cell  CL:0000786,1
+CL:0000786,1.25,relabel / uniform,0.61494255,plasma cell,plasma cell  CL:0000786,1.25
+CL:0000786,0.002,relabel / hub,0.0057471264,plasma cell,plasma cell  CL:0000786,0.002
+CL:0000786,0.005,relabel / hub,0.06321839,plasma cell,plasma cell  CL:0000786,0.005
+CL:0000786,0.01,relabel / hub,0.14942528,plasma cell,plasma cell  CL:0000786,0.01
+CL:0000786,0.025,relabel / hub,0.5,plasma cell,plasma cell  CL:0000786,0.025
+CL:0000786,0.05,relabel / hub,0.49425286,plasma cell,plasma cell  CL:0000786,0.05
+CL:0000786,0.1,relabel / hub,0.51724136,plasma cell,plasma cell  CL:0000786,0.1
+CL:0000786,0.25,relabel / hub,0.50574714,plasma cell,plasma cell  CL:0000786,0.25
+CL:0000786,0.5,relabel / hub,0.4827586,plasma cell,plasma cell  CL:0000786,0.5
+CL:0000786,0.7,relabel / hub,0.5114943,plasma cell,plasma cell  CL:0000786,0.7
+CL:0000786,0.8,relabel / hub,0.4827586,plasma cell,plasma cell  CL:0000786,0.8
+CL:0000786,0.85,relabel / hub,0.4827586,plasma cell,plasma cell  CL:0000786,0.85
+CL:0000786,0.9,relabel / hub,0.5114943,plasma cell,plasma cell  CL:0000786,0.9
+CL:0000786,1.0,relabel / hub,0.5114943,plasma cell,plasma cell  CL:0000786,1
+CL:0000786,1.25,relabel / hub,0.72988504,plasma cell,plasma cell  CL:0000786,1.25
+CL:0000786,0.002,keep / uniform,0.0,plasma cell,plasma cell  CL:0000786,0.002
+CL:0000786,0.005,keep / uniform,0.0,plasma cell,plasma cell  CL:0000786,0.005
+CL:0000786,0.01,keep / uniform,0.0,plasma cell,plasma cell  CL:0000786,0.01
+CL:0000786,0.025,keep / uniform,0.0,plasma cell,plasma cell  CL:0000786,0.025
+CL:0000786,0.05,keep / uniform,0.0,plasma cell,plasma cell  CL:0000786,0.05
+CL:0000786,0.1,keep / uniform,0.0,plasma cell,plasma cell  CL:0000786,0.1
+CL:0000786,0.25,keep / uniform,0.0,plasma cell,plasma cell  CL:0000786,0.25
+CL:0000786,0.5,keep / uniform,0.0,plasma cell,plasma cell  CL:0000786,0.5
+CL:0000786,0.7,keep / uniform,0.0,plasma cell,plasma cell  CL:0000786,0.7
+CL:0000786,0.8,keep / uniform,0.0057471264,plasma cell,plasma cell  CL:0000786,0.8
+CL:0000786,0.85,keep / uniform,0.03448276,plasma cell,plasma cell  CL:0000786,0.85
+CL:0000786,0.9,keep / uniform,0.09195402,plasma cell,plasma cell  CL:0000786,0.9
+CL:0000786,1.0,keep / uniform,0.48850575,plasma cell,plasma cell  CL:0000786,1
+CL:0000786,1.25,keep / uniform,0.6091954,plasma cell,plasma cell  CL:0000786,1.25
+CL:0000815,0.002,relabel / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.002
+CL:0000815,0.005,relabel / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.005
+CL:0000815,0.01,relabel / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.01
+CL:0000815,0.025,relabel / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.025
+CL:0000815,0.05,relabel / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.05
+CL:0000815,0.1,relabel / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.1
+CL:0000815,0.25,relabel / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.25
+CL:0000815,0.5,relabel / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.5
+CL:0000815,0.7,relabel / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.7
+CL:0000815,0.8,relabel / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.8
+CL:0000815,0.85,relabel / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.85
+CL:0000815,0.9,relabel / uniform,0.004237288,regulatory T cell,regulatory T cell  CL:0000815,0.9
+CL:0000815,1.0,relabel / uniform,0.033898305,regulatory T cell,regulatory T cell  CL:0000815,1
+CL:0000815,1.25,relabel / uniform,0.1779661,regulatory T cell,regulatory T cell  CL:0000815,1.25
+CL:0000815,0.002,relabel / hub,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.002
+CL:0000815,0.005,relabel / hub,0.012711864,regulatory T cell,regulatory T cell  CL:0000815,0.005
+CL:0000815,0.01,relabel / hub,0.016949153,regulatory T cell,regulatory T cell  CL:0000815,0.01
+CL:0000815,0.025,relabel / hub,0.055084746,regulatory T cell,regulatory T cell  CL:0000815,0.025
+CL:0000815,0.05,relabel / hub,0.050847456,regulatory T cell,regulatory T cell  CL:0000815,0.05
+CL:0000815,0.1,relabel / hub,0.04661017,regulatory T cell,regulatory T cell  CL:0000815,0.1
+CL:0000815,0.25,relabel / hub,0.025423728,regulatory T cell,regulatory T cell  CL:0000815,0.25
+CL:0000815,0.5,relabel / hub,0.042372882,regulatory T cell,regulatory T cell  CL:0000815,0.5
+CL:0000815,0.7,relabel / hub,0.042372882,regulatory T cell,regulatory T cell  CL:0000815,0.7
+CL:0000815,0.8,relabel / hub,0.033898305,regulatory T cell,regulatory T cell  CL:0000815,0.8
+CL:0000815,0.85,relabel / hub,0.029661017,regulatory T cell,regulatory T cell  CL:0000815,0.85
+CL:0000815,0.9,relabel / hub,0.038135592,regulatory T cell,regulatory T cell  CL:0000815,0.9
+CL:0000815,1.0,relabel / hub,0.038135592,regulatory T cell,regulatory T cell  CL:0000815,1
+CL:0000815,1.25,relabel / hub,0.3220339,regulatory T cell,regulatory T cell  CL:0000815,1.25
+CL:0000815,0.002,keep / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.002
+CL:0000815,0.005,keep / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.005
+CL:0000815,0.01,keep / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.01
+CL:0000815,0.025,keep / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.025
+CL:0000815,0.05,keep / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.05
+CL:0000815,0.1,keep / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.1
+CL:0000815,0.25,keep / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.25
+CL:0000815,0.5,keep / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.5
+CL:0000815,0.7,keep / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.7
+CL:0000815,0.8,keep / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.8
+CL:0000815,0.85,keep / uniform,0.0,regulatory T cell,regulatory T cell  CL:0000815,0.85
+CL:0000815,0.9,keep / uniform,0.004237288,regulatory T cell,regulatory T cell  CL:0000815,0.9
+CL:0000815,1.0,keep / uniform,0.029661017,regulatory T cell,regulatory T cell  CL:0000815,1
+CL:0000815,1.25,keep / uniform,0.16949153,regulatory T cell,regulatory T cell  CL:0000815,1.25
+CL:0000860,0.002,relabel / uniform,0.0,classical monocyte,classical monocyte  CL:0000860,0.002
+CL:0000860,0.005,relabel / uniform,0.0,classical monocyte,classical monocyte  CL:0000860,0.005
+CL:0000860,0.01,relabel / uniform,0.0,classical monocyte,classical monocyte  CL:0000860,0.01
+CL:0000860,0.025,relabel / uniform,0.0,classical monocyte,classical monocyte  CL:0000860,0.025
+CL:0000860,0.05,relabel / uniform,0.0,classical monocyte,classical monocyte  CL:0000860,0.05
+CL:0000860,0.1,relabel / uniform,0.0,classical monocyte,classical monocyte  CL:0000860,0.1
+CL:0000860,0.25,relabel / uniform,0.0,classical monocyte,classical monocyte  CL:0000860,0.25
+CL:0000860,0.5,relabel / uniform,0.0,classical monocyte,classical monocyte  CL:0000860,0.5
+CL:0000860,0.7,relabel / uniform,0.00076190475,classical monocyte,classical monocyte  CL:0000860,0.7
+CL:0000860,0.8,relabel / uniform,0.0064761904,classical monocyte,classical monocyte  CL:0000860,0.8
+CL:0000860,0.85,relabel / uniform,0.017904762,classical monocyte,classical monocyte  CL:0000860,0.85
+CL:0000860,0.9,relabel / uniform,0.037714284,classical monocyte,classical monocyte  CL:0000860,0.9
+CL:0000860,1.0,relabel / uniform,0.17447619,classical monocyte,classical monocyte  CL:0000860,1
+CL:0000860,1.25,relabel / uniform,0.20342857,classical monocyte,classical monocyte  CL:0000860,1.25
+CL:0000860,0.002,relabel / hub,0.040761903,classical monocyte,classical monocyte  CL:0000860,0.002
+CL:0000860,0.005,relabel / hub,0.088,classical monocyte,classical monocyte  CL:0000860,0.005
+CL:0000860,0.01,relabel / hub,0.11809524,classical monocyte,classical monocyte  CL:0000860,0.01
+CL:0000860,0.025,relabel / hub,0.176,classical monocyte,classical monocyte  CL:0000860,0.025
+CL:0000860,0.05,relabel / hub,0.1752381,classical monocyte,classical monocyte  CL:0000860,0.05
+CL:0000860,0.1,relabel / hub,0.1775238,classical monocyte,classical monocyte  CL:0000860,0.1
+CL:0000860,0.25,relabel / hub,0.176,classical monocyte,classical monocyte  CL:0000860,0.25
+CL:0000860,0.5,relabel / hub,0.17561905,classical monocyte,classical monocyte  CL:0000860,0.5
+CL:0000860,0.7,relabel / hub,0.1752381,classical monocyte,classical monocyte  CL:0000860,0.7
+CL:0000860,0.8,relabel / hub,0.17790475,classical monocyte,classical monocyte  CL:0000860,0.8
+CL:0000860,0.85,relabel / hub,0.17904761,classical monocyte,classical monocyte  CL:0000860,0.85
+CL:0000860,0.9,relabel / hub,0.17904761,classical monocyte,classical monocyte  CL:0000860,0.9
+CL:0000860,1.0,relabel / hub,0.17485714,classical monocyte,classical monocyte  CL:0000860,1
+CL:0000860,1.25,relabel / hub,0.32685715,classical monocyte,classical monocyte  CL:0000860,1.25
+CL:0000860,0.002,keep / uniform,0.0,classical monocyte,classical monocyte  CL:0000860,0.002
+CL:0000860,0.005,keep / uniform,0.0,classical monocyte,classical monocyte  CL:0000860,0.005
+CL:0000860,0.01,keep / uniform,0.0,classical monocyte,classical monocyte  CL:0000860,0.01
+CL:0000860,0.025,keep / uniform,0.0,classical monocyte,classical monocyte  CL:0000860,0.025
+CL:0000860,0.05,keep / uniform,0.0,classical monocyte,classical monocyte  CL:0000860,0.05
+CL:0000860,0.1,keep / uniform,0.0,classical monocyte,classical monocyte  CL:0000860,0.1
+CL:0000860,0.25,keep / uniform,0.0,classical monocyte,classical monocyte  CL:0000860,0.25
+CL:0000860,0.5,keep / uniform,0.0,classical monocyte,classical monocyte  CL:0000860,0.5
+CL:0000860,0.7,keep / uniform,0.0011428571,classical monocyte,classical monocyte  CL:0000860,0.7
+CL:0000860,0.8,keep / uniform,0.007238095,classical monocyte,classical monocyte  CL:0000860,0.8
+CL:0000860,0.85,keep / uniform,0.01752381,classical monocyte,classical monocyte  CL:0000860,0.85
+CL:0000860,0.9,keep / uniform,0.03657143,classical monocyte,classical monocyte  CL:0000860,0.9
+CL:0000860,1.0,keep / uniform,0.17561905,classical monocyte,classical monocyte  CL:0000860,1
+CL:0000860,1.25,keep / uniform,0.20266667,classical monocyte,classical monocyte  CL:0000860,1.25
+CL:0000875,0.002,relabel / uniform,0.0,non-classical monocyte,non-classical monocyte  CL:0000875,0.002
+CL:0000875,0.005,relabel / uniform,0.0,non-classical monocyte,non-classical monocyte  CL:0000875,0.005
+CL:0000875,0.01,relabel / uniform,0.0,non-classical monocyte,non-classical monocyte  CL:0000875,0.01
+CL:0000875,0.025,relabel / uniform,0.0,non-classical monocyte,non-classical monocyte  CL:0000875,0.025
+CL:0000875,0.05,relabel / uniform,0.0,non-classical monocyte,non-classical monocyte  CL:0000875,0.05
+CL:0000875,0.1,relabel / uniform,0.0,non-classical monocyte,non-classical monocyte  CL:0000875,0.1
+CL:0000875,0.25,relabel / uniform,0.0,non-classical monocyte,non-classical monocyte  CL:0000875,0.25
+CL:0000875,0.5,relabel / uniform,0.0,non-classical monocyte,non-classical monocyte  CL:0000875,0.5
+CL:0000875,0.7,relabel / uniform,0.0,non-classical monocyte,non-classical monocyte  CL:0000875,0.7
+CL:0000875,0.8,relabel / uniform,0.0011025359,non-classical monocyte,non-classical monocyte  CL:0000875,0.8
+CL:0000875,0.85,relabel / uniform,0.007717751,non-classical monocyte,non-classical monocyte  CL:0000875,0.85
+CL:0000875,0.9,relabel / uniform,0.022050716,non-classical monocyte,non-classical monocyte  CL:0000875,0.9
+CL:0000875,1.0,relabel / uniform,0.11025358,non-classical monocyte,non-classical monocyte  CL:0000875,1
+CL:0000875,1.25,relabel / uniform,0.103638366,non-classical monocyte,non-classical monocyte  CL:0000875,1.25
+CL:0000875,0.002,relabel / hub,0.011025358,non-classical monocyte,non-classical monocyte  CL:0000875,0.002
+CL:0000875,0.005,relabel / hub,0.02646086,non-classical monocyte,non-classical monocyte  CL:0000875,0.005
+CL:0000875,0.01,relabel / hub,0.05071665,non-classical monocyte,non-classical monocyte  CL:0000875,0.01
+CL:0000875,0.025,relabel / hub,0.10584344,non-classical monocyte,non-classical monocyte  CL:0000875,0.025
+CL:0000875,0.05,relabel / hub,0.10915105,non-classical monocyte,non-classical monocyte  CL:0000875,0.05
+CL:0000875,0.1,relabel / hub,0.11356119,non-classical monocyte,non-classical monocyte  CL:0000875,0.1
+CL:0000875,0.25,relabel / hub,0.11356119,non-classical monocyte,non-classical monocyte  CL:0000875,0.25
+CL:0000875,0.5,relabel / hub,0.11025358,non-classical monocyte,non-classical monocyte  CL:0000875,0.5
+CL:0000875,0.7,relabel / hub,0.11466373,non-classical monocyte,non-classical monocyte  CL:0000875,0.7
+CL:0000875,0.8,relabel / hub,0.11466373,non-classical monocyte,non-classical monocyte  CL:0000875,0.8
+CL:0000875,0.85,relabel / hub,0.10915105,non-classical monocyte,non-classical monocyte  CL:0000875,0.85
+CL:0000875,0.9,relabel / hub,0.11025358,non-classical monocyte,non-classical monocyte  CL:0000875,0.9
+CL:0000875,1.0,relabel / hub,0.112458654,non-classical monocyte,non-classical monocyte  CL:0000875,1
+CL:0000875,1.25,relabel / hub,0.21168688,non-classical monocyte,non-classical monocyte  CL:0000875,1.25
+CL:0000875,0.002,keep / uniform,0.0,non-classical monocyte,non-classical monocyte  CL:0000875,0.002
+CL:0000875,0.005,keep / uniform,0.0,non-classical monocyte,non-classical monocyte  CL:0000875,0.005
+CL:0000875,0.01,keep / uniform,0.0,non-classical monocyte,non-classical monocyte  CL:0000875,0.01
+CL:0000875,0.025,keep / uniform,0.0,non-classical monocyte,non-classical monocyte  CL:0000875,0.025
+CL:0000875,0.05,keep / uniform,0.0,non-classical monocyte,non-classical monocyte  CL:0000875,0.05
+CL:0000875,0.1,keep / uniform,0.0,non-classical monocyte,non-classical monocyte  CL:0000875,0.1
+CL:0000875,0.25,keep / uniform,0.0,non-classical monocyte,non-classical monocyte  CL:0000875,0.25
+CL:0000875,0.5,keep / uniform,0.0,non-classical monocyte,non-classical monocyte  CL:0000875,0.5
+CL:0000875,0.7,keep / uniform,0.0,non-classical monocyte,non-classical monocyte  CL:0000875,0.7
+CL:0000875,0.8,keep / uniform,0.0011025359,non-classical monocyte,non-classical monocyte  CL:0000875,0.8
+CL:0000875,0.85,keep / uniform,0.007717751,non-classical monocyte,non-classical monocyte  CL:0000875,0.85
+CL:0000875,0.9,keep / uniform,0.022050716,non-classical monocyte,non-classical monocyte  CL:0000875,0.9
+CL:0000875,1.0,keep / uniform,0.10915105,non-classical monocyte,non-classical monocyte  CL:0000875,1
+CL:0000875,1.25,keep / uniform,0.1014333,non-classical monocyte,non-classical monocyte  CL:0000875,1.25
+CL:0001065,0.002,relabel / uniform,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.002
+CL:0001065,0.005,relabel / uniform,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.005
+CL:0001065,0.01,relabel / uniform,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.01
+CL:0001065,0.025,relabel / uniform,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.025
+CL:0001065,0.05,relabel / uniform,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.05
+CL:0001065,0.1,relabel / uniform,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.1
+CL:0001065,0.25,relabel / uniform,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.25
+CL:0001065,0.5,relabel / uniform,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.5
+CL:0001065,0.7,relabel / uniform,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.7
+CL:0001065,0.8,relabel / uniform,0.0051282053,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.8
+CL:0001065,0.85,relabel / uniform,0.03076923,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.85
+CL:0001065,0.9,relabel / uniform,0.015384615,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.9
+CL:0001065,1.0,relabel / uniform,0.07692308,innate lymphoid cell,innate lymphoid cell  CL:0001065,1
+CL:0001065,1.25,relabel / uniform,0.102564104,innate lymphoid cell,innate lymphoid cell  CL:0001065,1.25
+CL:0001065,0.002,relabel / hub,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.002
+CL:0001065,0.005,relabel / hub,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.005
+CL:0001065,0.01,relabel / hub,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.01
+CL:0001065,0.025,relabel / hub,0.0051282053,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.025
+CL:0001065,0.05,relabel / hub,0.025641026,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.05
+CL:0001065,0.1,relabel / hub,0.092307694,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.1
+CL:0001065,0.25,relabel / hub,0.092307694,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.25
+CL:0001065,0.5,relabel / hub,0.092307694,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.5
+CL:0001065,0.7,relabel / hub,0.08717949,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.7
+CL:0001065,0.8,relabel / hub,0.08717949,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.8
+CL:0001065,0.85,relabel / hub,0.08717949,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.85
+CL:0001065,0.9,relabel / hub,0.092307694,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.9
+CL:0001065,1.0,relabel / hub,0.092307694,innate lymphoid cell,innate lymphoid cell  CL:0001065,1
+CL:0001065,1.25,relabel / hub,0.17435898,innate lymphoid cell,innate lymphoid cell  CL:0001065,1.25
+CL:0001065,0.002,keep / uniform,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.002
+CL:0001065,0.005,keep / uniform,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.005
+CL:0001065,0.01,keep / uniform,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.01
+CL:0001065,0.025,keep / uniform,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.025
+CL:0001065,0.05,keep / uniform,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.05
+CL:0001065,0.1,keep / uniform,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.1
+CL:0001065,0.25,keep / uniform,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.25
+CL:0001065,0.5,keep / uniform,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.5
+CL:0001065,0.7,keep / uniform,0.0,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.7
+CL:0001065,0.8,keep / uniform,0.0051282053,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.8
+CL:0001065,0.85,keep / uniform,0.03076923,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.85
+CL:0001065,0.9,keep / uniform,0.015384615,innate lymphoid cell,innate lymphoid cell  CL:0001065,0.9
+CL:0001065,1.0,keep / uniform,0.07692308,innate lymphoid cell,innate lymphoid cell  CL:0001065,1
+CL:0001065,1.25,keep / uniform,0.102564104,innate lymphoid cell,innate lymphoid cell  CL:0001065,1.25
+CL:0002062,0.002,relabel / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.002
+CL:0002062,0.005,relabel / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.005
+CL:0002062,0.01,relabel / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.01
+CL:0002062,0.025,relabel / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.025
+CL:0002062,0.05,relabel / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.05
+CL:0002062,0.1,relabel / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.1
+CL:0002062,0.25,relabel / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.25
+CL:0002062,0.5,relabel / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.5
+CL:0002062,0.7,relabel / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.7
+CL:0002062,0.8,relabel / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.8
+CL:0002062,0.85,relabel / uniform,0.018404908,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.85
+CL:0002062,0.9,relabel / uniform,0.15337424,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.9
+CL:0002062,1.0,relabel / uniform,0.8404908,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,1
+CL:0002062,1.25,relabel / uniform,0.81595093,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,1.25
+CL:0002062,0.002,relabel / hub,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.002
+CL:0002062,0.005,relabel / hub,0.006134969,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.005
+CL:0002062,0.01,relabel / hub,0.061349694,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.01
+CL:0002062,0.025,relabel / hub,0.20858896,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.025
+CL:0002062,0.05,relabel / hub,0.35582823,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.05
+CL:0002062,0.1,relabel / hub,0.5398773,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.1
+CL:0002062,0.25,relabel / hub,0.8220859,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.25
+CL:0002062,0.5,relabel / hub,0.82822084,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.5
+CL:0002062,0.7,relabel / hub,0.84662575,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.7
+CL:0002062,0.8,relabel / hub,0.84662575,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.8
+CL:0002062,0.85,relabel / hub,0.82822084,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.85
+CL:0002062,0.9,relabel / hub,0.84662575,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.9
+CL:0002062,1.0,relabel / hub,0.84662575,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,1
+CL:0002062,1.25,relabel / hub,0.9509202,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,1.25
+CL:0002062,0.002,keep / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.002
+CL:0002062,0.005,keep / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.005
+CL:0002062,0.01,keep / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.01
+CL:0002062,0.025,keep / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.025
+CL:0002062,0.05,keep / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.05
+CL:0002062,0.1,keep / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.1
+CL:0002062,0.25,keep / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.25
+CL:0002062,0.5,keep / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.5
+CL:0002062,0.7,keep / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.7
+CL:0002062,0.8,keep / uniform,0.0,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.8
+CL:0002062,0.85,keep / uniform,0.018404908,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.85
+CL:0002062,0.9,keep / uniform,0.1595092,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,0.9
+CL:0002062,1.0,keep / uniform,0.84662575,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,1
+CL:0002062,1.25,keep / uniform,0.81595093,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,1.25
+CL:0002063,0.002,relabel / uniform,0.0,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.002
+CL:0002063,0.005,relabel / uniform,0.0,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.005
+CL:0002063,0.01,relabel / uniform,0.0,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.01
+CL:0002063,0.025,relabel / uniform,0.0,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.025
+CL:0002063,0.05,relabel / uniform,0.0,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.05
+CL:0002063,0.1,relabel / uniform,0.0,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.1
+CL:0002063,0.25,relabel / uniform,0.0016233766,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.25
+CL:0002063,0.5,relabel / uniform,0.0016233766,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.5
+CL:0002063,0.7,relabel / uniform,0.0097402595,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.7
+CL:0002063,0.8,relabel / uniform,0.03733766,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.8
+CL:0002063,0.85,relabel / uniform,0.064935066,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.85
+CL:0002063,0.9,relabel / uniform,0.16071428,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.9
+CL:0002063,1.0,relabel / uniform,0.8279221,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,1
+CL:0002063,1.25,relabel / uniform,0.862013,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,1.25
+CL:0002063,0.002,relabel / hub,0.024350649,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.002
+CL:0002063,0.005,relabel / hub,0.097402595,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.005
+CL:0002063,0.01,relabel / hub,0.16233766,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.01
+CL:0002063,0.025,relabel / hub,0.37175325,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.025
+CL:0002063,0.05,relabel / hub,0.58766234,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.05
+CL:0002063,0.1,relabel / hub,0.8262987,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.1
+CL:0002063,0.25,relabel / hub,0.82954544,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.25
+CL:0002063,0.5,relabel / hub,0.8262987,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.5
+CL:0002063,0.7,relabel / hub,0.8327922,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.7
+CL:0002063,0.8,relabel / hub,0.8262987,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.8
+CL:0002063,0.85,relabel / hub,0.8279221,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.85
+CL:0002063,0.9,relabel / hub,0.8246753,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.9
+CL:0002063,1.0,relabel / hub,0.8246753,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,1
+CL:0002063,1.25,relabel / hub,0.96915585,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,1.25
+CL:0002063,0.002,keep / uniform,0.0,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.002
+CL:0002063,0.005,keep / uniform,0.0,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.005
+CL:0002063,0.01,keep / uniform,0.0,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.01
+CL:0002063,0.025,keep / uniform,0.0,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.025
+CL:0002063,0.05,keep / uniform,0.0,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.05
+CL:0002063,0.1,keep / uniform,0.0,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.1
+CL:0002063,0.25,keep / uniform,0.0016233766,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.25
+CL:0002063,0.5,keep / uniform,0.0016233766,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.5
+CL:0002063,0.7,keep / uniform,0.008116883,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.7
+CL:0002063,0.8,keep / uniform,0.035714287,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.8
+CL:0002063,0.85,keep / uniform,0.06655844,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.85
+CL:0002063,0.9,keep / uniform,0.14772727,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,0.9
+CL:0002063,1.0,keep / uniform,0.84090906,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,1
+CL:0002063,1.25,keep / uniform,0.8603896,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,1.25
+CL:0002144,0.002,relabel / uniform,0.0,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.002
+CL:0002144,0.005,relabel / uniform,0.0,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.005
+CL:0002144,0.01,relabel / uniform,0.0,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.01
+CL:0002144,0.025,relabel / uniform,0.0,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.025
+CL:0002144,0.05,relabel / uniform,0.0,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.05
+CL:0002144,0.1,relabel / uniform,0.0,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.1
+CL:0002144,0.25,relabel / uniform,0.0,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.25
+CL:0002144,0.5,relabel / uniform,0.0,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.5
+CL:0002144,0.7,relabel / uniform,0.0,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.7
+CL:0002144,0.8,relabel / uniform,0.011320755,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.8
+CL:0002144,0.85,relabel / uniform,0.011320755,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.85
+CL:0002144,0.9,relabel / uniform,0.064150944,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.9
+CL:0002144,1.0,relabel / uniform,0.24905661,capillary endothelial cell,capillary endothelial cell  CL:0002144,1
+CL:0002144,1.25,relabel / uniform,0.2981132,capillary endothelial cell,capillary endothelial cell  CL:0002144,1.25
+CL:0002144,0.002,relabel / hub,0.01509434,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.002
+CL:0002144,0.005,relabel / hub,0.03773585,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.005
+CL:0002144,0.01,relabel / hub,0.0754717,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.01
+CL:0002144,0.025,relabel / hub,0.15471698,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.025
+CL:0002144,0.05,relabel / hub,0.25283018,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.05
+CL:0002144,0.1,relabel / hub,0.24528302,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.1
+CL:0002144,0.25,relabel / hub,0.25660378,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.25
+CL:0002144,0.5,relabel / hub,0.24528302,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.5
+CL:0002144,0.7,relabel / hub,0.24528302,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.7
+CL:0002144,0.8,relabel / hub,0.24150944,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.8
+CL:0002144,0.85,relabel / hub,0.24528302,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.85
+CL:0002144,0.9,relabel / hub,0.24905661,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.9
+CL:0002144,1.0,relabel / hub,0.24905661,capillary endothelial cell,capillary endothelial cell  CL:0002144,1
+CL:0002144,1.25,relabel / hub,0.38490567,capillary endothelial cell,capillary endothelial cell  CL:0002144,1.25
+CL:0002144,0.002,keep / uniform,0.0,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.002
+CL:0002144,0.005,keep / uniform,0.0,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.005
+CL:0002144,0.01,keep / uniform,0.0,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.01
+CL:0002144,0.025,keep / uniform,0.0,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.025
+CL:0002144,0.05,keep / uniform,0.0,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.05
+CL:0002144,0.1,keep / uniform,0.0,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.1
+CL:0002144,0.25,keep / uniform,0.0,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.25
+CL:0002144,0.5,keep / uniform,0.0,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.5
+CL:0002144,0.7,keep / uniform,0.0,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.7
+CL:0002144,0.8,keep / uniform,0.011320755,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.8
+CL:0002144,0.85,keep / uniform,0.011320755,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.85
+CL:0002144,0.9,keep / uniform,0.056603774,capillary endothelial cell,capillary endothelial cell  CL:0002144,0.9
+CL:0002144,1.0,keep / uniform,0.24528302,capillary endothelial cell,capillary endothelial cell  CL:0002144,1
+CL:0002144,1.25,keep / uniform,0.2981132,capillary endothelial cell,capillary endothelial cell  CL:0002144,1.25
+CL:0002543,0.002,relabel / uniform,0.0,vein endothelial cell,vein endothelial cell  CL:0002543,0.002
+CL:0002543,0.005,relabel / uniform,0.0,vein endothelial cell,vein endothelial cell  CL:0002543,0.005
+CL:0002543,0.01,relabel / uniform,0.0,vein endothelial cell,vein endothelial cell  CL:0002543,0.01
+CL:0002543,0.025,relabel / uniform,0.0,vein endothelial cell,vein endothelial cell  CL:0002543,0.025
+CL:0002543,0.05,relabel / uniform,0.0,vein endothelial cell,vein endothelial cell  CL:0002543,0.05
+CL:0002543,0.1,relabel / uniform,0.0,vein endothelial cell,vein endothelial cell  CL:0002543,0.1
+CL:0002543,0.25,relabel / uniform,0.0,vein endothelial cell,vein endothelial cell  CL:0002543,0.25
+CL:0002543,0.5,relabel / uniform,0.0,vein endothelial cell,vein endothelial cell  CL:0002543,0.5
+CL:0002543,0.7,relabel / uniform,0.007246377,vein endothelial cell,vein endothelial cell  CL:0002543,0.7
+CL:0002543,0.8,relabel / uniform,0.014492754,vein endothelial cell,vein endothelial cell  CL:0002543,0.8
+CL:0002543,0.85,relabel / uniform,0.057971016,vein endothelial cell,vein endothelial cell  CL:0002543,0.85
+CL:0002543,0.9,relabel / uniform,0.08695652,vein endothelial cell,vein endothelial cell  CL:0002543,0.9
+CL:0002543,1.0,relabel / uniform,0.29710144,vein endothelial cell,vein endothelial cell  CL:0002543,1
+CL:0002543,1.25,relabel / uniform,0.39130434,vein endothelial cell,vein endothelial cell  CL:0002543,1.25
+CL:0002543,0.002,relabel / hub,0.0,vein endothelial cell,vein endothelial cell  CL:0002543,0.002
+CL:0002543,0.005,relabel / hub,0.0,vein endothelial cell,vein endothelial cell  CL:0002543,0.005
+CL:0002543,0.01,relabel / hub,0.0,vein endothelial cell,vein endothelial cell  CL:0002543,0.01
+CL:0002543,0.025,relabel / hub,0.04347826,vein endothelial cell,vein endothelial cell  CL:0002543,0.025
+CL:0002543,0.05,relabel / hub,0.11594203,vein endothelial cell,vein endothelial cell  CL:0002543,0.05
+CL:0002543,0.1,relabel / hub,0.3043478,vein endothelial cell,vein endothelial cell  CL:0002543,0.1
+CL:0002543,0.25,relabel / hub,0.3043478,vein endothelial cell,vein endothelial cell  CL:0002543,0.25
+CL:0002543,0.5,relabel / hub,0.29710144,vein endothelial cell,vein endothelial cell  CL:0002543,0.5
+CL:0002543,0.7,relabel / hub,0.3043478,vein endothelial cell,vein endothelial cell  CL:0002543,0.7
+CL:0002543,0.8,relabel / hub,0.3043478,vein endothelial cell,vein endothelial cell  CL:0002543,0.8
+CL:0002543,0.85,relabel / hub,0.3115942,vein endothelial cell,vein endothelial cell  CL:0002543,0.85
+CL:0002543,0.9,relabel / hub,0.3188406,vein endothelial cell,vein endothelial cell  CL:0002543,0.9
+CL:0002543,1.0,relabel / hub,0.29710144,vein endothelial cell,vein endothelial cell  CL:0002543,1
+CL:0002543,1.25,relabel / hub,0.5289855,vein endothelial cell,vein endothelial cell  CL:0002543,1.25
+CL:0002543,0.002,keep / uniform,0.0,vein endothelial cell,vein endothelial cell  CL:0002543,0.002
+CL:0002543,0.005,keep / uniform,0.0,vein endothelial cell,vein endothelial cell  CL:0002543,0.005
+CL:0002543,0.01,keep / uniform,0.0,vein endothelial cell,vein endothelial cell  CL:0002543,0.01
+CL:0002543,0.025,keep / uniform,0.0,vein endothelial cell,vein endothelial cell  CL:0002543,0.025
+CL:0002543,0.05,keep / uniform,0.0,vein endothelial cell,vein endothelial cell  CL:0002543,0.05
+CL:0002543,0.1,keep / uniform,0.0,vein endothelial cell,vein endothelial cell  CL:0002543,0.1
+CL:0002543,0.25,keep / uniform,0.0,vein endothelial cell,vein endothelial cell  CL:0002543,0.25
+CL:0002543,0.5,keep / uniform,0.0,vein endothelial cell,vein endothelial cell  CL:0002543,0.5
+CL:0002543,0.7,keep / uniform,0.007246377,vein endothelial cell,vein endothelial cell  CL:0002543,0.7
+CL:0002543,0.8,keep / uniform,0.014492754,vein endothelial cell,vein endothelial cell  CL:0002543,0.8
+CL:0002543,0.85,keep / uniform,0.057971016,vein endothelial cell,vein endothelial cell  CL:0002543,0.85
+CL:0002543,0.9,keep / uniform,0.08695652,vein endothelial cell,vein endothelial cell  CL:0002543,0.9
+CL:0002543,1.0,keep / uniform,0.28985506,vein endothelial cell,vein endothelial cell  CL:0002543,1
+CL:0002543,1.25,keep / uniform,0.39130434,vein endothelial cell,vein endothelial cell  CL:0002543,1.25
+CL:1000271,0.002,relabel / uniform,0.0,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.002
+CL:1000271,0.005,relabel / uniform,0.0,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.005
+CL:1000271,0.01,relabel / uniform,0.0,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.01
+CL:1000271,0.025,relabel / uniform,0.0,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.025
+CL:1000271,0.05,relabel / uniform,0.0,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.05
+CL:1000271,0.1,relabel / uniform,0.0,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.1
+CL:1000271,0.25,relabel / uniform,0.0,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.25
+CL:1000271,0.5,relabel / uniform,0.0,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.5
+CL:1000271,0.7,relabel / uniform,0.0,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.7
+CL:1000271,0.8,relabel / uniform,0.0012820513,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.8
+CL:1000271,0.85,relabel / uniform,0.0032051282,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.85
+CL:1000271,0.9,relabel / uniform,0.008974359,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.9
+CL:1000271,1.0,relabel / uniform,0.032051284,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,1
+CL:1000271,1.25,relabel / uniform,0.046153847,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,1.25
+CL:1000271,0.002,relabel / hub,0.0,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.002
+CL:1000271,0.005,relabel / hub,0.0012820513,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.005
+CL:1000271,0.01,relabel / hub,0.005769231,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.01
+CL:1000271,0.025,relabel / hub,0.022435898,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.025
+CL:1000271,0.05,relabel / hub,0.030128205,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.05
+CL:1000271,0.1,relabel / hub,0.030128205,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.1
+CL:1000271,0.25,relabel / hub,0.027564103,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.25
+CL:1000271,0.5,relabel / hub,0.030128205,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.5
+CL:1000271,0.7,relabel / hub,0.028846154,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.7
+CL:1000271,0.8,relabel / hub,0.030128205,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.8
+CL:1000271,0.85,relabel / hub,0.030128205,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.85
+CL:1000271,0.9,relabel / hub,0.030128205,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.9
+CL:1000271,1.0,relabel / hub,0.032051284,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,1
+CL:1000271,1.25,relabel / hub,0.07371795,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,1.25
+CL:1000271,0.002,keep / uniform,0.0,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.002
+CL:1000271,0.005,keep / uniform,0.0,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.005
+CL:1000271,0.01,keep / uniform,0.0,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.01
+CL:1000271,0.025,keep / uniform,0.0,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.025
+CL:1000271,0.05,keep / uniform,0.0,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.05
+CL:1000271,0.1,keep / uniform,0.0,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.1
+CL:1000271,0.25,keep / uniform,0.0,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.25
+CL:1000271,0.5,keep / uniform,0.0,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.5
+CL:1000271,0.7,keep / uniform,0.0,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.7
+CL:1000271,0.8,keep / uniform,0.0012820513,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.8
+CL:1000271,0.85,keep / uniform,0.0032051282,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.85
+CL:1000271,0.9,keep / uniform,0.008974359,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,0.9
+CL:1000271,1.0,keep / uniform,0.032051284,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,1
+CL:1000271,1.25,keep / uniform,0.046153847,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,1.25
+CL:1000413,0.002,relabel / uniform,0.0,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.002
+CL:1000413,0.005,relabel / uniform,0.0,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.005
+CL:1000413,0.01,relabel / uniform,0.0,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.01
+CL:1000413,0.025,relabel / uniform,0.0,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.025
+CL:1000413,0.05,relabel / uniform,0.0,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.05
+CL:1000413,0.1,relabel / uniform,0.0,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.1
+CL:1000413,0.25,relabel / uniform,0.0,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.25
+CL:1000413,0.5,relabel / uniform,0.0,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.5
+CL:1000413,0.7,relabel / uniform,0.008264462,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.7
+CL:1000413,0.8,relabel / uniform,0.008264462,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.8
+CL:1000413,0.85,relabel / uniform,0.041322313,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.85
+CL:1000413,0.9,relabel / uniform,0.07438017,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.9
+CL:1000413,1.0,relabel / uniform,0.47107437,endothelial cell of artery,endothelial cell of artery  CL:1000413,1
+CL:1000413,1.25,relabel / uniform,0.5371901,endothelial cell of artery,endothelial cell of artery  CL:1000413,1.25
+CL:1000413,0.002,relabel / hub,0.0,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.002
+CL:1000413,0.005,relabel / hub,0.0,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.005
+CL:1000413,0.01,relabel / hub,0.0,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.01
+CL:1000413,0.025,relabel / hub,0.1322314,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.025
+CL:1000413,0.05,relabel / hub,0.45454547,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.05
+CL:1000413,0.1,relabel / hub,0.46280992,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.1
+CL:1000413,0.25,relabel / hub,0.49586776,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.25
+CL:1000413,0.5,relabel / hub,0.4876033,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.5
+CL:1000413,0.7,relabel / hub,0.4876033,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.7
+CL:1000413,0.8,relabel / hub,0.49586776,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.8
+CL:1000413,0.85,relabel / hub,0.4876033,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.85
+CL:1000413,0.9,relabel / hub,0.49586776,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.9
+CL:1000413,1.0,relabel / hub,0.4876033,endothelial cell of artery,endothelial cell of artery  CL:1000413,1
+CL:1000413,1.25,relabel / hub,0.6694215,endothelial cell of artery,endothelial cell of artery  CL:1000413,1.25
+CL:1000413,0.002,keep / uniform,0.0,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.002
+CL:1000413,0.005,keep / uniform,0.0,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.005
+CL:1000413,0.01,keep / uniform,0.0,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.01
+CL:1000413,0.025,keep / uniform,0.0,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.025
+CL:1000413,0.05,keep / uniform,0.0,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.05
+CL:1000413,0.1,keep / uniform,0.0,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.1
+CL:1000413,0.25,keep / uniform,0.0,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.25
+CL:1000413,0.5,keep / uniform,0.0,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.5
+CL:1000413,0.7,keep / uniform,0.008264462,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.7
+CL:1000413,0.8,keep / uniform,0.008264462,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.8
+CL:1000413,0.85,keep / uniform,0.041322313,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.85
+CL:1000413,0.9,keep / uniform,0.07438017,endothelial cell of artery,endothelial cell of artery  CL:1000413,0.9
+CL:1000413,1.0,keep / uniform,0.47107437,endothelial cell of artery,endothelial cell of artery  CL:1000413,1
+CL:1000413,1.25,keep / uniform,0.5371901,endothelial cell of artery,endothelial cell of artery  CL:1000413,1.25
+CL:1001567,0.002,relabel / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.002
+CL:1001567,0.005,relabel / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.005
+CL:1001567,0.01,relabel / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.01
+CL:1001567,0.025,relabel / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.025
+CL:1001567,0.05,relabel / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.05
+CL:1001567,0.1,relabel / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.1
+CL:1001567,0.25,relabel / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.25
+CL:1001567,0.5,relabel / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.5
+CL:1001567,0.7,relabel / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.7
+CL:1001567,0.8,relabel / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.8
+CL:1001567,0.85,relabel / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.85
+CL:1001567,0.9,relabel / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.9
+CL:1001567,1.0,relabel / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,1
+CL:1001567,1.25,relabel / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,1.25
+CL:1001567,0.002,relabel / hub,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.002
+CL:1001567,0.005,relabel / hub,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.005
+CL:1001567,0.01,relabel / hub,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.01
+CL:1001567,0.025,relabel / hub,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.025
+CL:1001567,0.05,relabel / hub,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.05
+CL:1001567,0.1,relabel / hub,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.1
+CL:1001567,0.25,relabel / hub,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.25
+CL:1001567,0.5,relabel / hub,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.5
+CL:1001567,0.7,relabel / hub,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.7
+CL:1001567,0.8,relabel / hub,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.8
+CL:1001567,0.85,relabel / hub,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.85
+CL:1001567,0.9,relabel / hub,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.9
+CL:1001567,1.0,relabel / hub,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,1
+CL:1001567,1.25,relabel / hub,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,1.25
+CL:1001567,0.002,keep / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.002
+CL:1001567,0.005,keep / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.005
+CL:1001567,0.01,keep / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.01
+CL:1001567,0.025,keep / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.025
+CL:1001567,0.05,keep / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.05
+CL:1001567,0.1,keep / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.1
+CL:1001567,0.25,keep / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.25
+CL:1001567,0.5,keep / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.5
+CL:1001567,0.7,keep / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.7
+CL:1001567,0.8,keep / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.8
+CL:1001567,0.85,keep / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.85
+CL:1001567,0.9,keep / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,0.9
+CL:1001567,1.0,keep / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,1
+CL:1001567,1.25,keep / uniform,0.0,lung endothelial cell,lung endothelial cell  CL:1001567,1.25

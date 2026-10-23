@@ -1,0 +1,17 @@
+[13:46] cached_clean v3, 8 shards, gate free>=30% swap<8000 MB
+[13:46] shard 0 started (free 90%, swap 2469 MB)
+[13:47] shard 1 started (free 90%, swap 2469 MB)
+[13:49] shard 2 started (free 90%, swap 2469 MB)
+[13:50] resume driver: shards 0-2 adopted; 3-7 to start, at most 5 concurrent
+[13:50] shard 3 started (4 running, swap 2469 MB)
+[13:51] shard 4 started (5 running, swap 2469 MB)
+[15:35] shard 5 started (5 running, swap 2469 MB)
+[15:39] shard 6 started (5 running, swap 2469 MB)
+[15:41] shard 7 started (5 running, swap 2469 MB)
+[17:24] all 8 shards finished with outputs
+8 shards -> 8,112 rows, 26 celltypes -> 03b_01_with_access_layer_matrix_cached_clean_v3.parquet
+  removed 8 merged shard files
+8 shards -> 632,736 rows, 26 celltypes -> 03b_01_with_access_layer_matrix_by_donor_cached_clean_v3.parquet
+  removed 8 merged shard files
+[17:24] cached_clean v3 merged
+[17:25] 03a_09 cached_clean v3 written

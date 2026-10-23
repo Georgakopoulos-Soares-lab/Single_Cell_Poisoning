@@ -1,0 +1,19 @@
+started: 2026-09-29T20:28:50Z
+script:  v02/1_scripts/03_b_defence_vs_modify/03b_01_with_access_layer_matrix.py
+profile: none (direct python; BIORAG_PHASE=graph shard 0 of 2)
+[provenance] 03b_01_with_access_layer_matrix.py sha f9c82be7 (clean in code, elsewhere +34 untracked) branch restructure-v01-v02 full f9c82be7e7fc66806ea0616e0e10b8adf9d5678d
+[5s] reference kNN cache: 197,981 rows
+[6s] 104 conditions; 6 budget-free configs + 2 x 3 budget-dependent
+[    141s] 1/104 CL:0000057 shifted/hub dose 0.002  n_p      392 donors   33 (135s)
+[    270s] 2/104 CL:0000057 shifted/hub dose 0.01   n_p    1,962 donors   91 (129s)
+[    441s] 3/104 CL:0000057 shifted/hub dose 0.05   n_p    9,812 donors  216 (171s)
+[    574s] 4/104 CL:0000057 shifted/hub dose 0.25   n_p   49,060 donors  228 (133s)
+Traceback (most recent call last):
+  File "<REPO>/v02/1_scripts/03_b_defence_vs_modify/03b_01_with_access_layer_matrix.py", line 504, in <module>
+    main()
+  File "<REPO>/v02/1_scripts/03_b_defence_vs_modify/03b_01_with_access_layer_matrix.py", line 393, in main
+    p = build_modify(
+        ^^^^^^^^^^^^^
+  File "<REPO>/v02/1_scripts/00_common/modify.py", line 146, in build_modify
+    raise ValueError(
+ValueError: synthesised geometry requires n_anchors, spread, jitter explicitly; none has a defensible default (attacks.py).

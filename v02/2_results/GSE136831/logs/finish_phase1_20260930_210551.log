@@ -1,0 +1,8 @@
+shards finished 2026-09-30 21:40
+--- main table merge (self-verifying via n_conditions) ---
+5 shards -> 2,496 rows, 26 celltypes -> 03b_01_with_access_layer_matrix_cached_clean_v2.parquet
+  removed 5 merged shard files
+--- by_donor merge (needs --expect; a donor table cannot carry n_conditions) ---
+5 shards -> 194,688 rows, 26 celltypes -> 03b_01_with_access_layer_matrix_by_donor_cached_clean_v2.parquet
+  removed 5 merged shard files
+FINISH_PHASE1 DONE 2026-09-30 21:40

@@ -1,0 +1,85 @@
+metric,attack,attack_tier,rate,value,lo,hi
+poison reached the top-50,duplicate,realistic,0.002,3.5524507,1.7599324,5.587076
+poison reached the top-50,duplicate,realistic,0.005,8.503375,5.590082,11.558901
+poison reached the top-50,duplicate,realistic,0.01,14.280196,10.833847,18.24873
+poison reached the top-50,duplicate,realistic,0.025,14.246669,10.523588,18.222849
+poison reached the top-50,duplicate,realistic,0.05,18.561232,14.171293,23.366852
+poison reached the top-50,duplicate,realistic,0.1,16.045616,12.036854,20.490917
+poison reached the top-50,duplicate,realistic,0.25,17.640028,13.2014,22.004812
+poison reached the top-50,duplicate,realistic,0.5,19.79222,15.159794,24.444519
+poison reached the top-50,duplicate,realistic,0.7,18.976213,14.473957,23.787815
+poison reached the top-50,duplicate,realistic,0.8,20.954336,16.525778,25.462126
+poison reached the top-50,duplicate,realistic,0.85,18.79859,14.226844,23.338732
+poison reached the top-50,duplicate,realistic,0.9,18.758396,14.620317,23.141798
+poison reached the top-50,duplicate,realistic,1.0,19.90945,15.457661,24.365103
+poison reached the top-50,duplicate,realistic,1.25,20.353611,15.210726,25.281359
+poison reached the top-50,interpolate,ceiling,0.002,0.14669706,0.030961316,0.37966892
+poison reached the top-50,interpolate,ceiling,0.005,0.24714176,0.06380893,0.58117926
+poison reached the top-50,interpolate,ceiling,0.01,0.32044855,0.08536164,0.7228674
+poison reached the top-50,interpolate,ceiling,0.025,0.4876688,0.20002648,0.97573924
+poison reached the top-50,interpolate,ceiling,0.05,0.75393325,0.31527546,1.4833413
+poison reached the top-50,interpolate,ceiling,0.1,1.1118602,0.49295565,2.0826817
+poison reached the top-50,interpolate,ceiling,0.25,1.5725223,0.70650077,2.9259834
+poison reached the top-50,interpolate,ceiling,0.5,1.612126,0.8072485,2.9250996
+poison reached the top-50,interpolate,ceiling,0.7,2.452382,1.2113206,4.1359034
+poison reached the top-50,interpolate,ceiling,0.8,2.304001,1.1739093,3.9660976
+poison reached the top-50,interpolate,ceiling,0.85,2.4759912,1.3004253,4.1797204
+poison reached the top-50,interpolate,ceiling,0.9,2.554885,1.3661153,4.242971
+poison reached the top-50,interpolate,ceiling,1.0,2.3636763,1.1752305,4.0701275
+poison reached the top-50,interpolate,ceiling,1.25,2.7043614,1.427126,4.49216
+poison reached the top-50,relabel,realistic,0.002,23.400951,20.147692,26.597422
+poison reached the top-50,relabel,realistic,0.005,30.972042,26.760147,34.97755
+poison reached the top-50,relabel,realistic,0.01,37.967648,33.43567,42.61036
+poison reached the top-50,relabel,realistic,0.025,48.945805,43.60943,54.254246
+poison reached the top-50,relabel,realistic,0.05,60.10764,54.566887,65.37379
+poison reached the top-50,relabel,realistic,0.1,68.24199,62.728283,73.32957
+poison reached the top-50,relabel,realistic,0.25,74.14496,69.13201,78.70313
+poison reached the top-50,relabel,realistic,0.5,78.28334,73.51086,82.626564
+poison reached the top-50,relabel,realistic,0.7,79.55527,74.80115,83.76098
+poison reached the top-50,relabel,realistic,0.8,80.1908,75.58941,84.21586
+poison reached the top-50,relabel,realistic,0.85,80.37799,75.73448,84.42731
+poison reached the top-50,relabel,realistic,0.9,80.59257,76.018074,84.56053
+poison reached the top-50,relabel,realistic,1.0,81.02135,76.42142,84.989395
+poison reached the top-50,relabel,realistic,1.25,79.38071,74.64917,83.56961
+vote returned the attacker's label,duplicate,realistic,0.002,0.0,0.0,0.0
+vote returned the attacker's label,duplicate,realistic,0.005,0.0,0.0,0.0
+vote returned the attacker's label,duplicate,realistic,0.01,0.006243756,0.0,0.028495343
+vote returned the attacker's label,duplicate,realistic,0.025,0.0,0.0,0.0
+vote returned the attacker's label,duplicate,realistic,0.05,0.041732058,0.008831927,0.093850575
+vote returned the attacker's label,duplicate,realistic,0.1,0.605715,0.23168768,1.1264678
+vote returned the attacker's label,duplicate,realistic,0.25,8.681314,5.6560917,11.711299
+vote returned the attacker's label,duplicate,realistic,0.5,11.815222,8.258838,15.549631
+vote returned the attacker's label,duplicate,realistic,0.7,11.865896,8.067001,15.898904
+vote returned the attacker's label,duplicate,realistic,0.8,14.302816,10.399714,18.351904
+vote returned the attacker's label,duplicate,realistic,0.85,11.38788,8.213462,14.905568
+vote returned the attacker's label,duplicate,realistic,0.9,12.495279,9.218176,16.144825
+vote returned the attacker's label,duplicate,realistic,1.0,13.291001,9.554193,17.161087
+vote returned the attacker's label,duplicate,realistic,1.25,13.443491,9.373142,17.3854
+vote returned the attacker's label,interpolate,ceiling,0.002,0.02491856,0.0034215415,0.060605243
+vote returned the attacker's label,interpolate,ceiling,0.005,0.037793346,0.008846496,0.08685915
+vote returned the attacker's label,interpolate,ceiling,0.01,0.04593118,0.010741461,0.10407036
+vote returned the attacker's label,interpolate,ceiling,0.025,0.07173712,0.021120746,0.1637922
+vote returned the attacker's label,interpolate,ceiling,0.05,0.11256614,0.02948202,0.2766431
+vote returned the attacker's label,interpolate,ceiling,0.1,0.13621916,0.038125064,0.31713977
+vote returned the attacker's label,interpolate,ceiling,0.25,0.23458168,0.067745954,0.5762514
+vote returned the attacker's label,interpolate,ceiling,0.5,0.33000928,0.10541904,0.75692487
+vote returned the attacker's label,interpolate,ceiling,0.7,0.34254548,0.11086362,0.7759713
+vote returned the attacker's label,interpolate,ceiling,0.8,0.35509872,0.12808794,0.774469
+vote returned the attacker's label,interpolate,ceiling,0.85,0.38511643,0.1285041,0.85120845
+vote returned the attacker's label,interpolate,ceiling,0.9,0.3973551,0.13612542,0.86839163
+vote returned the attacker's label,interpolate,ceiling,1.0,0.41119173,0.14039278,0.8913265
+vote returned the attacker's label,interpolate,ceiling,1.25,0.4376697,0.15185286,0.92573
+vote returned the attacker's label,relabel,realistic,0.002,0.28320745,0.15650697,0.41999787
+vote returned the attacker's label,relabel,realistic,0.005,1.2401669,0.7161115,1.8051804
+vote returned the attacker's label,relabel,realistic,0.01,2.5971856,1.7063726,3.4823217
+vote returned the attacker's label,relabel,realistic,0.025,5.8407993,4.227397,7.357971
+vote returned the attacker's label,relabel,realistic,0.05,8.877113,7.010802,10.572287
+vote returned the attacker's label,relabel,realistic,0.1,10.659424,8.861509,12.317987
+vote returned the attacker's label,relabel,realistic,0.25,11.457496,9.697433,13.105397
+vote returned the attacker's label,relabel,realistic,0.5,11.526277,9.775856,13.1680155
+vote returned the attacker's label,relabel,realistic,0.7,11.733607,9.754045,13.669812
+vote returned the attacker's label,relabel,realistic,0.8,12.296872,10.07359,14.521799
+vote returned the attacker's label,relabel,realistic,0.85,13.362774,10.616365,16.074223
+vote returned the attacker's label,relabel,realistic,0.9,16.435566,13.094523,19.76909
+vote returned the attacker's label,relabel,realistic,1.0,34.258057,29.254713,38.926235
+vote returned the attacker's label,relabel,realistic,1.25,47.038624,41.17486,52.52758

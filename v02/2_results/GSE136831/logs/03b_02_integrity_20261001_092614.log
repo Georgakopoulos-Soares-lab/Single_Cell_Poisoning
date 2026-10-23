@@ -1,0 +1,20 @@
+started: 2026-10-01T14:26:14Z
+script:  v02/1_scripts/03_b_defence_vs_modify/03b_02_both_integrity.py
+profile: none (direct python). Which integrity check catches which
+         attack, and what each costs.
+[provenance] 03b_02_both_integrity.py sha 06fddbdb (DIRTY, diff e40308e562c8, code 3 changed +2 untracked, elsewhere +47 untracked) branch restructure-v01-v02 full 06fddbdb77acbb0e1e08d6ce62c91fdb5a074a2e
+[1s] 26 attackable celltypes, covering 46,196 of 49,456 queries
+[5s] vocabulary 204 terms; lineage and distance tables built (406 of 41,616 ordered pairs unreachable, all of them involving a term with no ontology id)
+[5s] clean graph baseline: accuracy 0.46368 exact (0.45930-0.46494 over ties), 0.88491 lineage-tolerant, mean error 1.423 hops over 64 unreachable pairs
+[8s] baseline digests over 7,913,892 records: embeddings 1.4s, labels 0.1s
+[     11s] CL:0000057 relabel          touched   49,060  index_hash=True  label_hash=True  (2s)
+[     13s] CL:0000057 flood            touched   49,060  index_hash=True  label_hash=True  (2s)
+Traceback (most recent call last):
+  File "<REPO>/v02/1_scripts/03_b_defence_vs_modify/03b_02_both_integrity.py", line 202, in <module>
+    main()
+  File "<REPO>/v02/1_scripts/03_b_defence_vs_modify/03b_02_both_integrity.py", line 125, in main
+    p = build_modify(
+        ^^^^^^^^^^^^^
+  File "<REPO>/v02/1_scripts/00_common/modify.py", line 178, in build_modify
+    raise ValueError(
+ValueError: geometry 'unmoved' is not available under modify. `unmoved` moves no embedding, so it is 02b_05's cheap re-vote and needs none of this machinery.

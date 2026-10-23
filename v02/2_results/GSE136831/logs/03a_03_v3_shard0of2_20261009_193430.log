@@ -1,0 +1,20 @@
+started: 2026-10-10T00:34:30Z  BIORAG_TAG=v3 shard 0 of 2
+[provenance] 03a_03_no_access_vote_weighting.py sha dac565c0 (DIRTY, diff 267bb33e6da4, code 1 changed +0 untracked, elsewhere +81 untracked) branch restructure-v01-v02 full dac565c0047ab2639eb2e92d6d7db3ead5e438fb
+[1s] 26 attackable celltypes, covering 46,196 of 49,456 queries
+[5s] vocabulary 204 terms; lineage and distance tables built (406 of 41,616 ordered pairs unreachable, all of them involving a term with no ontology id)
+[6s] clean graph baseline: accuracy 0.46368 exact (0.45930-0.46494 over ties), 0.88491 lineage-tolerant, mean error 1.423 hops over 64 unreachable pairs
+[17s] lc_budget 1% -> threshold 0.0200
+[17s] 12 conditions x 5 schemes + 4 k-sweep controls
+[    367s] 1/12 CL:0000623 relabel n_p  188,421 poison@rank1 0.002 (prep 272s, 9 configs in 78s)
+[    736s] 2/12 CL:0000623 duplicate n_p  188,421 poison@rank1 0.001 (prep 290s, 9 configs in 78s)
+[   1043s] 3/12 CL:0000623 interpolate n_p  188,421 poison@rank1 0.005 (prep 230s, 9 configs in 78s)
+[   1315s] 4/12 CL:0000623 flood n_p  188,421 poison@rank1 0.005 (prep 194s, 9 configs in 77s)
+[   1573s] 5/12 CL:0000235 relabel n_p   86,983 poison@rank1 0.006 (prep 183s, 9 configs in 74s)
+[   1785s] 6/12 CL:0000235 duplicate n_p   86,983 poison@rank1 0.002 (prep 134s, 9 configs in 79s)
+[   1942s] 7/12 CL:0000235 interpolate n_p   86,983 poison@rank1 0.002 (prep 75s, 9 configs in 82s)
+[   2064s] 8/12 CL:0000235 flood n_p   86,983 poison@rank1 0.032 (prep 49s, 9 configs in 73s)
+[   2245s] 9/12 CL:0000084 relabel n_p   75,805 poison@rank1 0.007 (prep 104s, 9 configs in 76s)
+[   2444s] 10/12 CL:0000084 duplicate n_p   75,805 poison@rank1 0.001 (prep 121s, 9 configs in 79s)
+[   2621s] 11/12 CL:0000084 interpolate n_p   75,805 poison@rank1 0.001 (prep 97s, 9 configs in 80s)
+[   2791s] 12/12 CL:0000084 flood n_p   75,805 poison@rank1 0.025 (prep 95s, 9 configs in 75s)
+[by_donor] wrote 8,424 donor rows to <REPO>/v02/2_results/GSE136831/03_a_defence_vs_insert/03a_03_no_access_vote_weighting_by_donor_v3_shard0.parquet

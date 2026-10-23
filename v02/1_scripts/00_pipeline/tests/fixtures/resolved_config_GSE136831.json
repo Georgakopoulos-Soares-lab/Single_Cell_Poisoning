@@ -1,0 +1,279 @@
+{
+  "attacks": [
+    "relabel",
+    "duplicate",
+    "interpolate"
+  ],
+  "bootstrap_seed": 0,
+  "combo_rates": [
+    1e-05,
+    5e-05,
+    0.0001,
+    0.0005,
+    0.001,
+    0.005,
+    0.01,
+    0.05,
+    0.075,
+    0.1,
+    0.15,
+    0.2,
+    0.25
+  ],
+  "combo_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "dataset": "GSE136831",
+  "hnsw": {
+    "ef_search": 100
+  },
+  "low_rate_extra_seeds": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "low_rate_max": 0.001,
+  "ontology": {
+    "expected_mapped": 201,
+    "expected_unmapped": [
+      "native cell",
+      "animal cell"
+    ],
+    "obo": "0_data/ontology/cl.obo"
+  },
+  "pairs": [
+    {
+      "class": "near",
+      "dist": 2,
+      "name": "mac_to_dc",
+      "source": "CL:0000235",
+      "target": "CL:0000451"
+    },
+    {
+      "class": "near",
+      "dist": 3,
+      "name": "mac_to_monocyte",
+      "source": "CL:0000235",
+      "target": "CL:0000860"
+    },
+    {
+      "class": "mid",
+      "dist": 4,
+      "name": "mac_to_tcell",
+      "source": "CL:0000235",
+      "target": "CL:0000084"
+    },
+    {
+      "class": "mid",
+      "dist": 5,
+      "name": "mac_to_fibroblast",
+      "source": "CL:0000235",
+      "target": "CL:0000057"
+    },
+    {
+      "class": "far",
+      "dist": 6,
+      "name": "mac_to_lung_endo",
+      "source": "CL:0000235",
+      "target": "CL:1001567"
+    },
+    {
+      "class": "far",
+      "dist": 7,
+      "name": "mac_to_at2",
+      "source": "CL:0000235",
+      "target": "CL:0002063"
+    },
+    {
+      "class": "near",
+      "dist": 2,
+      "name": "mono_to_ncmono",
+      "source": "CL:0000860",
+      "target": "CL:0000875"
+    },
+    {
+      "class": "mid",
+      "dist": 6,
+      "name": "mono_to_goblet",
+      "source": "CL:0000860",
+      "target": "CL:0000160"
+    },
+    {
+      "class": "far",
+      "dist": 8,
+      "name": "mono_to_vein_endo",
+      "source": "CL:0000860",
+      "target": "CL:0002543"
+    },
+    {
+      "class": "near",
+      "dist": 4,
+      "name": "nk_to_tcell",
+      "source": "CL:0000623",
+      "target": "CL:0000084"
+    },
+    {
+      "class": "mid",
+      "dist": 7,
+      "name": "nk_to_club",
+      "source": "CL:0000623",
+      "target": "CL:0000158"
+    },
+    {
+      "class": "far",
+      "dist": 8,
+      "name": "nk_to_ciliated",
+      "source": "CL:0000623",
+      "target": "CL:1000271"
+    },
+    {
+      "class": "near",
+      "dist": 3,
+      "name": "bcell_to_tcell",
+      "source": "CL:0000236",
+      "target": "CL:0000084"
+    },
+    {
+      "class": "mid",
+      "dist": 7,
+      "name": "bcell_to_myofib",
+      "source": "CL:0000236",
+      "target": "CL:0000186"
+    },
+    {
+      "class": "far",
+      "dist": 9,
+      "name": "bcell_to_ciliated",
+      "source": "CL:0000236",
+      "target": "CL:1000271"
+    },
+    {
+      "class": "multi",
+      "dist": -1,
+      "members": [
+        "mac_to_dc",
+        "mono_to_ncmono"
+      ],
+      "name": "combo2_mac_mono"
+    },
+    {
+      "class": "multi",
+      "dist": -1,
+      "members": [
+        "mac_to_dc",
+        "mono_to_ncmono",
+        "nk_to_tcell"
+      ],
+      "name": "combo3_mac_mono_nk"
+    },
+    {
+      "class": "multi",
+      "dist": -1,
+      "members": [
+        "mac_to_dc",
+        "mono_to_ncmono",
+        "nk_to_tcell",
+        "bcell_to_tcell"
+      ],
+      "name": "combo4_all"
+    }
+  ],
+  "paths": {
+    "cache": "cache",
+    "checksums": "v02/config/checksums.txt",
+    "queries_dir": "0_data/queries/GSE136831",
+    "queries_h5ad": "0_data/queries/GSE136831/GSE136831_subsample.h5ad",
+    "reference_dir": "0_data/reference/model_v1.1",
+    "reference_tarball": "0_data/reference/model_v1.1.tar.gz",
+    "results": "v02/2_results/GSE136831"
+  },
+  "poison": {
+    "alpha_range": [
+      0.3,
+      0.9
+    ],
+    "interpolate_target": "centroid",
+    "min_target_cells": 200
+  },
+  "query": {
+    "donor_column": "sample",
+    "drop_unlabeled": true,
+    "expected_n_unlabeled": 544,
+    "label_column": "celltype_id"
+  },
+  "rate_basis": "source_class",
+  "rates": [
+    1e-05,
+    5e-05,
+    0.0001,
+    0.0005,
+    0.001,
+    0.005,
+    0.01,
+    0.05,
+    0.075,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "retrieve": {
+    "query_block_size": 500
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "sweep": {
+    "query_block_size": 500
+  },
+  "term_names": {
+    "CL:0000057": "fibroblast",
+    "CL:0000084": "T cell",
+    "CL:0000235": "macrophage",
+    "CL:0000451": "dendritic cell",
+    "CL:0000860": "classical monocyte",
+    "CL:0002063": "pulmonary alveolar type 2 cell",
+    "CL:1001567": "lung endothelial cell"
+  },
+  "vote": {
+    "tie_break": "lowest_cl_id"
+  }
+}

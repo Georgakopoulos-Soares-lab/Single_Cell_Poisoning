@@ -1,0 +1,5 @@
+git SHA: 19c0ad52
+merged: 2026-09-27T08:39:55Z
+canonical: 02b_15_with_access_alpha_sweep_graph.parquet
+3 shards -> 936 rows, 26 celltypes -> 02b_15_with_access_alpha_sweep_graph.parquet
+merge exit: 0 at 2026-09-27T08:39:55Z

@@ -1,0 +1,34 @@
+started: 2026-09-30T17:53:30Z
+script:  v02/1_scripts/03_a_defence_vs_insert/03a_02_no_access_donor_identity.py
+profile: none (direct python; single shard; driven by drive_defence.sh)
+[provenance] 03a_02_no_access_donor_identity.py sha 7ad90a51 (clean in code, elsewhere +36 untracked) branch restructure-v01-v02 full 7ad90a519aa5e7a07d73acf7bb3e116adc5add7f
+[1s] 26 attackable celltypes, covering 46,196 of 49,456 queries
+[5s] vocabulary 204 terms; lineage and distance tables built (406 of 41,616 ordered pairs unreachable, all of them involving a term with no ontology id)
+[5s] clean graph baseline: accuracy 0.46368 exact (0.45930-0.46494 over ties), 0.88491 lineage-tolerant, mean error 1.423 hops over 64 unreachable pairs
+[11s] genuine donors per top-50: median 11, IQR 7-17
+[11s] 24 conditions x 8 caps x 8 splits
+[    218s] 1/24 CL:0000623 relabel dose 0.25  n_p   47,105 (ret 54s, 64 cells in 153s)
+[   1057s] 2/24 CL:0000623 relabel dose 1     n_p  188,421 (ret 59s, 64 cells in 780s)
+[   1228s] 3/24 CL:0000623 duplicate dose 0.25  n_p   47,105 (ret 24s, 64 cells in 147s)
+[   1465s] 4/24 CL:0000623 duplicate dose 1     n_p  188,421 (ret 86s, 64 cells in 151s)
+[   1635s] 5/24 CL:0000236 relabel dose 0.25  n_p   47,918 (ret 23s, 64 cells in 147s)
+[   1822s] 6/24 CL:0000236 relabel dose 1     n_p  191,671 (ret 37s, 64 cells in 149s)
+[   2013s] 7/24 CL:0000236 duplicate dose 0.25  n_p   47,918 (ret 46s, 64 cells in 146s)
+[   2197s] 8/24 CL:0000236 duplicate dose 1     n_p  191,671 (ret 38s, 64 cells in 146s)
+[   2382s] 9/24 CL:0000235 relabel dose 0.25  n_p   21,746 (ret 39s, 64 cells in 146s)
+[   2554s] 10/24 CL:0000235 relabel dose 1     n_p   86,983 (ret 26s, 64 cells in 147s)
+[   2727s] 11/24 CL:0000235 duplicate dose 0.25  n_p   21,746 (ret 26s, 64 cells in 147s)
+[   2919s] 12/24 CL:0000235 duplicate dose 1     n_p   86,983 (ret 47s, 64 cells in 146s)
+[   3089s] 13/24 CL:0000057 relabel dose 0.25  n_p   49,060 (ret 23s, 64 cells in 146s)
+[   3299s] 14/24 CL:0000057 relabel dose 1     n_p  196,242 (ret 64s, 64 cells in 146s)
+[   3467s] 15/24 CL:0000057 duplicate dose 0.25  n_p   49,060 (ret 23s, 64 cells in 145s)
+[   3651s] 16/24 CL:0000057 duplicate dose 1     n_p  196,242 (ret 38s, 64 cells in 147s)
+[   3818s] 17/24 CL:0000084 relabel dose 0.25  n_p   18,951 (ret 22s, 64 cells in 144s)
+[   3987s] 18/24 CL:0000084 relabel dose 1     n_p   75,805 (ret 27s, 64 cells in 142s)
+[   4151s] 19/24 CL:0000084 duplicate dose 0.25  n_p   18,951 (ret 21s, 64 cells in 142s)
+[   4319s] 20/24 CL:0000084 duplicate dose 1     n_p   75,805 (ret 25s, 64 cells in 143s)
+[   4483s] 21/24 CL:0001065 relabel dose 0.25  n_p    2,610 (ret 20s, 64 cells in 144s)
+[   4647s] 22/24 CL:0001065 relabel dose 1     n_p   10,438 (ret 20s, 64 cells in 144s)
+[   4810s] 23/24 CL:0001065 duplicate dose 0.25  n_p    2,610 (ret 20s, 64 cells in 143s)
+[   4973s] 24/24 CL:0001065 duplicate dose 1     n_p   10,438 (ret 20s, 64 cells in 143s)
+[by_donor] wrote 119,808 donor rows to <REPO>/v02/2_results/GSE136831/03_a_defence_vs_insert/03a_02_no_access_donor_identity_by_donor.parquet

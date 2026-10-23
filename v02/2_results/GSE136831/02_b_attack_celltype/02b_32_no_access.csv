@@ -1,0 +1,17 @@
+panel,when,shown,n,x_centroid,y_centroid
+"fibroblast attacked, relabelled to mast cell",BEFORE the attack,fibroblast  (attacked),936,3.5745158,9.639644
+"fibroblast attacked, relabelled to mast cell",BEFORE the attack,mast cell  (target),231,0.15819792,1.9350607
+"fibroblast attacked, relabelled to mast cell",BEFORE the attack,any other prediction,48289,7.748577,2.6219752
+"fibroblast attacked, relabelled to mast cell",AFTER the attack,fibroblast  (attacked),749,3.594531,9.653253
+"fibroblast attacked, relabelled to mast cell",AFTER the attack,mast cell  (target),418,1.6671747,5.3695526
+"fibroblast attacked, relabelled to mast cell",AFTER the attack,any other prediction,48289,7.748434,2.6218705
+"natural killer cell attacked, relabelled to T cell",BEFORE the attack,natural killer cell  (attacked),1869,-0.8938567,-4.486492
+"natural killer cell attacked, relabelled to T cell",BEFORE the attack,T cell  (target),4096,-4.86108,1.0968442
+"natural killer cell attacked, relabelled to T cell",BEFORE the attack,"CD8-positive, alpha-beta T cell  (collateral)",463,-4.430022,-1.5961208
+"natural killer cell attacked, relabelled to T cell",BEFORE the attack,mature NK T cell  (collateral),240,-3.5961204,-1.1653543
+"natural killer cell attacked, relabelled to T cell",BEFORE the attack,any other prediction,42788,9.396305,3.2951653
+"natural killer cell attacked, relabelled to T cell",AFTER the attack,natural killer cell  (attacked),166,-0.85754377,-4.591043
+"natural killer cell attacked, relabelled to T cell",AFTER the attack,T cell  (target),5873,-3.6840074,-0.56232685
+"natural killer cell attacked, relabelled to T cell",AFTER the attack,"CD8-positive, alpha-beta T cell  (collateral)",438,-4.4730005,-1.5527074
+"natural killer cell attacked, relabelled to T cell",AFTER the attack,mature NK T cell  (collateral),225,-3.7352,-1.057176
+"natural killer cell attacked, relabelled to T cell",AFTER the attack,any other prediction,42754,9.405704,3.2994545

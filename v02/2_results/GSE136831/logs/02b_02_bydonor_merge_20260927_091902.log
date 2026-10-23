@@ -1,0 +1,8 @@
+git SHA: 19c0ad52
+merged: 2026-09-27T14:19:02Z
+canonical: 02b_02_no_access_flood_by_donor.parquet
+expect: 170352 rows (conditions x 78 donors)
+reason: by_donor row count is conditions x donors, so it cannot carry
+        n_conditions; --expect supplies the total to verify against.
+3 shards -> 170,352 rows, 26 celltypes -> 02b_02_no_access_flood_by_donor.parquet
+merge exit: 0 at 2026-09-27T14:19:03Z

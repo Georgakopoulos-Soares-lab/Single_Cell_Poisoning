@@ -1,0 +1,11 @@
+started: 2026-10-04T17:31:12Z
+script:  v02/1_scripts/03_a_defence_vs_insert/03a_09_both_intervals.py
+profile: none; driver archive/workers_2026-10/drive_03a09_tags.sh
+         BIORAG_TAG=intuni, single process
+[provenance] 03a_09_both_intervals.py sha 2a19cf1a (clean in code, elsewhere +72 untracked) branch restructure-v01-v02 full 2a19cf1a270264b26d6d502cea9d4fdf153c9e25
+[0s] insert: 340,704 donor rows, 4,368 conditions
+[9s]   364 conditions x 6 metrics intervalled
+[9s] point estimates agree with the committed matrices on 8,736 comparisons (tol 1e-06)
+[9s] wrote 4,368 rows to 03a_09_both_intervals_intuni.parquet
+  477 of 4,368 (condition, layer) rows have a within_attack_success reduction whose 95% interval excludes zero
+exit: 0

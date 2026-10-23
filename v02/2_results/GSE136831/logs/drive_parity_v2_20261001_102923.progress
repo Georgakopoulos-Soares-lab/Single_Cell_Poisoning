@@ -1,0 +1,69 @@
+parity v2 started 2026-10-01 10:29; driver archive/workers_2026-10/drive_parity_v2.sh
+insert shards 3; graph peak RSS 17.37 GB -> modify concurrency 2
+swap kill threshold 28000 MB; swap at start 0 MB
+[10:29] insert relhub (relabel/hub ) x3; swap 0 MB
+3 shards -> 2,184 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_relhub.parquet
+  removed 3 merged shard files
+3 shards -> 170,352 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_relhub.parquet
+  removed 3 merged shard files
+[13:43] insert relhub merged
+[13:43] insert reluni (relabel/uniform ) x3; swap 1 MB
+3 shards -> 4,368 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_reluni.parquet
+  removed 3 merged shard files
+3 shards -> 340,704 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_reluni.parquet
+  removed 3 merged shard files
+[22:21] insert reluni merged
+[22:21] insert dupcon (duplicate/concentrated ) x3; swap 1 MB
+3 shards -> 4,368 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_dupcon.parquet
+  removed 3 merged shard files
+3 shards -> 340,704 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_dupcon.parquet
+  removed 3 merged shard files
+[04:20] insert dupcon merged
+[04:20] insert intuni (interpolate/uniform ) x3; swap 1 MB
+3 shards -> 4,368 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_intuni.parquet
+  removed 3 merged shard files
+3 shards -> 340,704 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_intuni.parquet
+  removed 3 merged shard files
+[10:32] insert intuni merged
+[10:32] insert flo16k (flood/hub BIORAG_FLOOD_ANCHORS=16384) x3; swap 1 MB
+3 shards -> 2,184 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_flo16k.parquet
+  removed 3 merged shard files
+3 shards -> 170,352 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_flo16k.parquet
+  removed 3 merged shard files
+[13:48] insert flo16k merged
+[13:48] insert flo64 (flood/hub BIORAG_FLOOD_ANCHORS=64) x3; swap 1 MB
+3 shards -> 4,368 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_flo64.parquet
+  removed 3 merged shard files
+3 shards -> 340,704 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_flo64.parquet
+  removed 3 merged shard files
+[20:55] insert flo64 merged
+[20:55] insert flo256 (flood/hub BIORAG_FLOOD_ANCHORS=256) x3; swap 1 MB
+3 shards -> 4,368 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_flo256.parquet
+  removed 3 merged shard files
+3 shards -> 340,704 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_flo256.parquet
+  removed 3 merged shard files
+[02:58] insert flo256 merged
+[02:58] insert flo1024 (flood/hub BIORAG_FLOOD_ANCHORS=1024) x3; swap 1 MB
+3 shards -> 4,368 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_flo1024.parquet
+  removed 3 merged shard files
+3 shards -> 340,704 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_flo1024.parquet
+  removed 3 merged shard files
+[09:17] insert flo1024 merged
+[09:17] insert flo4096 (flood/hub BIORAG_FLOOD_ANCHORS=4096) x3; swap 1 MB
+3 shards -> 4,368 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_flo4096.parquet
+  removed 3 merged shard files
+3 shards -> 340,704 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_flo4096.parquet
+  removed 3 merged shard files
+[14:56] insert flo4096 merged
+[14:56] modify modhub (shifted:hub,synthesised:hub) x2; swap 1 MB
+2 shards -> 5,616 rows, 26 celltypes -> 03b_01_with_access_layer_matrix_graph_modhub.parquet
+  removed 2 merged shard files
+2 shards -> 438,048 rows, 26 celltypes -> 03b_01_with_access_layer_matrix_by_donor_graph_modhub.parquet
+  removed 2 merged shard files
+[23:23] modify modhub merged
+[23:23] modify moduni (shifted:uniform,synthesised:uniform) x2; swap 1 MB
+2 shards -> 8,112 rows, 26 celltypes -> 03b_01_with_access_layer_matrix_graph_moduni.parquet
+  removed 2 merged shard files
+2 shards -> 632,736 rows, 26 celltypes -> 03b_01_with_access_layer_matrix_by_donor_graph_moduni.parquet
+  removed 2 merged shard files
+[10:57] modify moduni merged

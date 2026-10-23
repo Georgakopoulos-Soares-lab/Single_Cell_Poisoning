@@ -1,0 +1,16 @@
+git SHA: ad280ceb
+started: 2026-09-28T01:59:21Z
+script:  v02/1_scripts/02_b_attack_celltype/02b_10_both_threshold_dose.py
+profile: full, single process, reads tables only
+[0s] 7 donor tables: 02b_01_no_access_celltype_sweep_by_donor.parquet, 02b_02_no_access_flood_by_donor.parquet, 02b_05_with_access_hub_split_by_donor.parquet, 02b_11_with_access_inplace_by_donor_graph.parquet, 02b_13_no_access_flood_geometry_by_donor.parquet, 02b_14_no_access_flood_sites_by_donor.parquet, 02b_15_with_access_alpha_sweep_by_donor_graph.parquet
+Traceback (most recent call last):
+  File "<REPO>/v02/1_scripts/02_b_attack_celltype/02b_10_both_threshold_dose.py", line 165, in <module>
+    main()
+  File "<REPO>/v02/1_scripts/02_b_attack_celltype/02b_10_both_threshold_dose.py", line 138, in main
+    ax = axes_of(keys["attack"], keys.get("selection"))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<REPO>/v02/1_scripts/02_b_attack_celltype/02b_10_both_threshold_dose.py", line 105, in axes_of
+    sel, knowledge = SELECTION_AXES[selection if selection else attack]
+                     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'uniform'
+exit: 1 at 2026-09-28T01:59:21Z

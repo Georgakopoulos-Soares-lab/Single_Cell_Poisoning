@@ -1,0 +1,10 @@
+started: 2026-10-01T14:52:40Z
+script:  v02/1_scripts/03_a_defence_vs_insert/03a_01_no_access_layer_matrix.py
+profile: none; ATTACKS=relabel SELECTIONS=hub DOSES=0.005,0.025,0.5,0.7,0.8,0.85,0.9 
+         TAG=relhub shard 3 of 8. Full-parity run.
+[provenance] 03a_01_no_access_layer_matrix.py sha 06fddbdb (DIRTY, diff e40308e562c8, code 3 changed +2 untracked, elsewhere +61 untracked) branch restructure-v01-v02 full 06fddbdb77acbb0e1e08d6ce62c91fdb5a074a2e
+[1s] 26 attackable celltypes, covering 46,196 of 49,456 queries
+[6s] vocabulary 204 terms; lineage and distance tables built (406 of 41,616 ordered pairs unreachable, all of them involving a term with no ontology id)
+[6s] clean graph baseline: accuracy 0.46368 exact (0.45930-0.46494 over ties), 0.88491 lineage-tolerant, mean error 1.423 hops over 64 unreachable pairs
+[27s] genuine LC over 195,972 rows; budget 1% -> 0.0200, budget 5% -> 0.1600, budget 10% -> 0.3200
+[27s] 21 conditions; 6 budget-free + 2 x 3 budget-dependent

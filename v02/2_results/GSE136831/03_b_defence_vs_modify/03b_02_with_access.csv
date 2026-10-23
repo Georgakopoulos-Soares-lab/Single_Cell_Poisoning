@@ -1,0 +1,73 @@
+geometry,cfg,defense,attack,cost,accuracy,n,family,undefended
+"shifted
+existing vector moved",dedup,dedup,28.311153,0.0,16.6753,676,multiplicity,28.252113342285156
+"shifted
+existing vector moved",donor_cap1,donor_cap1,28.347,0.0,16.281958,676,identity volume,28.252113342285156
+"shifted
+existing vector moved",donor_cap2,donor_cap2,28.316475,0.0,16.41103,676,identity volume,28.252113342285156
+"shifted
+existing vector moved",donor_cap5,donor_cap5,28.005623,0.0,16.474049,676,identity volume,28.252113342285156
+"shifted
+existing vector moved",label_consistency@0.01,label_consistency,28.217405,0.40132883,16.644602,676,vector–label pairing,28.252113342285156
+"shifted
+existing vector moved",label_consistency@0.05,label_consistency,27.600739,3.065063,16.936281,676,vector–label pairing,28.252113342285156
+"shifted
+existing vector moved",label_consistency@0.1,label_consistency,26.727495,6.5292373,17.313988,676,vector–label pairing,28.252113342285156
+"shifted
+existing vector moved",none,none,28.252113,0.0,16.622986,676,no defence,28.252113342285156
+"shifted
+existing vector moved",recompute,recompute,0.49835047,0.0,24.923746,676,vector authenticity,28.252113342285156
+"shifted
+existing vector moved",stack@0.01,stack,0.4847592,0.40132883,25.114977,676,all four,28.252113342285156
+"shifted
+existing vector moved",stack@0.05,stack,0.5819721,3.065063,24.56629,676,all four,28.252113342285156
+"shifted
+existing vector moved",stack@0.1,stack,0.68632376,6.5292373,22.60155,676,all four,28.252113342285156
+"synthesised
+vector written from nothing",dedup,dedup,22.319624,0.0,20.615505,676,multiplicity,22.189516067504883
+"synthesised
+vector written from nothing",donor_cap1,donor_cap1,23.832064,0.0,18.67845,676,identity volume,22.189516067504883
+"synthesised
+vector written from nothing",donor_cap2,donor_cap2,23.270365,0.0,19.172438,676,identity volume,22.189516067504883
+"synthesised
+vector written from nothing",donor_cap5,donor_cap5,22.427017,0.0,19.780218,676,identity volume,22.189516067504883
+"synthesised
+vector written from nothing",label_consistency@0.01,label_consistency,22.164179,0.40223986,20.568306,676,vector–label pairing,22.189516067504883
+"synthesised
+vector written from nothing",label_consistency@0.05,label_consistency,22.087063,3.095319,20.603851,676,vector–label pairing,22.189516067504883
+"synthesised
+vector written from nothing",label_consistency@0.1,label_consistency,22.19641,6.5742,20.357838,676,vector–label pairing,22.189516067504883
+"synthesised
+vector written from nothing",none,none,22.189516,0.0,20.55293,676,no defence,22.189516067504883
+"synthesised
+vector written from nothing",recompute,recompute,0.40021124,0.0,25.641552,676,vector authenticity,22.189516067504883
+"synthesised
+vector written from nothing",stack@0.01,stack,0.38941488,0.40223986,25.791697,676,all four,22.189516067504883
+"synthesised
+vector written from nothing",stack@0.05,stack,0.44975552,3.095319,25.327278,676,all four,22.189516067504883
+"synthesised
+vector written from nothing",stack@0.1,stack,0.52871525,6.5742,24.023127,676,all four,22.189516067504883
+"unmoved
+LABEL ONLY — vector untouched",dedup,dedup,29.324493,0.0,15.8718405,676,multiplicity,29.192495346069336
+"unmoved
+LABEL ONLY — vector untouched",donor_cap1,donor_cap1,30.165594,0.0,15.29865,676,identity volume,29.192495346069336
+"unmoved
+LABEL ONLY — vector untouched",donor_cap2,donor_cap2,29.89795,0.0,15.4799595,676,identity volume,29.192495346069336
+"unmoved
+LABEL ONLY — vector untouched",donor_cap5,donor_cap5,29.363111,0.0,15.559832,676,identity volume,29.192495346069336
+"unmoved
+LABEL ONLY — vector untouched",label_consistency@0.01,label_consistency,29.152225,0.4011632,15.868984,676,vector–label pairing,29.192495346069336
+"unmoved
+LABEL ONLY — vector untouched",label_consistency@0.05,label_consistency,28.539213,3.0372384,16.200748,676,vector–label pairing,29.192495346069336
+"unmoved
+LABEL ONLY — vector untouched",label_consistency@0.1,label_consistency,27.491194,6.504046,16.712383,676,vector–label pairing,29.192495346069336
+"unmoved
+LABEL ONLY — vector untouched",none,none,29.192495,0.0,15.845145,676,no defence,29.192495346069336
+"unmoved
+LABEL ONLY — vector untouched",recompute,recompute,29.192495,0.0,15.845145,676,vector authenticity,29.192495346069336
+"unmoved
+LABEL ONLY — vector untouched",stack@0.01,stack,29.287853,0.4011632,15.896032,676,all four,29.192495346069336
+"unmoved
+LABEL ONLY — vector untouched",stack@0.05,stack,28.662884,3.0372384,16.213503,676,all four,29.192495346069336
+"unmoved
+LABEL ONLY — vector untouched",stack@0.1,stack,27.571716,6.504046,16.71643,676,all four,29.192495346069336

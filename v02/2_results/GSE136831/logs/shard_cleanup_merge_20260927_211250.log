@@ -1,0 +1,60 @@
+git SHA: ce75aab4
+ran: 2026-09-28T02:12:50Z
+purpose: re-run each completed merge so merge_shards removes its own
+         intermediates, now that it does. Every set was already verified
+         merged with matching counts; this re-verifies and then cleans.
+-- 02b_02_no_access_flood_anchors
+3 shards -> 2,184 rows, 26 celltypes -> 02b_02_no_access_flood_anchors.parquet
+  removed 3 merged shard files
+   exit: 0
+-- 02b_02_no_access_flood_by_donor
+Traceback (most recent call last):
+  File "<REPO>/v02/1_scripts/00_pipeline/merge_shards.py", line 164, in <module>
+    sys.exit(main(sys.argv[1:]))
+             ^^^^^^^^^^^^^^^^^^
+  File "<REPO>/v02/1_scripts/00_pipeline/merge_shards.py", line 159, in main
+    merge(pathlib.Path(a), expect=expect)
+  File "<REPO>/v02/1_scripts/00_pipeline/merge_shards.py", line 61, in merge
+    raise FileNotFoundError(f"no shards beside {canonical}")
+FileNotFoundError: no shards beside --expect 170352
+   exit: 1
+-- 02b_11_with_access_inplace_graph
+3 shards -> 2,028 rows, 26 celltypes -> 02b_11_with_access_inplace_graph.parquet
+  removed 3 merged shard files
+   exit: 0
+-- 02b_11_with_access_inplace_by_donor_graph
+Traceback (most recent call last):
+  File "<REPO>/v02/1_scripts/00_pipeline/merge_shards.py", line 164, in <module>
+    sys.exit(main(sys.argv[1:]))
+             ^^^^^^^^^^^^^^^^^^
+  File "<REPO>/v02/1_scripts/00_pipeline/merge_shards.py", line 159, in main
+    merge(pathlib.Path(a), expect=expect)
+  File "<REPO>/v02/1_scripts/00_pipeline/merge_shards.py", line 61, in merge
+    raise FileNotFoundError(f"no shards beside {canonical}")
+FileNotFoundError: no shards beside --expect 158184
+   exit: 1
+-- 02b_15_with_access_alpha_sweep_graph
+3 shards -> 936 rows, 26 celltypes -> 02b_15_with_access_alpha_sweep_graph.parquet
+  removed 3 merged shard files
+   exit: 0
+-- 02b_15_with_access_alpha_sweep_by_donor_graph
+Traceback (most recent call last):
+  File "<REPO>/v02/1_scripts/00_pipeline/merge_shards.py", line 164, in <module>
+    sys.exit(main(sys.argv[1:]))
+             ^^^^^^^^^^^^^^^^^^
+  File "<REPO>/v02/1_scripts/00_pipeline/merge_shards.py", line 159, in main
+    merge(pathlib.Path(a), expect=expect)
+  File "<REPO>/v02/1_scripts/00_pipeline/merge_shards.py", line 61, in merge
+    raise FileNotFoundError(f"no shards beside {canonical}")
+FileNotFoundError: no shards beside --expect 73008
+   exit: 1
+-- retry by_donor merges with correct argv --
+3 shards -> 170,352 rows, 26 celltypes -> 02b_02_no_access_flood_by_donor.parquet
+  removed 3 merged shard files
+   exit: 0
+3 shards -> 158,184 rows, 26 celltypes -> 02b_11_with_access_inplace_by_donor_graph.parquet
+  removed 3 merged shard files
+   exit: 0
+3 shards -> 73,008 rows, 26 celltypes -> 02b_15_with_access_alpha_sweep_by_donor_graph.parquet
+  removed 3 merged shard files
+   exit: 0

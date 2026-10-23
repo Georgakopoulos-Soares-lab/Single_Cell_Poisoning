@@ -1,0 +1,17 @@
+# Snakemake profile: smoke.
+# 500k fixed-seed subsample of the REAL reference, exhaustive cosine retrieval.
+# Runnable without approval (CLAUDE.md §1) once stage 0 has run once.
+# Relative to the LAUNCH directory (biorag_project/), not to this file.
+# It read `config/config.yaml` until 2026-09-28 -- a path that has not
+# existed since the v01/v02 split -- so every profile run in CLAUDE.md 8
+# died in snakemake's profile loader before the DAG was built.
+configfile: v02/config/config.yaml
+software-deployment-method: conda
+cores: 8
+printshellcmds: true
+rerun-incomplete: true
+config:
+  profile: smoke
+  reference_rows: 500000
+  reference_subsample_seed: 0   # explicit; the subsample must be re-derivable
+  retrieval: exhaustive         # merge shortcut is EXACT here (SPEC.md §4.2)

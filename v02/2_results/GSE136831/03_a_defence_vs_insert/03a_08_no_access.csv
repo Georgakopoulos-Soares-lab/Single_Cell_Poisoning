@@ -1,0 +1,217 @@
+config,family,source,target,attack,rate,k_used,value,plotted,within_accuracy,poison_rank1,false_positive
+stack+uniform,"on top of the stack, varying the weight",CL:0000057,CL:0000097,duplicate,1.0,50,0.0,0.005691196,0.9423077,0.00014153996,0.0039502503
+stack+rank,"on top of the stack, varying the weight",CL:0000057,CL:0000097,duplicate,1.0,50,0.0,0.005691196,0.9326923,0.00014153996,0.0039502503
+stack+score,"on top of the stack, varying the weight",CL:0000057,CL:0000097,duplicate,1.0,50,0.0,0.005691196,0.93990386,0.00014153996,0.0039502503
+stack+cosine,"on top of the stack, varying the weight",CL:0000057,CL:0000097,duplicate,1.0,50,0.0,0.005691196,0.93990386,0.00014153996,0.0039502503
+stack+softmax,"on top of the stack, varying the weight",CL:0000057,CL:0000097,duplicate,1.0,50,0.0,0.005691196,0.90384614,0.00014153996,0.0039502503
+none@k5,"no defence, varying k  (control)",CL:0000057,CL:0000097,duplicate,1.0,5,6.4903846,6.4903846,0.8798077,0.00014153996,0.0
+none@k10,"no defence, varying k  (control)",CL:0000057,CL:0000097,duplicate,1.0,10,9.134615,9.134615,0.8605769,0.00014153996,0.0
+none@k20,"no defence, varying k  (control)",CL:0000057,CL:0000097,duplicate,1.0,20,12.980769,12.980769,0.8269231,0.00014153996,0.0
+none@k50,"no defence, varying k  (control)",CL:0000057,CL:0000097,duplicate,1.0,50,23.798077,23.798077,0.7355769,0.00014153996,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0000057,CL:0000097,flood,1.0,50,0.0,0.005691196,0.95913464,0.002729699,0.0039570685
+stack+rank,"on top of the stack, varying the weight",CL:0000057,CL:0000097,flood,1.0,50,0.0,0.005691196,0.9423077,0.002729699,0.0039570685
+stack+score,"on top of the stack, varying the weight",CL:0000057,CL:0000097,flood,1.0,50,0.0,0.005691196,0.9519231,0.002729699,0.0039570685
+stack+cosine,"on top of the stack, varying the weight",CL:0000057,CL:0000097,flood,1.0,50,0.0,0.005691196,0.9519231,0.002729699,0.0039570685
+stack+softmax,"on top of the stack, varying the weight",CL:0000057,CL:0000097,flood,1.0,50,0.0,0.005691196,0.9206731,0.002729699,0.0039570685
+none@k5,"no defence, varying k  (control)",CL:0000057,CL:0000097,flood,1.0,5,29.086538,29.086538,0.66586536,0.002729699,0.0
+none@k10,"no defence, varying k  (control)",CL:0000057,CL:0000097,flood,1.0,10,46.153847,46.153847,0.50721157,0.002729699,0.0
+none@k20,"no defence, varying k  (control)",CL:0000057,CL:0000097,flood,1.0,20,66.105774,66.105774,0.3125,0.002729699,0.0
+none@k50,"no defence, varying k  (control)",CL:0000057,CL:0000097,flood,1.0,50,60.817307,60.817307,0.37740386,0.002729699,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0000057,CL:0000097,interpolate,1.0,50,0.0,0.005691196,0.96634614,0.00012131996,0.003949599
+stack+rank,"on top of the stack, varying the weight",CL:0000057,CL:0000097,interpolate,1.0,50,0.0,0.005691196,0.9519231,0.00012131996,0.003949599
+stack+score,"on top of the stack, varying the weight",CL:0000057,CL:0000097,interpolate,1.0,50,0.0,0.005691196,0.96634614,0.00012131996,0.003949599
+stack+cosine,"on top of the stack, varying the weight",CL:0000057,CL:0000097,interpolate,1.0,50,0.0,0.005691196,0.96634614,0.00012131996,0.003949599
+stack+softmax,"on top of the stack, varying the weight",CL:0000057,CL:0000097,interpolate,1.0,50,0.0,0.005691196,0.9230769,0.00012131996,0.003949599
+none@k5,"no defence, varying k  (control)",CL:0000057,CL:0000097,interpolate,1.0,5,0.24038462,0.24038462,0.9423077,0.00012131996,0.0
+none@k10,"no defence, varying k  (control)",CL:0000057,CL:0000097,interpolate,1.0,10,0.24038462,0.24038462,0.9543269,0.00012131996,0.0
+none@k20,"no defence, varying k  (control)",CL:0000057,CL:0000097,interpolate,1.0,20,0.24038462,0.24038462,0.9543269,0.00012131996,0.0
+none@k50,"no defence, varying k  (control)",CL:0000057,CL:0000097,interpolate,1.0,50,0.24038462,0.24038462,0.96634614,0.00012131996,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0000057,CL:0000097,relabel,1.0,50,0.0,0.005691196,0.96634614,0.00076835975,0.0039574252
+stack+rank,"on top of the stack, varying the weight",CL:0000057,CL:0000097,relabel,1.0,50,0.0,0.005691196,0.9543269,0.00076835975,0.0039574252
+stack+score,"on top of the stack, varying the weight",CL:0000057,CL:0000097,relabel,1.0,50,0.0,0.005691196,0.9639423,0.00076835975,0.0039574252
+stack+cosine,"on top of the stack, varying the weight",CL:0000057,CL:0000097,relabel,1.0,50,0.0,0.005691196,0.9639423,0.00076835975,0.0039574252
+stack+softmax,"on top of the stack, varying the weight",CL:0000057,CL:0000097,relabel,1.0,50,0.0,0.005691196,0.9230769,0.00076835975,0.0039574252
+none@k5,"no defence, varying k  (control)",CL:0000057,CL:0000097,relabel,1.0,5,6.4903846,6.4903846,0.88461536,0.00076835975,0.0
+none@k10,"no defence, varying k  (control)",CL:0000057,CL:0000097,relabel,1.0,10,1.923077,1.923077,0.93028843,0.00076835975,0.0
+none@k20,"no defence, varying k  (control)",CL:0000057,CL:0000097,relabel,1.0,20,2.4038463,2.4038463,0.9375,0.00076835975,0.0
+none@k50,"no defence, varying k  (control)",CL:0000057,CL:0000097,relabel,1.0,50,17.548077,17.548077,0.78846157,0.00076835975,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0000084,CL:0000235,duplicate,1.0,50,0.0,0.005691196,0.8179036,0.0008896797,0.0039284467
+stack+rank,"on top of the stack, varying the weight",CL:0000084,CL:0000235,duplicate,1.0,50,0.0,0.005691196,0.79265493,0.0008896797,0.0039284467
+stack+score,"on top of the stack, varying the weight",CL:0000084,CL:0000235,duplicate,1.0,50,0.0,0.005691196,0.81216526,0.0008896797,0.0039284467
+stack+cosine,"on top of the stack, varying the weight",CL:0000084,CL:0000235,duplicate,1.0,50,0.0,0.005691196,0.8110176,0.0008896797,0.0039284467
+stack+softmax,"on top of the stack, varying the weight",CL:0000084,CL:0000235,duplicate,1.0,50,0.0,0.005691196,0.75899005,0.0008896797,0.0039284467
+none@k5,"no defence, varying k  (control)",CL:0000084,CL:0000235,duplicate,1.0,5,4.3611326,4.3611326,0.76587605,0.0008896797,0.0
+none@k10,"no defence, varying k  (control)",CL:0000084,CL:0000235,duplicate,1.0,10,5.92961,5.92961,0.7524866,0.0008896797,0.0
+none@k20,"no defence, varying k  (control)",CL:0000084,CL:0000235,duplicate,1.0,20,9.640398,9.640398,0.7234124,0.0008896797,0.0
+none@k50,"no defence, varying k  (control)",CL:0000084,CL:0000235,duplicate,1.0,50,19.625095,19.625095,0.6296863,0.0008896797,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0000084,CL:0000235,flood,1.0,50,0.0,0.005691196,0.83473605,0.025456972,0.0038682872
+stack+rank,"on top of the stack, varying the weight",CL:0000084,CL:0000235,flood,1.0,50,0.0,0.005691196,0.79418516,0.025456972,0.0038682872
+stack+score,"on top of the stack, varying the weight",CL:0000084,CL:0000235,flood,1.0,50,0.0,0.005691196,0.82670236,0.025456972,0.0038682872
+stack+cosine,"on top of the stack, varying the weight",CL:0000084,CL:0000235,flood,1.0,50,0.0,0.005691196,0.82670236,0.025456972,0.0038682872
+stack+softmax,"on top of the stack, varying the weight",CL:0000084,CL:0000235,flood,1.0,50,0.0,0.005691196,0.76472837,0.025456972,0.0038682872
+none@k5,"no defence, varying k  (control)",CL:0000084,CL:0000235,flood,1.0,5,57.192047,57.192047,0.28921193,0.025456972,0.0
+none@k10,"no defence, varying k  (control)",CL:0000084,CL:0000235,flood,1.0,10,62.012245,62.012245,0.26090282,0.025456972,0.0
+none@k20,"no defence, varying k  (control)",CL:0000084,CL:0000235,flood,1.0,20,68.66871,68.66871,0.19051263,0.025456972,0.0
+none@k50,"no defence, varying k  (control)",CL:0000084,CL:0000235,flood,1.0,50,76.052025,76.052025,0.1254782,0.025456972,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0000084,CL:0000235,interpolate,1.0,50,0.0,0.005691196,0.8263198,0.0010312197,0.003916103
+stack+rank,"on top of the stack, varying the weight",CL:0000084,CL:0000235,interpolate,1.0,50,0.0,0.005691196,0.8033665,0.0010312197,0.003916103
+stack+score,"on top of the stack, varying the weight",CL:0000084,CL:0000235,interpolate,1.0,50,0.0,0.005691196,0.8213466,0.0010312197,0.003916103
+stack+cosine,"on top of the stack, varying the weight",CL:0000084,CL:0000235,interpolate,1.0,50,0.0,0.005691196,0.8205815,0.0010312197,0.003916103
+stack+softmax,"on top of the stack, varying the weight",CL:0000084,CL:0000235,interpolate,1.0,50,0.0,0.005691196,0.76511097,0.0010312197,0.003916103
+none@k5,"no defence, varying k  (control)",CL:0000084,CL:0000235,interpolate,1.0,5,0.22953327,0.22953327,0.80527925,0.0010312197,0.0
+none@k10,"no defence, varying k  (control)",CL:0000084,CL:0000235,interpolate,1.0,10,0.26778883,0.26778883,0.8083397,0.0010312197,0.0
+none@k20,"no defence, varying k  (control)",CL:0000084,CL:0000235,interpolate,1.0,20,0.26778883,0.26778883,0.8159908,0.0010312197,0.0
+none@k50,"no defence, varying k  (control)",CL:0000084,CL:0000235,interpolate,1.0,50,0.26778883,0.26778883,0.8152257,0.0010312197,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0000084,CL:0000235,relabel,1.0,50,0.0,0.005691196,0.8316756,0.0067534777,0.0038949042
+stack+rank,"on top of the stack, varying the weight",CL:0000084,CL:0000235,relabel,1.0,50,0.0,0.005691196,0.8006886,0.0067534777,0.0038949042
+stack+score,"on top of the stack, varying the weight",CL:0000084,CL:0000235,relabel,1.0,50,0.0,0.005691196,0.8270849,0.0067534777,0.0038949042
+stack+cosine,"on top of the stack, varying the weight",CL:0000084,CL:0000235,relabel,1.0,50,0.0,0.005691196,0.8263198,0.0067534777,0.0038949042
+stack+softmax,"on top of the stack, varying the weight",CL:0000084,CL:0000235,relabel,1.0,50,0.0,0.005691196,0.7654935,0.0067534777,0.0038949042
+none@k5,"no defence, varying k  (control)",CL:0000084,CL:0000235,relabel,1.0,5,4.2463655,4.2463655,0.7785004,0.0067534777,0.0
+none@k10,"no defence, varying k  (control)",CL:0000084,CL:0000235,relabel,1.0,10,0.8798776,0.8798776,0.8006886,0.0067534777,0.0
+none@k20,"no defence, varying k  (control)",CL:0000084,CL:0000235,relabel,1.0,20,1.606733,1.606733,0.8022188,0.0067534777,0.0
+none@k50,"no defence, varying k  (control)",CL:0000084,CL:0000235,relabel,1.0,50,14.039786,14.039786,0.6817138,0.0067534777,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0000235,CL:0000084,duplicate,1.0,50,0.022764783,0.022764783,0.2859257,0.0015569394,0.0039701513
+stack+rank,"on top of the stack, varying the weight",CL:0000235,CL:0000084,duplicate,1.0,50,0.017073587,0.017073587,0.24637187,0.0015569394,0.0039701513
+stack+score,"on top of the stack, varying the weight",CL:0000235,CL:0000084,duplicate,1.0,50,0.017073587,0.017073587,0.27921006,0.0015569394,0.0039701513
+stack+cosine,"on top of the stack, varying the weight",CL:0000235,CL:0000084,duplicate,1.0,50,0.017073587,0.017073587,0.28017756,0.0015569394,0.0039701513
+stack+softmax,"on top of the stack, varying the weight",CL:0000235,CL:0000084,duplicate,1.0,50,0.011382392,0.011382392,0.22537135,0.0015569394,0.0039701513
+none@k5,"no defence, varying k  (control)",CL:0000235,CL:0000084,duplicate,1.0,5,2.1285071,2.1285071,0.2522338,0.0015569394,0.0
+none@k10,"no defence, varying k  (control)",CL:0000235,CL:0000084,duplicate,1.0,10,3.2724376,3.2724376,0.25098172,0.0015569394,0.0
+none@k20,"no defence, varying k  (control)",CL:0000235,CL:0000084,duplicate,1.0,20,5.0139437,5.0139437,0.24250185,0.0015569394,0.0
+none@k50,"no defence, varying k  (control)",CL:0000235,CL:0000084,duplicate,1.0,50,9.259576,9.259576,0.22685106,0.0015569394,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0000235,CL:0000084,flood,1.0,50,0.022764783,0.022764783,0.26623413,0.03152297,0.003844326
+stack+rank,"on top of the stack, varying the weight",CL:0000235,CL:0000084,flood,1.0,50,0.017073587,0.017073587,0.23066416,0.03152297,0.003844326
+stack+score,"on top of the stack, varying the weight",CL:0000235,CL:0000084,flood,1.0,50,0.017073587,0.017073587,0.2565591,0.03152297,0.003844326
+stack+cosine,"on top of the stack, varying the weight",CL:0000235,CL:0000084,flood,1.0,50,0.017073587,0.017073587,0.25718513,0.03152297,0.003844326
+stack+softmax,"on top of the stack, varying the weight",CL:0000235,CL:0000084,flood,1.0,50,0.011382392,0.011382392,0.21478572,0.03152297,0.003844326
+none@k5,"no defence, varying k  (control)",CL:0000235,CL:0000084,flood,1.0,5,20.044392,20.044392,0.13186501,0.03152297,0.0
+none@k10,"no defence, varying k  (control)",CL:0000235,CL:0000084,flood,1.0,10,30.817825,30.817825,0.079506,0.03152297,0.0
+none@k20,"no defence, varying k  (control)",CL:0000235,CL:0000084,flood,1.0,20,28.780376,28.780376,0.07939218,0.03152297,0.0
+none@k50,"no defence, varying k  (control)",CL:0000235,CL:0000084,flood,1.0,50,33.213818,33.213818,0.056001365,0.03152297,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0000235,CL:0000084,interpolate,1.0,50,0.022764783,0.022764783,0.27738887,0.0017591395,0.003929464
+stack+rank,"on top of the stack, varying the weight",CL:0000235,CL:0000084,interpolate,1.0,50,0.017073587,0.017073587,0.2380058,0.0017591395,0.003929464
+stack+score,"on top of the stack, varying the weight",CL:0000235,CL:0000084,interpolate,1.0,50,0.017073587,0.017073587,0.27158386,0.0017591395,0.003929464
+stack+cosine,"on top of the stack, varying the weight",CL:0000235,CL:0000084,interpolate,1.0,50,0.017073587,0.017073587,0.27260828,0.0017591395,0.003929464
+stack+softmax,"on top of the stack, varying the weight",CL:0000235,CL:0000084,interpolate,1.0,50,0.011382392,0.011382392,0.21370439,0.0017591395,0.003929464
+none@k5,"no defence, varying k  (control)",CL:0000235,CL:0000084,interpolate,1.0,5,0.07967674,0.07967674,0.25729895,0.0017591395,0.0
+none@k10,"no defence, varying k  (control)",CL:0000235,CL:0000084,interpolate,1.0,10,0.06260315,0.06260315,0.26458368,0.0017591395,0.0
+none@k20,"no defence, varying k  (control)",CL:0000235,CL:0000084,interpolate,1.0,20,0.07967674,0.07967674,0.26925048,0.0017591395,0.0
+none@k50,"no defence, varying k  (control)",CL:0000235,CL:0000084,interpolate,1.0,50,0.07398555,0.07398555,0.28234023,0.0017591395,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0000235,CL:0000084,relabel,1.0,50,0.022764783,0.022764783,0.2722668,0.0058637983,0.003914081
+stack+rank,"on top of the stack, varying the weight",CL:0000235,CL:0000084,relabel,1.0,50,0.017073587,0.017073587,0.23379432,0.0058637983,0.003914081
+stack+score,"on top of the stack, varying the weight",CL:0000235,CL:0000084,relabel,1.0,50,0.017073587,0.017073587,0.26401457,0.0058637983,0.003914081
+stack+cosine,"on top of the stack, varying the weight",CL:0000235,CL:0000084,relabel,1.0,50,0.017073587,0.017073587,0.26458368,0.0058637983,0.003914081
+stack+softmax,"on top of the stack, varying the weight",CL:0000235,CL:0000084,relabel,1.0,50,0.011382392,0.011382392,0.21398896,0.0058637983,0.003914081
+none@k5,"no defence, varying k  (control)",CL:0000235,CL:0000084,relabel,1.0,5,13.755619,13.755619,0.13226339,0.0058637983,0.0
+none@k10,"no defence, varying k  (control)",CL:0000235,CL:0000084,relabel,1.0,10,17.18172,17.18172,0.09561209,0.0058637983,0.0
+none@k20,"no defence, varying k  (control)",CL:0000235,CL:0000084,relabel,1.0,20,17.107735,17.107735,0.10067725,0.0058637983,0.0
+none@k50,"no defence, varying k  (control)",CL:0000235,CL:0000084,relabel,1.0,50,22.764782,22.764782,0.051903706,0.0058637983,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0000236,CL:0000235,duplicate,1.0,50,0.16299918,0.16299918,0.797881,0.00040439988,0.0039502787
+stack+rank,"on top of the stack, varying the weight",CL:0000236,CL:0000235,duplicate,1.0,50,0.16299918,0.16299918,0.7881011,0.00040439988,0.0039502787
+stack+score,"on top of the stack, varying the weight",CL:0000236,CL:0000235,duplicate,1.0,50,0.16299918,0.16299918,0.793806,0.00040439988,0.0039502787
+stack+cosine,"on top of the stack, varying the weight",CL:0000236,CL:0000235,duplicate,1.0,50,0.16299918,0.16299918,0.793806,0.00040439988,0.0039502787
+stack+softmax,"on top of the stack, varying the weight",CL:0000236,CL:0000235,duplicate,1.0,50,0.65199673,0.65199673,0.7791361,0.00040439988,0.0039502787
+none@k5,"no defence, varying k  (control)",CL:0000236,CL:0000235,duplicate,1.0,5,6.2754683,6.2754683,0.7538712,0.00040439988,0.0
+none@k10,"no defence, varying k  (control)",CL:0000236,CL:0000235,duplicate,1.0,10,7.660962,7.660962,0.7555012,0.00040439988,0.0
+none@k20,"no defence, varying k  (control)",CL:0000236,CL:0000235,duplicate,1.0,20,13.365933,13.365933,0.6984515,0.00040439988,0.0
+none@k50,"no defence, varying k  (control)",CL:0000236,CL:0000235,duplicate,1.0,50,27.302364,27.302364,0.5680522,0.00040439988,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0000236,CL:0000235,flood,1.0,50,0.16299918,0.16299918,0.8117359,0.0039226785,0.003930071
+stack+rank,"on top of the stack, varying the weight",CL:0000236,CL:0000235,flood,1.0,50,0.16299918,0.16299918,0.79706603,0.0039226785,0.003930071
+stack+score,"on top of the stack, varying the weight",CL:0000236,CL:0000235,flood,1.0,50,0.16299918,0.16299918,0.808476,0.0039226785,0.003930071
+stack+cosine,"on top of the stack, varying the weight",CL:0000236,CL:0000235,flood,1.0,50,0.16299918,0.16299918,0.80766094,0.0039226785,0.003930071
+stack+softmax,"on top of the stack, varying the weight",CL:0000236,CL:0000235,flood,1.0,50,0.65199673,0.65199673,0.78647107,0.0039226785,0.003930071
+none@k5,"no defence, varying k  (control)",CL:0000236,CL:0000235,flood,1.0,5,35.53382,35.53382,0.4800326,0.0039226785,0.0
+none@k10,"no defence, varying k  (control)",CL:0000236,CL:0000235,flood,1.0,10,52.567238,52.567238,0.3374083,0.0039226785,0.0
+none@k20,"no defence, varying k  (control)",CL:0000236,CL:0000235,flood,1.0,20,67.97066,67.97066,0.200489,0.0039226785,0.0
+none@k50,"no defence, varying k  (control)",CL:0000236,CL:0000235,flood,1.0,50,68.45966,68.45966,0.19152404,0.0039226785,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0000236,CL:0000235,interpolate,1.0,50,0.16299918,0.16299918,0.804401,0.0044888384,0.0039175586
+stack+rank,"on top of the stack, varying the weight",CL:0000236,CL:0000235,interpolate,1.0,50,0.16299918,0.16299918,0.804401,0.0044888384,0.0039175586
+stack+score,"on top of the stack, varying the weight",CL:0000236,CL:0000235,interpolate,1.0,50,0.16299918,0.16299918,0.802771,0.0044888384,0.0039175586
+stack+cosine,"on top of the stack, varying the weight",CL:0000236,CL:0000235,interpolate,1.0,50,0.16299918,0.16299918,0.801141,0.0044888384,0.0039175586
+stack+softmax,"on top of the stack, varying the weight",CL:0000236,CL:0000235,interpolate,1.0,50,0.65199673,0.65199673,0.79136103,0.0044888384,0.0039175586
+none@k5,"no defence, varying k  (control)",CL:0000236,CL:0000235,interpolate,1.0,5,2.200489,2.200489,0.79054606,0.0044888384,0.0
+none@k10,"no defence, varying k  (control)",CL:0000236,CL:0000235,interpolate,1.0,10,1.0594947,1.0594947,0.8215159,0.0044888384,0.0
+none@k20,"no defence, varying k  (control)",CL:0000236,CL:0000235,interpolate,1.0,20,1.0594947,1.0594947,0.8141809,0.0044888384,0.0
+none@k50,"no defence, varying k  (control)",CL:0000236,CL:0000235,interpolate,1.0,50,1.1409943,1.1409943,0.801956,0.0044888384,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0000236,CL:0000235,relabel,1.0,50,0.16299918,0.16299918,0.81336594,0.0010514397,0.00394309
+stack+rank,"on top of the stack, varying the weight",CL:0000236,CL:0000235,relabel,1.0,50,0.16299918,0.16299918,0.80766094,0.0010514397,0.00394309
+stack+score,"on top of the stack, varying the weight",CL:0000236,CL:0000235,relabel,1.0,50,0.16299918,0.16299918,0.81336594,0.0010514397,0.00394309
+stack+cosine,"on top of the stack, varying the weight",CL:0000236,CL:0000235,relabel,1.0,50,0.16299918,0.16299918,0.81336594,0.0010514397,0.00394309
+stack+softmax,"on top of the stack, varying the weight",CL:0000236,CL:0000235,relabel,1.0,50,0.65199673,0.65199673,0.79054606,0.0010514397,0.00394309
+none@k5,"no defence, varying k  (control)",CL:0000236,CL:0000235,relabel,1.0,5,26.079868,26.079868,0.5753871,0.0010514397,0.0
+none@k10,"no defence, varying k  (control)",CL:0000236,CL:0000235,relabel,1.0,10,63.40668,63.40668,0.18500407,0.0010514397,0.0
+none@k20,"no defence, varying k  (control)",CL:0000236,CL:0000235,relabel,1.0,20,59.7392,59.7392,0.23390383,0.0010514397,0.0
+none@k50,"no defence, varying k  (control)",CL:0000236,CL:0000235,relabel,1.0,50,65.85167,65.85167,0.1589242,0.0010514397,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0000623,CL:0000084,duplicate,1.0,50,2.6910658,2.6910658,0.89504844,0.0006268198,0.0039425013
+stack+rank,"on top of the stack, varying the weight",CL:0000623,CL:0000084,duplicate,1.0,50,1.5608181,1.5608181,0.8918192,0.0006268198,0.0039425013
+stack+score,"on top of the stack, varying the weight",CL:0000623,CL:0000084,duplicate,1.0,50,1.7222819,1.7222819,0.88751346,0.0006268198,0.0039425013
+stack+cosine,"on top of the stack, varying the weight",CL:0000623,CL:0000084,duplicate,1.0,50,1.7222819,1.7222819,0.88751346,0.0006268198,0.0039425013
+stack+softmax,"on top of the stack, varying the weight",CL:0000623,CL:0000084,duplicate,1.0,50,2.0990312,2.0990312,0.87029064,0.0006268198,0.0039425013
+none@k5,"no defence, varying k  (control)",CL:0000623,CL:0000084,duplicate,1.0,5,15.285254,15.285254,0.7782562,0.0006268198,0.0
+none@k10,"no defence, varying k  (control)",CL:0000623,CL:0000084,duplicate,1.0,10,21.044134,21.044134,0.7249731,0.0006268198,0.0
+none@k20,"no defence, varying k  (control)",CL:0000623,CL:0000084,duplicate,1.0,20,26.69537,26.69537,0.67007536,0.0006268198,0.0
+none@k50,"no defence, varying k  (control)",CL:0000623,CL:0000084,duplicate,1.0,50,38.213135,38.213135,0.55812705,0.0006268198,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0000623,CL:0000084,flood,1.0,50,0.43057048,0.43057048,0.919268,0.0052774185,0.0039311373
+stack+rank,"on top of the stack, varying the weight",CL:0000623,CL:0000084,flood,1.0,50,0.59203446,0.59203446,0.9214209,0.0052774185,0.0039311373
+stack+score,"on top of the stack, varying the weight",CL:0000623,CL:0000084,flood,1.0,50,0.3767492,0.3767492,0.91711515,0.0052774185,0.0039311373
+stack+cosine,"on top of the stack, varying the weight",CL:0000623,CL:0000084,flood,1.0,50,0.3767492,0.3767492,0.916577,0.0052774185,0.0039311373
+stack+softmax,"on top of the stack, varying the weight",CL:0000623,CL:0000084,flood,1.0,50,1.022605,1.022605,0.8891281,0.0052774185,0.0039311373
+none@k5,"no defence, varying k  (control)",CL:0000623,CL:0000084,flood,1.0,5,38.69752,38.69752,0.55166847,0.0052774185,0.0
+none@k10,"no defence, varying k  (control)",CL:0000623,CL:0000084,flood,1.0,10,58.23466,58.23466,0.36167923,0.0052774185,0.0
+none@k20,"no defence, varying k  (control)",CL:0000623,CL:0000084,flood,1.0,20,78.0409,78.0409,0.17384285,0.0052774185,0.0
+none@k50,"no defence, varying k  (control)",CL:0000623,CL:0000084,flood,1.0,50,77.98708,77.98708,0.1803014,0.0052774185,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0000623,CL:0000084,interpolate,1.0,50,0.6996771,0.6996771,0.91711515,0.005459398,0.0039140717
+stack+rank,"on top of the stack, varying the weight",CL:0000623,CL:0000084,interpolate,1.0,50,0.53821313,0.53821313,0.92787945,0.005459398,0.0039140717
+stack+score,"on top of the stack, varying the weight",CL:0000623,CL:0000084,interpolate,1.0,50,0.53821313,0.53821313,0.9203445,0.005459398,0.0039140717
+stack+cosine,"on top of the stack, varying the weight",CL:0000623,CL:0000084,interpolate,1.0,50,0.53821313,0.53821313,0.919268,0.005459398,0.0039140717
+stack+softmax,"on top of the stack, varying the weight",CL:0000623,CL:0000084,interpolate,1.0,50,0.9149623,0.9149623,0.8972013,0.005459398,0.0039140717
+none@k5,"no defence, varying k  (control)",CL:0000623,CL:0000084,interpolate,1.0,5,3.7136707,3.7136707,0.89504844,0.005459398,0.0
+none@k10,"no defence, varying k  (control)",CL:0000623,CL:0000084,interpolate,1.0,10,3.3369212,3.3369212,0.9058127,0.005459398,0.0
+none@k20,"no defence, varying k  (control)",CL:0000623,CL:0000084,interpolate,1.0,20,3.1754575,3.1754575,0.9047363,0.005459398,0.0
+none@k50,"no defence, varying k  (control)",CL:0000623,CL:0000084,interpolate,1.0,50,3.4445639,3.4445639,0.89881593,0.005459398,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0000623,CL:0000084,relabel,1.0,50,0.4843918,0.4843918,0.92787945,0.0022848593,0.003936716
+stack+rank,"on top of the stack, varying the weight",CL:0000623,CL:0000084,relabel,1.0,50,0.53821313,0.53821313,0.9284177,0.0022848593,0.003936716
+stack+score,"on top of the stack, varying the weight",CL:0000623,CL:0000084,relabel,1.0,50,0.4843918,0.4843918,0.9273412,0.0022848593,0.003936716
+stack+cosine,"on top of the stack, varying the weight",CL:0000623,CL:0000084,relabel,1.0,50,0.4843918,0.4843918,0.9273412,0.0022848593,0.003936716
+stack+softmax,"on top of the stack, varying the weight",CL:0000623,CL:0000084,relabel,1.0,50,1.3455329,1.3455329,0.89128095,0.0022848593,0.003936716
+none@k5,"no defence, varying k  (control)",CL:0000623,CL:0000084,relabel,1.0,5,27.717978,27.717978,0.65662,0.0022848593,0.0
+none@k10,"no defence, varying k  (control)",CL:0000623,CL:0000084,relabel,1.0,10,79.224976,79.224976,0.14208826,0.0022848593,0.0
+none@k20,"no defence, varying k  (control)",CL:0000623,CL:0000084,relabel,1.0,20,75.080734,75.080734,0.18783638,0.0022848593,0.0
+none@k50,"no defence, varying k  (control)",CL:0000623,CL:0000084,relabel,1.0,50,84.66093,84.66093,0.08880517,0.0022848593,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0001065,CL:0000235,duplicate,1.0,50,0.51282054,0.51282054,0.092307694,0.0,0.00395052
+stack+rank,"on top of the stack, varying the weight",CL:0001065,CL:0000235,duplicate,1.0,50,0.0,0.005691196,0.092307694,0.0,0.00395052
+stack+score,"on top of the stack, varying the weight",CL:0001065,CL:0000235,duplicate,1.0,50,0.51282054,0.51282054,0.0974359,0.0,0.00395052
+stack+cosine,"on top of the stack, varying the weight",CL:0001065,CL:0000235,duplicate,1.0,50,0.51282054,0.51282054,0.0974359,0.0,0.00395052
+stack+softmax,"on top of the stack, varying the weight",CL:0001065,CL:0000235,duplicate,1.0,50,0.0,0.005691196,0.082051285,0.0,0.00395052
+none@k5,"no defence, varying k  (control)",CL:0001065,CL:0000235,duplicate,1.0,5,0.0,0.005691196,0.06666667,0.0,0.0
+none@k10,"no defence, varying k  (control)",CL:0001065,CL:0000235,duplicate,1.0,10,1.0256411,1.0256411,0.082051285,0.0,0.0
+none@k20,"no defence, varying k  (control)",CL:0001065,CL:0000235,duplicate,1.0,20,1.0256411,1.0256411,0.071794875,0.0,0.0
+none@k50,"no defence, varying k  (control)",CL:0001065,CL:0000235,duplicate,1.0,50,1.0256411,1.0256411,0.092307694,0.0,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0001065,CL:0000235,flood,1.0,50,0.51282054,0.51282054,0.07692308,0.00054593984,0.0039405213
+stack+rank,"on top of the stack, varying the weight",CL:0001065,CL:0000235,flood,1.0,50,0.0,0.005691196,0.08717949,0.00054593984,0.0039405213
+stack+score,"on top of the stack, varying the weight",CL:0001065,CL:0000235,flood,1.0,50,0.51282054,0.51282054,0.092307694,0.00054593984,0.0039405213
+stack+cosine,"on top of the stack, varying the weight",CL:0001065,CL:0000235,flood,1.0,50,0.51282054,0.51282054,0.092307694,0.00054593984,0.0039405213
+stack+softmax,"on top of the stack, varying the weight",CL:0001065,CL:0000235,flood,1.0,50,0.0,0.005691196,0.082051285,0.00054593984,0.0039405213
+none@k5,"no defence, varying k  (control)",CL:0001065,CL:0000235,flood,1.0,5,10.769231,10.769231,0.010256411,0.00054593984,0.0
+none@k10,"no defence, varying k  (control)",CL:0001065,CL:0000235,flood,1.0,10,12.820514,12.820514,0.015384615,0.00054593984,0.0
+none@k20,"no defence, varying k  (control)",CL:0001065,CL:0000235,flood,1.0,20,12.820514,12.820514,0.020512821,0.00054593984,0.0
+none@k50,"no defence, varying k  (control)",CL:0001065,CL:0000235,flood,1.0,50,16.410257,16.410257,0.015384615,0.00054593984,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0001065,CL:0000235,interpolate,1.0,50,0.0,0.005691196,0.092307694,0.00080879976,0.0039224136
+stack+rank,"on top of the stack, varying the weight",CL:0001065,CL:0000235,interpolate,1.0,50,0.0,0.005691196,0.092307694,0.00080879976,0.0039224136
+stack+score,"on top of the stack, varying the weight",CL:0001065,CL:0000235,interpolate,1.0,50,0.0,0.005691196,0.0974359,0.00080879976,0.0039224136
+stack+cosine,"on top of the stack, varying the weight",CL:0001065,CL:0000235,interpolate,1.0,50,0.0,0.005691196,0.0974359,0.00080879976,0.0039224136
+stack+softmax,"on top of the stack, varying the weight",CL:0001065,CL:0000235,interpolate,1.0,50,0.0,0.005691196,0.082051285,0.00080879976,0.0039224136
+none@k5,"no defence, varying k  (control)",CL:0001065,CL:0000235,interpolate,1.0,5,0.51282054,0.51282054,0.06666667,0.00080879976,0.0
+none@k10,"no defence, varying k  (control)",CL:0001065,CL:0000235,interpolate,1.0,10,1.5384616,1.5384616,0.082051285,0.00080879976,0.0
+none@k20,"no defence, varying k  (control)",CL:0001065,CL:0000235,interpolate,1.0,20,1.0256411,1.0256411,0.071794875,0.00080879976,0.0
+none@k50,"no defence, varying k  (control)",CL:0001065,CL:0000235,interpolate,1.0,50,1.0256411,1.0256411,0.092307694,0.00080879976,0.0
+stack+uniform,"on top of the stack, varying the weight",CL:0001065,CL:0000235,relabel,1.0,50,0.51282054,0.51282054,0.07692308,4.0439987e-05,0.003944442
+stack+rank,"on top of the stack, varying the weight",CL:0001065,CL:0000235,relabel,1.0,50,0.0,0.005691196,0.08717949,4.0439987e-05,0.003944442
+stack+score,"on top of the stack, varying the weight",CL:0001065,CL:0000235,relabel,1.0,50,0.51282054,0.51282054,0.092307694,4.0439987e-05,0.003944442
+stack+cosine,"on top of the stack, varying the weight",CL:0001065,CL:0000235,relabel,1.0,50,0.51282054,0.51282054,0.092307694,4.0439987e-05,0.003944442
+stack+softmax,"on top of the stack, varying the weight",CL:0001065,CL:0000235,relabel,1.0,50,0.0,0.005691196,0.082051285,4.0439987e-05,0.003944442
+none@k5,"no defence, varying k  (control)",CL:0001065,CL:0000235,relabel,1.0,5,5.1282053,5.1282053,0.025641026,4.0439987e-05,0.0
+none@k10,"no defence, varying k  (control)",CL:0001065,CL:0000235,relabel,1.0,10,9.230769,9.230769,0.020512821,4.0439987e-05,0.0
+none@k20,"no defence, varying k  (control)",CL:0001065,CL:0000235,relabel,1.0,20,7.1794877,7.1794877,0.03076923,4.0439987e-05,0.0
+none@k50,"no defence, varying k  (control)",CL:0001065,CL:0000235,relabel,1.0,50,10.256411,10.256411,0.0051282053,4.0439987e-05,0.0

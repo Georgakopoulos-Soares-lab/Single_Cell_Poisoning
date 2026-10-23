@@ -1,0 +1,235 @@
+metric,type,rate,value,lo,hi
+net attack success,shifted/keep/hub,0.002,0.0,0.0,0.0
+net attack success,shifted/keep/hub,0.005,0.0,0.0,0.0
+net attack success,shifted/keep/hub,0.01,0.0,0.0,0.0
+net attack success,shifted/keep/hub,0.025,0.0,0.0,0.0
+net attack success,shifted/keep/hub,0.05,0.0,0.0,0.0
+net attack success,shifted/keep/hub,0.1,0.0,0.0,0.0
+net attack success,shifted/keep/hub,0.25,0.0,0.0,0.0
+net attack success,shifted/keep/hub,0.5,0.0,0.0,0.0
+net attack success,shifted/keep/hub,0.7,0.0,0.0,0.0
+net attack success,shifted/keep/hub,0.8,0.0,0.0,0.0
+net attack success,shifted/keep/hub,0.85,0.0,0.0,0.0
+net attack success,shifted/keep/hub,0.9,0.0,0.0,0.0
+net attack success,shifted/keep/hub,1.0,0.0,0.0,0.0
+net attack success,shifted/keep/uniform,0.002,0.0,0.0,0.0
+net attack success,shifted/keep/uniform,0.005,0.0,0.0,0.0
+net attack success,shifted/keep/uniform,0.01,0.0,0.0,0.0
+net attack success,shifted/keep/uniform,0.025,0.0,0.0,0.0
+net attack success,shifted/keep/uniform,0.05,0.0,0.0,0.0
+net attack success,shifted/keep/uniform,0.1,0.0,0.0,0.0
+net attack success,shifted/keep/uniform,0.25,0.0,0.0,0.0
+net attack success,shifted/keep/uniform,0.5,0.0,0.0,0.0
+net attack success,shifted/keep/uniform,0.7,0.0,0.0,0.0
+net attack success,shifted/keep/uniform,0.8,0.0,0.0,0.0
+net attack success,shifted/keep/uniform,0.85,0.0,0.0,0.0
+net attack success,shifted/keep/uniform,0.9,0.0,0.0,0.0
+net attack success,shifted/keep/uniform,1.0,0.0,0.0,0.0
+net attack success,shifted/relabel/hub,0.002,0.0,0.0,0.0
+net attack success,shifted/relabel/hub,0.005,0.0,0.0,0.0013939615455456078
+net attack success,shifted/relabel/hub,0.01,0.0,0.0,0.0015133274428080767
+net attack success,shifted/relabel/hub,0.025,0.0,0.0,0.002248517470434308
+net attack success,shifted/relabel/hub,0.05,0.0,0.0,0.002248517470434308
+net attack success,shifted/relabel/hub,0.1,0.0,0.0,0.002248517470434308
+net attack success,shifted/relabel/hub,0.25,0.0,0.0,0.002248517470434308
+net attack success,shifted/relabel/hub,0.5,0.0,0.0,0.002248517470434308
+net attack success,shifted/relabel/hub,0.7,0.0,0.0,0.002248517470434308
+net attack success,shifted/relabel/hub,0.8,0.0,0.0,0.002248517470434308
+net attack success,shifted/relabel/hub,0.85,0.0,0.0,0.002248517470434308
+net attack success,shifted/relabel/hub,0.9,0.0,0.0,0.002248517470434308
+net attack success,shifted/relabel/hub,1.0,0.0,0.0,0.002248517470434308
+net attack success,shifted/relabel/uniform,0.002,0.0,0.0,0.0
+net attack success,shifted/relabel/uniform,0.005,0.0,0.0,0.0
+net attack success,shifted/relabel/uniform,0.01,0.0,0.0,0.0
+net attack success,shifted/relabel/uniform,0.025,0.0,0.0,0.0
+net attack success,shifted/relabel/uniform,0.05,0.0,0.0,0.0002869166055461392
+net attack success,shifted/relabel/uniform,0.1,0.0,0.0,0.0005292872374411672
+net attack success,shifted/relabel/uniform,0.25,0.0,0.0,0.0005292872374411672
+net attack success,shifted/relabel/uniform,0.5,0.0,0.0,0.002248517470434308
+net attack success,shifted/relabel/uniform,0.7,0.0,0.0,0.002248517470434308
+net attack success,shifted/relabel/uniform,0.8,0.0,0.0,0.002248517470434308
+net attack success,shifted/relabel/uniform,0.85,0.0,0.0,0.002248517470434308
+net attack success,shifted/relabel/uniform,0.9,0.0,0.0,0.002248517470434308
+net attack success,shifted/relabel/uniform,1.0,0.0,0.0,0.002248517470434308
+net attack success,synthesised/relabel/hub,0.002,0.0,0.0,0.0
+net attack success,synthesised/relabel/hub,0.005,0.0,0.0,0.002357776276767254
+net attack success,synthesised/relabel/hub,0.01,0.0,0.0,0.01600246294401586
+net attack success,synthesised/relabel/hub,0.025,0.016397849,0.0019697590032592416,0.10207843221724033
+net attack success,synthesised/relabel/hub,0.05,0.04274892,0.011787546100094914,0.20989343151450157
+net attack success,synthesised/relabel/hub,0.1,0.14921236,0.03479528333991766,0.3618423491716385
+net attack success,synthesised/relabel/hub,0.25,0.31510383,0.06462697871029377,0.4334287568926811
+net attack success,synthesised/relabel/hub,0.5,0.38642532,0.10305627807974815,0.537837341427803
+net attack success,synthesised/relabel/hub,0.7,0.39353448,0.13441438227891922,0.5827015191316605
+net attack success,synthesised/relabel/hub,0.8,0.43418643,0.12042047083377838,0.5893969386816025
+net attack success,synthesised/relabel/hub,0.85,0.46368963,0.12141192145645618,0.6370331346988678
+net attack success,synthesised/relabel/hub,0.9,0.40336484,0.12501095235347748,0.6161516159772873
+net attack success,synthesised/relabel/hub,1.0,0.39353913,0.1278701275587082,0.6463524103164673
+net attack success,synthesised/relabel/uniform,0.002,0.0,0.0,0.0
+net attack success,synthesised/relabel/uniform,0.005,0.0,0.0,0.0
+net attack success,synthesised/relabel/uniform,0.01,0.0,0.0,0.0037390367942862213
+net attack success,synthesised/relabel/uniform,0.025,0.0016478548,0.0,0.024277771823108196
+net attack success,synthesised/relabel/uniform,0.05,0.009294872,0.0,0.06483901292085648
+net attack success,synthesised/relabel/uniform,0.1,0.03759524,0.009589063003659248,0.12810607440769672
+net attack success,synthesised/relabel/uniform,0.25,0.120971136,0.04813794791698456,0.2799428477883339
+net attack success,synthesised/relabel/uniform,0.5,0.2537242,0.11039826832711697,0.4028288424015045
+net attack success,synthesised/relabel/uniform,0.7,0.32165062,0.11724250577390194,0.49844542890787125
+net attack success,synthesised/relabel/uniform,0.8,0.308008,0.12042047083377838,0.5305968821048737
+net attack success,synthesised/relabel/uniform,0.85,0.43260407,0.1252580750733614,0.5942107141017914
+net attack success,synthesised/relabel/uniform,0.9,0.38723582,0.1232208963483572,0.6068775057792664
+net attack success,synthesised/relabel/uniform,1.0,0.38895068,0.1482500545680523,0.6413708478212357
+poison reached the top-50,shifted/keep/hub,0.002,2.845598e-05,0.0,0.003004807746037841
+poison reached the top-50,shifted/keep/hub,0.005,2.845598e-05,0.0,0.003004807746037841
+poison reached the top-50,shifted/keep/hub,0.01,2.845598e-05,0.0,0.004447115527000278
+poison reached the top-50,shifted/keep/hub,0.025,0.00040977012,0.0,0.005369666847400367
+poison reached the top-50,shifted/keep/hub,0.05,0.0004382261,0.0,0.005369666847400367
+poison reached the top-50,shifted/keep/hub,0.1,0.00046668208,0.0,0.005369666847400367
+poison reached the top-50,shifted/keep/hub,0.25,0.00046668208,0.0,0.005369666847400367
+poison reached the top-50,shifted/keep/hub,0.5,0.00052359403,0.0,0.005369666847400367
+poison reached the top-50,shifted/keep/hub,0.7,0.00052359403,0.0,0.005369666847400367
+poison reached the top-50,shifted/keep/hub,0.8,0.00049513805,0.0,0.005369666847400367
+poison reached the top-50,shifted/keep/hub,0.85,0.0011179692,0.0,0.00603800849057734
+poison reached the top-50,shifted/keep/hub,0.9,0.0011179692,0.0,0.00603800849057734
+poison reached the top-50,shifted/keep/hub,1.0,0.0011179692,0.0,0.00603800849057734
+poison reached the top-50,shifted/keep/uniform,0.002,0.0,0.0,0.000624926105956547
+poison reached the top-50,shifted/keep/uniform,0.005,0.0,0.0,0.0007502622902393341
+poison reached the top-50,shifted/keep/uniform,0.01,0.0,0.0,0.0007502622902393341
+poison reached the top-50,shifted/keep/uniform,0.025,0.0,0.0,0.002248517470434308
+poison reached the top-50,shifted/keep/uniform,0.05,0.0,0.0,0.0042684433865360916
+poison reached the top-50,shifted/keep/uniform,0.1,5.691196e-05,0.0,0.004447115527000278
+poison reached the top-50,shifted/keep/uniform,0.25,0.0,0.0,0.002385635278187692
+poison reached the top-50,shifted/keep/uniform,0.5,0.0001422799,0.0,0.0049113063723780215
+poison reached the top-50,shifted/keep/uniform,0.7,0.00052359403,0.0,0.005369666847400367
+poison reached the top-50,shifted/keep/uniform,0.8,0.00052359403,0.0,0.005369666847400367
+poison reached the top-50,shifted/keep/uniform,0.85,0.00017073588,0.0,0.0049113063723780215
+poison reached the top-50,shifted/keep/uniform,0.9,0.00052359403,0.0,0.005369666847400367
+poison reached the top-50,shifted/keep/uniform,1.0,0.0011179692,0.0,0.00603800849057734
+poison reached the top-50,shifted/relabel/hub,0.002,2.845598e-05,0.0,0.003004807746037841
+poison reached the top-50,shifted/relabel/hub,0.005,2.845598e-05,0.0,0.003004807746037841
+poison reached the top-50,shifted/relabel/hub,0.01,2.845598e-05,0.0,0.004447115527000278
+poison reached the top-50,shifted/relabel/hub,0.025,0.00040977012,0.0,0.005369666847400367
+poison reached the top-50,shifted/relabel/hub,0.05,0.0004382261,0.0,0.005369666847400367
+poison reached the top-50,shifted/relabel/hub,0.1,0.00046668208,0.0,0.005369666847400367
+poison reached the top-50,shifted/relabel/hub,0.25,0.00046668208,0.0,0.005369666847400367
+poison reached the top-50,shifted/relabel/hub,0.5,0.0001422799,0.0,0.0049113063723780215
+poison reached the top-50,shifted/relabel/hub,0.7,0.00049513805,0.0,0.005369666847400367
+poison reached the top-50,shifted/relabel/hub,0.8,0.00049513805,0.0,0.005369666847400367
+poison reached the top-50,shifted/relabel/hub,0.85,0.0011179692,0.0,0.00603800849057734
+poison reached the top-50,shifted/relabel/hub,0.9,0.0011179692,0.0,0.00603800849057734
+poison reached the top-50,shifted/relabel/hub,1.0,0.0011179692,0.0,0.00603800849057734
+poison reached the top-50,shifted/relabel/uniform,0.002,0.0,0.0,0.000624926105956547
+poison reached the top-50,shifted/relabel/uniform,0.005,0.0,0.0,0.0007502622902393341
+poison reached the top-50,shifted/relabel/uniform,0.01,0.0,0.0,0.0007502622902393341
+poison reached the top-50,shifted/relabel/uniform,0.025,0.0,0.0,0.002248517470434308
+poison reached the top-50,shifted/relabel/uniform,0.05,0.0,0.0,0.0042684433865360916
+poison reached the top-50,shifted/relabel/uniform,0.1,5.691196e-05,0.0,0.004447115527000278
+poison reached the top-50,shifted/relabel/uniform,0.25,0.0,0.0,0.002385635278187692
+poison reached the top-50,shifted/relabel/uniform,0.5,0.0001422799,0.0,0.0049113063723780215
+poison reached the top-50,shifted/relabel/uniform,0.7,0.0,0.0,0.0037789276684634387
+poison reached the top-50,shifted/relabel/uniform,0.8,0.00052359403,0.0,0.005369666847400367
+poison reached the top-50,shifted/relabel/uniform,0.85,0.00017073588,0.0,0.0049113063723780215
+poison reached the top-50,shifted/relabel/uniform,0.9,0.00052359403,0.0,0.005369666847400367
+poison reached the top-50,shifted/relabel/uniform,1.0,0.00049513805,0.0,0.00603800849057734
+poison reached the top-50,synthesised/relabel/hub,0.002,0.0872269,0.021433002781122923,0.17126045376062393
+poison reached the top-50,synthesised/relabel/hub,0.005,0.19104531,0.07852564379572868,0.35803405940532684
+poison reached the top-50,synthesised/relabel/hub,0.01,0.29240748,0.09798499383032322,0.47198008745908737
+poison reached the top-50,synthesised/relabel/hub,0.025,0.40932578,0.1579965204000473,0.5582910031080246
+poison reached the top-50,synthesised/relabel/hub,0.05,0.42738387,0.19300847873091698,0.6120095700025558
+poison reached the top-50,synthesised/relabel/hub,0.1,0.529196,0.23336663097143173,0.6747959703207016
+poison reached the top-50,synthesised/relabel/hub,0.25,0.48545587,0.2236742451786995,0.6483033001422882
+poison reached the top-50,synthesised/relabel/hub,0.5,0.48663127,0.2681877538561821,0.6447248607873917
+poison reached the top-50,synthesised/relabel/hub,0.7,0.4861145,0.20509956404566765,0.7036110013723373
+poison reached the top-50,synthesised/relabel/hub,0.8,0.49596012,0.23083779588341713,0.7219082713127136
+poison reached the top-50,synthesised/relabel/hub,0.85,0.5423236,0.2858050987124443,0.704742431640625
+poison reached the top-50,synthesised/relabel/hub,0.9,0.49918342,0.22829922288656235,0.7233428508043289
+poison reached the top-50,synthesised/relabel/hub,1.0,0.52689075,0.29209038615226746,0.7158410400152206
+poison reached the top-50,synthesised/relabel/uniform,0.002,0.073927745,0.021433002781122923,0.1443946696817875
+poison reached the top-50,synthesised/relabel/uniform,0.005,0.1599026,0.07366625219583511,0.30286550521850586
+poison reached the top-50,synthesised/relabel/uniform,0.01,0.1841133,0.07844148389995098,0.34549765288829803
+poison reached the top-50,synthesised/relabel/uniform,0.025,0.2827073,0.09741052612662315,0.4578116834163666
+poison reached the top-50,synthesised/relabel/uniform,0.05,0.3013044,0.14004259929060936,0.4537941515445709
+poison reached the top-50,synthesised/relabel/uniform,0.1,0.31884333,0.1956912726163864,0.574773371219635
+poison reached the top-50,synthesised/relabel/uniform,0.25,0.32996798,0.1905815228819847,0.5081275105476379
+poison reached the top-50,synthesised/relabel/uniform,0.5,0.3945365,0.24538787826895714,0.5939288139343262
+poison reached the top-50,synthesised/relabel/uniform,0.7,0.42232493,0.1780952401459217,0.6157551407814026
+poison reached the top-50,synthesised/relabel/uniform,0.8,0.44240987,0.23200329765677452,0.664185181260109
+poison reached the top-50,synthesised/relabel/uniform,0.85,0.5256827,0.2822359949350357,0.6807160377502441
+poison reached the top-50,synthesised/relabel/uniform,0.9,0.45540565,0.2279934175312519,0.7153579443693161
+poison reached the top-50,synthesised/relabel/uniform,1.0,0.53931904,0.2900070548057556,0.7180465310811996
+within-celltype accuracy,shifted/keep/hub,0.002,0.33391184,0.09271131455898285,0.7722101211547852
+within-celltype accuracy,shifted/keep/hub,0.005,0.29725367,0.07380629144608974,0.7190540432929993
+within-celltype accuracy,shifted/keep/hub,0.01,0.24750334,0.05890365969389677,0.6355428397655487
+within-celltype accuracy,shifted/keep/hub,0.025,0.1940525,0.04424917418509722,0.5224915444850922
+within-celltype accuracy,shifted/keep/hub,0.05,0.14611498,0.04370798543095589,0.4274357631802559
+within-celltype accuracy,shifted/keep/hub,0.1,0.13384485,0.0335510135628283,0.4188898056745529
+within-celltype accuracy,shifted/keep/hub,0.25,0.1203168,0.014115310739725828,0.2983687072992325
+within-celltype accuracy,shifted/keep/hub,0.5,0.09955234,0.008421165402978659,0.21753520518541336
+within-celltype accuracy,shifted/keep/hub,0.7,0.061285716,0.006510194041766226,0.1996813714504242
+within-celltype accuracy,shifted/keep/hub,0.8,0.059761904,0.004842101596295834,0.18443287536501884
+within-celltype accuracy,shifted/keep/hub,0.85,0.045357145,0.0031079190084710717,0.1640617996454239
+within-celltype accuracy,shifted/keep/hub,0.9,0.023960166,0.0027736800257116556,0.12156757898628712
+within-celltype accuracy,shifted/keep/hub,1.0,0.0,0.0,0.002248517470434308
+within-celltype accuracy,shifted/keep/uniform,0.002,0.36076605,0.19495652988553047,0.8148896992206573
+within-celltype accuracy,shifted/keep/uniform,0.005,0.3593655,0.19279202818870544,0.8136214315891266
+within-celltype accuracy,shifted/keep/uniform,0.01,0.3593655,0.18961405754089355,0.8137794137001038
+within-celltype accuracy,shifted/keep/uniform,0.025,0.3593655,0.18727988004684448,0.8090307861566544
+within-celltype accuracy,shifted/keep/uniform,0.05,0.3551638,0.18297380954027176,0.802523210644722
+within-celltype accuracy,shifted/keep/uniform,0.1,0.3487395,0.18297380954027176,0.7981446385383606
+within-celltype accuracy,shifted/keep/uniform,0.25,0.3244428,0.12909479811787605,0.7714675217866898
+within-celltype accuracy,shifted/keep/uniform,0.5,0.2575234,0.08118821680545807,0.7047997713088989
+within-celltype accuracy,shifted/keep/uniform,0.7,0.19861333,0.04565346520394087,0.6101029515266418
+within-celltype accuracy,shifted/keep/uniform,0.8,0.16668253,0.03190993191674352,0.5349393635988235
+within-celltype accuracy,shifted/keep/uniform,0.85,0.11660532,0.028602323960512877,0.45187532156705856
+within-celltype accuracy,shifted/keep/uniform,0.9,0.09345238,0.02133191516622901,0.36513952910900116
+within-celltype accuracy,shifted/keep/uniform,1.0,0.0,0.0,0.002248517470434308
+within-celltype accuracy,shifted/relabel/hub,0.002,0.33251128,0.09271131455898285,0.77139513194561
+within-celltype accuracy,shifted/relabel/hub,0.005,0.29305202,0.07203799672424793,0.7113653123378754
+within-celltype accuracy,shifted/relabel/hub,0.01,0.2489039,0.06003731582313776,0.6268430650234222
+within-celltype accuracy,shifted/relabel/hub,0.025,0.18663988,0.04544143844395876,0.5125999748706818
+within-celltype accuracy,shifted/relabel/hub,0.05,0.1483376,0.04296073317527771,0.4153144508600235
+within-celltype accuracy,shifted/relabel/hub,0.1,0.13384485,0.02968834200873971,0.40797948837280273
+within-celltype accuracy,shifted/relabel/hub,0.25,0.1203168,0.017222137190401554,0.28937047719955444
+within-celltype accuracy,shifted/relabel/hub,0.5,0.103684574,0.0088742864318192,0.21471228078007698
+within-celltype accuracy,shifted/relabel/hub,0.7,0.061666667,0.004717043717391789,0.1979331187903881
+within-celltype accuracy,shifted/relabel/hub,0.8,0.05957143,0.003117769956588745,0.18378088623285294
+within-celltype accuracy,shifted/relabel/hub,0.85,0.041,0.00240763887995854,0.15937399491667747
+within-celltype accuracy,shifted/relabel/hub,0.9,0.022435898,0.0012135393335483968,0.12156757898628712
+within-celltype accuracy,shifted/relabel/hub,1.0,0.0,0.0,0.0
+within-celltype accuracy,shifted/relabel/uniform,0.002,0.36076605,0.19495652988553047,0.8138709515333176
+within-celltype accuracy,shifted/relabel/uniform,0.005,0.3593655,0.19279202818870544,0.812602698802948
+within-celltype accuracy,shifted/relabel/uniform,0.01,0.3593655,0.18961405754089355,0.812760666012764
+within-celltype accuracy,shifted/relabel/uniform,0.025,0.3593655,0.18727988004684448,0.8080120533704758
+within-celltype accuracy,shifted/relabel/uniform,0.05,0.3551638,0.18297380954027176,0.8012175559997559
+within-celltype accuracy,shifted/relabel/uniform,0.1,0.34733894,0.18297380954027176,0.7965520471334457
+within-celltype accuracy,shifted/relabel/uniform,0.25,0.3180185,0.13074860349297523,0.7687170803546906
+within-celltype accuracy,shifted/relabel/uniform,0.5,0.25612283,0.08201511949300766,0.7012711614370346
+within-celltype accuracy,shifted/relabel/uniform,0.7,0.19994444,0.043485927395522594,0.6083897948265076
+within-celltype accuracy,shifted/relabel/uniform,0.8,0.1638814,0.028063778299838305,0.5331139639019966
+within-celltype accuracy,shifted/relabel/uniform,0.85,0.112473086,0.024480536114424467,0.4502827450633049
+within-celltype accuracy,shifted/relabel/uniform,0.9,0.0892507,0.017514216946437955,0.36232445389032364
+within-celltype accuracy,shifted/relabel/uniform,1.0,0.0,0.0,0.0
+within-celltype accuracy,synthesised/relabel/hub,0.002,0.3347339,0.09254681318998337,0.7708587050437927
+within-celltype accuracy,synthesised/relabel/hub,0.005,0.29445255,0.07203799672424793,0.7099505960941315
+within-celltype accuracy,synthesised/relabel/hub,0.01,0.25474972,0.0583835132420063,0.6187122762203217
+within-celltype accuracy,synthesised/relabel/hub,0.025,0.17461333,0.04085177928209305,0.45078277587890625
+within-celltype accuracy,synthesised/relabel/hub,0.05,0.09293479,0.039036803878843784,0.28303515166044235
+within-celltype accuracy,synthesised/relabel/hub,0.1,0.05399449,0.014145789202302694,0.2003072239458561
+within-celltype accuracy,synthesised/relabel/hub,0.25,0.019690372,0.004285175644326955,0.07559480983763933
+within-celltype accuracy,synthesised/relabel/hub,0.5,0.012120094,0.00036992772947996855,0.03051477624103427
+within-celltype accuracy,synthesised/relabel/hub,0.7,0.0031688437,0.0,0.029961744789034128
+within-celltype accuracy,synthesised/relabel/hub,0.8,8.536794e-05,0.0,0.01705703977495432
+within-celltype accuracy,synthesised/relabel/hub,0.85,5.691196e-05,0.0,0.014564103214070201
+within-celltype accuracy,synthesised/relabel/hub,0.9,0.0,0.0,0.008266733027994633
+within-celltype accuracy,synthesised/relabel/hub,1.0,0.0,0.0,0.0
+within-celltype accuracy,synthesised/relabel/uniform,0.002,0.3593655,0.19603878259658813,0.8139915019273758
+within-celltype accuracy,synthesised/relabel/uniform,0.005,0.36298868,0.1948327049612999,0.8089933544397354
+within-celltype accuracy,synthesised/relabel/uniform,0.01,0.36298868,0.19069630652666092,0.8033398538827896
+within-celltype accuracy,synthesised/relabel/uniform,0.025,0.35211912,0.1807863749563694,0.7634052336215973
+within-celltype accuracy,synthesised/relabel/uniform,0.05,0.32654062,0.18191448971629143,0.7093189507722855
+within-celltype accuracy,synthesised/relabel/uniform,0.1,0.29310223,0.14059871062636375,0.6491558104753494
+within-celltype accuracy,synthesised/relabel/uniform,0.25,0.1952731,0.10671233385801315,0.5206036642193794
+within-celltype accuracy,synthesised/relabel/uniform,0.5,0.1059874,0.051030490547418594,0.2868221774697304
+within-celltype accuracy,synthesised/relabel/uniform,0.7,0.04478389,0.01386290229856968,0.20439668372273445
+within-celltype accuracy,synthesised/relabel/uniform,0.8,0.01936299,0.004260217188857496,0.11923790536820889
+within-celltype accuracy,synthesised/relabel/uniform,0.85,0.007216758,0.0,0.06880329828709364
+within-celltype accuracy,synthesised/relabel/uniform,0.9,0.0034556082,0.0,0.05437649879604578
+within-celltype accuracy,synthesised/relabel/uniform,1.0,0.0,0.0,0.0

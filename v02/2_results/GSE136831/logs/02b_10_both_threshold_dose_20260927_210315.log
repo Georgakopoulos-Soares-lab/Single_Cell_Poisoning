@@ -1,0 +1,34 @@
+git SHA: ad280ceb
+started: 2026-09-28T02:03:15Z
+script:  v02/1_scripts/02_b_attack_celltype/02b_10_both_threshold_dose.py
+[0s] 7 donor tables: 02b_01_no_access_celltype_sweep_by_donor.parquet, 02b_02_no_access_flood_by_donor.parquet, 02b_05_with_access_hub_split_by_donor.parquet, 02b_11_with_access_inplace_by_donor_graph.parquet, 02b_13_no_access_flood_geometry_by_donor.parquet, 02b_14_no_access_flood_sites_by_donor.parquet, 02b_15_with_access_alpha_sweep_by_donor_graph.parquet
+Traceback (most recent call last):
+  File "<REPO>/v02/1_scripts/02_b_attack_celltype/02b_10_both_threshold_dose.py", line 206, in <module>
+    main()
+  File "<REPO>/v02/1_scripts/02_b_attack_celltype/02b_10_both_threshold_dose.py", line 185, in main
+    dose, num, den = curves(g, scope, response)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<REPO>/v02/1_scripts/02_b_attack_celltype/02b_10_both_threshold_dose.py", line 86, in curves
+    num = d.pivot(index="rate", columns="donor_id", values=stem + NUM_SUFFIX)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<HOME>/miniforge3/envs/biorag/lib/python3.12/site-packages/pandas/core/frame.py", line 9339, in pivot
+    return pivot(self, index=index, columns=columns, values=values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<HOME>/miniforge3/envs/biorag/lib/python3.12/site-packages/pandas/core/reshape/pivot.py", line 570, in pivot
+    result = indexed.unstack(columns_listlike)  # type: ignore[arg-type]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<HOME>/miniforge3/envs/biorag/lib/python3.12/site-packages/pandas/core/series.py", line 4615, in unstack
+    return unstack(self, level, fill_value, sort)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<HOME>/miniforge3/envs/biorag/lib/python3.12/site-packages/pandas/core/reshape/reshape.py", line 517, in unstack
+    unstacker = _Unstacker(
+                ^^^^^^^^^^^
+  File "<HOME>/miniforge3/envs/biorag/lib/python3.12/site-packages/pandas/core/reshape/reshape.py", line 154, in __init__
+    self._make_selectors()
+  File "<HOME>/miniforge3/envs/biorag/lib/python3.12/site-packages/pandas/core/reshape/reshape.py", line 210, in _make_selectors
+    raise ValueError("Index contains duplicate entries, cannot reshape")
+ValueError: Index contains duplicate entries, cannot reshape
+real 0.43
+user 0.39
+sys 0.27
+exit: 1 at 2026-09-28T02:03:16Z

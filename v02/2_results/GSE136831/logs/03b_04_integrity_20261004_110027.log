@@ -1,0 +1,46 @@
+started: 2026-10-04T16:00:27Z
+script:  v02/1_scripts/03_b_defence_vs_modify/03b_04_both_integrity.py
+profile: none; driver archive/workers_2026-10/drive_integrity_after_parity.sh
+         single process, queued behind Run 48. Re-run of Run 44 after
+         the unmoved fix (4360304f).
+[provenance] 03b_04_both_integrity.py sha 7517b859 (clean in code, elsewhere +116 untracked) branch restructure-v01-v02 full 7517b859fe6014635577c47b32dc57c121204356
+[1s] 26 attackable celltypes, covering 46,196 of 49,456 queries
+[5s] vocabulary 204 terms; lineage and distance tables built (406 of 41,616 ordered pairs unreachable, all of them involving a term with no ontology id)
+[5s] clean graph baseline: accuracy 0.46368 exact (0.45930-0.46494 over ties), 0.88491 lineage-tolerant, mean error 1.423 hops over 64 unreachable pairs
+[8s] baseline digests over 7,913,892 records: embeddings 1.3s, labels 0.1s
+[     10s] CL:0000057 relabel          touched   49,060  index_hash=True  label_hash=True  (2s)
+[     12s] CL:0000057 flood            touched   49,060  index_hash=True  label_hash=True  (2s)
+[     14s] CL:0000057 unmoved_inplace  touched   49,060  index_hash=False label_hash=True  (2s)
+[     16s] CL:0000057 shifted_inplace  touched   49,060  index_hash=True  label_hash=True  (2s)
+[     18s] CL:0000084 relabel          touched   18,951  index_hash=True  label_hash=True  (2s)
+[     20s] CL:0000084 flood            touched   18,951  index_hash=True  label_hash=True  (2s)
+[     22s] CL:0000084 unmoved_inplace  touched   18,951  index_hash=False label_hash=True  (2s)
+[     24s] CL:0000084 shifted_inplace  touched   18,951  index_hash=True  label_hash=True  (2s)
+[     27s] CL:0000097 relabel          touched    5,224  index_hash=True  label_hash=True  (2s)
+[     29s] CL:0000097 flood            touched    5,224  index_hash=True  label_hash=True  (2s)
+[     31s] CL:0000097 unmoved_inplace  touched    5,224  index_hash=False label_hash=True  (2s)
+[     33s] CL:0000097 shifted_inplace  touched    5,224  index_hash=True  label_hash=True  (2s)
+[     35s] CL:0000158 relabel          touched    2,983  index_hash=True  label_hash=True  (2s)
+[     37s] CL:0000158 flood            touched    2,983  index_hash=True  label_hash=True  (2s)
+[     39s] CL:0000158 unmoved_inplace  touched    2,983  index_hash=False label_hash=True  (2s)
+[     41s] CL:0000158 shifted_inplace  touched    2,983  index_hash=True  label_hash=True  (2s)
+[     43s] CL:0000160 relabel          touched    3,775  index_hash=True  label_hash=True  (2s)
+[     45s] CL:0000160 flood            touched    3,775  index_hash=True  label_hash=True  (2s)
+[     47s] CL:0000160 unmoved_inplace  touched    3,775  index_hash=False label_hash=True  (2s)
+[     49s] CL:0000160 shifted_inplace  touched    3,775  index_hash=True  label_hash=True  (2s)
+[     51s] CL:0000186 relabel          touched   13,678  index_hash=True  label_hash=True  (2s)
+[     53s] CL:0000186 flood            touched   13,678  index_hash=True  label_hash=True  (2s)
+[     55s] CL:0000186 unmoved_inplace  touched   13,678  index_hash=False label_hash=True  (2s)
+[     58s] CL:0000186 shifted_inplace  touched   13,678  index_hash=True  label_hash=True  (2s)
+
+[58s] wrote 24 rows to 03b_04_both_integrity.parquet
+                 n  index_hash  label_hash  labels_changed  embs_changed
+attack                                                                  
+flood            6         1.0         1.0          9451.0        9451.0
+relabel          6         1.0         1.0          9451.0        9451.0
+shifted_inplace  6         1.0         1.0          9451.0        9451.0
+unmoved_inplace  6         0.0         1.0          9451.0           0.0
+
+  6 of 24 conditions are INVISIBLE to an index checksum: ['unmoved_inplace']
+  -- the label file must be verified separately
+exit: 0

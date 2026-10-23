@@ -1,0 +1,13 @@
+git SHA: 8ac5db4a
+merged: 2026-09-26T07:22:04Z
+3 shards -> 324 rows, 9 celltypes -> 02b_15_with_access_alpha_sweep_graph.parquet
+Traceback (most recent call last):
+  File "<REPO>/v02/1_scripts/00_pipeline/merge_shards.py", line 107, in <module>
+    sys.exit(main(sys.argv[1:]))
+             ^^^^^^^^^^^^^^^^^^
+  File "<REPO>/v02/1_scripts/00_pipeline/merge_shards.py", line 102, in main
+    merge(pathlib.Path(a))
+  File "<REPO>/v02/1_scripts/00_pipeline/merge_shards.py", line 53, in merge
+    raise FileNotFoundError(f"no shards beside {canonical}")
+FileNotFoundError: no shards beside v02/2_results/GSE136831/02_b_attack_celltype/02b_15_with_access_alpha_sweep_graph_by_donor.parquet
+merge exit: 1 at 2026-09-26T07:22:05Z

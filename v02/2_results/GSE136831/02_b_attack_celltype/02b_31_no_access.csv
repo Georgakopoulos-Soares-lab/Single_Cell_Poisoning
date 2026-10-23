@@ -1,0 +1,109 @@
+source,rate,how,origin,n,is_attacked,captured,panel
+CL:0000057,0.25,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0000186,104,False,178,fibroblast attacked
+CL:0000057,0.25,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0000057,73,True,178,fibroblast attacked
+CL:0000057,0.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000057,177,True,178,fibroblast attacked
+CL:0000057,1.0,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0000186,107,False,187,fibroblast attacked
+CL:0000057,1.0,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0000057,80,True,187,fibroblast attacked
+CL:0000057,1.0,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000057,187,True,187,fibroblast attacked
+CL:0000057,1.25,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0000186,547,False,969,fibroblast attacked
+CL:0000057,1.25,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0000057,409,True,969,fibroblast attacked
+CL:0000057,1.25,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0000669,9,False,969,fibroblast attacked
+CL:0000057,1.25,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0000077,3,False,969,fibroblast attacked
+CL:0000057,1.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000057,936,True,969,fibroblast attacked
+CL:0000057,1.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000186,10,False,969,fibroblast attacked
+CL:0000057,1.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",UNMAPPED,10,False,969,fibroblast attacked
+CL:0000057,1.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000669,5,False,969,fibroblast attacked
+CL:0000623,0.25,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0000623,1584,True,1793,natural killer cell attacked
+CL:0000623,0.25,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0001065,103,False,1793,natural killer cell attacked
+CL:0000623,0.25,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0000910,101,False,1793,natural killer cell attacked
+CL:0000623,0.25,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0000084,3,False,1793,natural killer cell attacked
+CL:0000623,0.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000623,1714,True,1793,natural killer cell attacked
+CL:0000623,0.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000625,24,False,1793,natural killer cell attacked
+CL:0000623,0.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000814,20,False,1793,natural killer cell attacked
+CL:0000623,0.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000542,11,False,1793,natural killer cell attacked
+CL:0000623,0.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000939,6,False,1793,natural killer cell attacked
+CL:0000623,0.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0001065,4,False,1793,natural killer cell attacked
+CL:0000623,0.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000794,4,False,1793,natural killer cell attacked
+CL:0000623,0.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000906,3,False,1793,natural killer cell attacked
+CL:0000623,0.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000624,3,False,1793,natural killer cell attacked
+CL:0000623,1.0,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0000623,1569,True,1778,natural killer cell attacked
+CL:0000623,1.0,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0001065,103,False,1778,natural killer cell attacked
+CL:0000623,1.0,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0000910,101,False,1778,natural killer cell attacked
+CL:0000623,1.0,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0000084,3,False,1778,natural killer cell attacked
+CL:0000623,1.0,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000623,1697,True,1778,natural killer cell attacked
+CL:0000623,1.0,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000625,24,False,1778,natural killer cell attacked
+CL:0000623,1.0,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000814,20,False,1778,natural killer cell attacked
+CL:0000623,1.0,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000542,13,False,1778,natural killer cell attacked
+CL:0000623,1.0,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000939,6,False,1778,natural killer cell attacked
+CL:0000623,1.0,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0001065,4,False,1778,natural killer cell attacked
+CL:0000623,1.0,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000794,4,False,1778,natural killer cell attacked
+CL:0000623,1.0,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000624,3,False,1778,natural killer cell attacked
+CL:0000623,1.25,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0000623,1780,True,2044,natural killer cell attacked
+CL:0000623,1.25,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0000910,134,False,2044,natural killer cell attacked
+CL:0000623,1.25,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0001065,122,False,2044,natural killer cell attacked
+CL:0000623,1.25,"by the AUTHOR'S LABEL
+(retracted, HANDOFF 3.40)",CL:0000084,5,False,2044,natural killer cell attacked
+CL:0000623,1.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000623,1869,True,2044,natural killer cell attacked
+CL:0000623,1.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000625,49,False,2044,natural killer cell attacked
+CL:0000623,1.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000814,43,False,2044,natural killer cell attacked
+CL:0000623,1.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000542,27,False,2044,natural killer cell attacked
+CL:0000623,1.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000939,19,False,2044,natural killer cell attacked
+CL:0000623,1.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0001065,7,False,2044,natural killer cell attacked
+CL:0000623,1.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000906,6,False,2044,natural killer cell attacked
+CL:0000623,1.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000786,5,False,2044,natural killer cell attacked
+CL:0000623,1.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000794,4,False,2044,natural killer cell attacked
+CL:0000623,1.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000236,4,False,2044,natural killer cell attacked
+CL:0000623,1.25,"by what the CLEAN MODEL ANSWERED
+(the causal question)",CL:0000624,4,False,2044,natural killer cell attacked

@@ -1,0 +1,5 @@
+git SHA: 19c0ad52
+merged: 2026-09-27T00:25:24Z
+canonical: 02b_02_no_access_flood_anchors.parquet
+3 shards -> 2,184 rows, 26 celltypes -> 02b_02_no_access_flood_anchors.parquet
+merge exit: 0 at 2026-09-27T00:25:25Z

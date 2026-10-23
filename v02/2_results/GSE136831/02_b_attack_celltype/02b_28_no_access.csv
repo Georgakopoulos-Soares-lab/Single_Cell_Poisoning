@@ -1,0 +1,209 @@
+source,label,tick,panel,rung,value
+CL:0000057,fibroblast,fibroblast  CL:0000057,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",1.0
+CL:0000084,T cell,T cell  CL:0000084,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.993114
+CL:0000097,mast cell,mast cell  CL:0000097,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.9790795
+CL:0000158,club cell,club cell  CL:0000158,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.8648019
+CL:0000160,goblet cell,goblet cell  CL:0000160,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.85714287
+CL:0000186,myofibroblast cell,myofibroblast cell  CL:0000186,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.71836007
+CL:0000192,smooth muscle cell,smooth muscle cell  CL:0000192,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.8666667
+CL:0000235,macrophage,macrophage  CL:0000235,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.80183256
+CL:0000236,B cell,B cell  CL:0000236,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.99348
+CL:0000451,dendritic cell,dendritic cell  CL:0000451,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.6718419
+CL:0000583,alveolar macrophage,alveolar macrophage  CL:0000583,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.96030796
+CL:0000623,natural killer cell,natural killer cell  CL:0000623,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.9973089
+CL:0000646,basal cell,basal cell  CL:0000646,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.82913166
+CL:0000784,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.91129035
+CL:0000786,plasma cell,plasma cell  CL:0000786,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.87931037
+CL:0000815,regulatory T cell,regulatory T cell  CL:0000815,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.6694915
+CL:0000860,classical monocyte,classical monocyte  CL:0000860,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.77257144
+CL:0000875,non-classical monocyte,non-classical monocyte  CL:0000875,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.53142226
+CL:0001065,innate lymphoid cell,innate lymphoid cell  CL:0001065,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.6615385
+CL:0002062,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.993865
+CL:0002063,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.9967533
+CL:0002144,capillary endothelial cell,capillary endothelial cell  CL:0002144,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.7433962
+CL:0002543,vein endothelial cell,vein endothelial cell  CL:0002543,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.9492754
+CL:1000271,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.42115384
+CL:1000413,endothelial cell of artery,endothelial cell of artery  CL:1000413,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.9834711
+CL:1001567,lung endothelial cell,lung endothelial cell  CL:1001567,the ladder — share of the celltype's queries,"1. poison reached
+the top-50",0.023391813
+CL:0000057,fibroblast,fibroblast  CL:0000057,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.9423077
+CL:0000084,T cell,T cell  CL:0000084,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.98852336
+CL:0000097,mast cell,mast cell  CL:0000097,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.9665272
+CL:0000158,club cell,club cell  CL:0000158,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.4125874
+CL:0000160,goblet cell,goblet cell  CL:0000160,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.45887446
+CL:0000186,myofibroblast cell,myofibroblast cell  CL:0000186,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.24777183
+CL:0000192,smooth muscle cell,smooth muscle cell  CL:0000192,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.7416667
+CL:0000235,macrophage,macrophage  CL:0000235,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.76000226
+CL:0000236,B cell,B cell  CL:0000236,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.9755501
+CL:0000451,dendritic cell,dendritic cell  CL:0000451,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.5017643
+CL:0000583,alveolar macrophage,alveolar macrophage  CL:0000583,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.95765615
+CL:0000623,natural killer cell,natural killer cell  CL:0000623,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.9935414
+CL:0000646,basal cell,basal cell  CL:0000646,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.16246499
+CL:0000784,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.75
+CL:0000786,plasma cell,plasma cell  CL:0000786,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.8045977
+CL:0000815,regulatory T cell,regulatory T cell  CL:0000815,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.66101694
+CL:0000860,classical monocyte,classical monocyte  CL:0000860,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.76495236
+CL:0000875,non-classical monocyte,non-classical monocyte  CL:0000875,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.5259096
+CL:0001065,innate lymphoid cell,innate lymphoid cell  CL:0001065,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.5692308
+CL:0002062,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.8834356
+CL:0002063,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.85064936
+CL:0002144,capillary endothelial cell,capillary endothelial cell  CL:0002144,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.7056604
+CL:0002543,vein endothelial cell,vein endothelial cell  CL:0002543,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.81884056
+CL:1000271,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.31987178
+CL:1000413,endothelial cell of artery,endothelial cell of artery  CL:1000413,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.91735536
+CL:1001567,lung endothelial cell,lung endothelial cell  CL:1001567,the ladder — share of the celltype's queries,"2. nearest poison within
+the search distance bar",0.023391813
+CL:0000057,fibroblast,fibroblast  CL:0000057,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.16586539
+CL:0000084,T cell,T cell  CL:0000084,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.14039786
+CL:0000097,mast cell,mast cell  CL:0000097,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.7364017
+CL:0000158,club cell,club cell  CL:0000158,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.41958043
+CL:0000160,goblet cell,goblet cell  CL:0000160,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.17748918
+CL:0000186,myofibroblast cell,myofibroblast cell  CL:0000186,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.014260249
+CL:0000192,smooth muscle cell,smooth muscle cell  CL:0000192,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.28333333
+CL:0000235,macrophage,macrophage  CL:0000235,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.22730635
+CL:0000236,B cell,B cell  CL:0000236,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.66585165
+CL:0000451,dendritic cell,dendritic cell  CL:0000451,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.038814396
+CL:0000583,alveolar macrophage,alveolar macrophage  CL:0000583,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.7637297
+CL:0000623,natural killer cell,natural killer cell  CL:0000623,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.8530678
+CL:0000646,basal cell,basal cell  CL:0000646,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.31932774
+CL:0000784,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.48387095
+CL:0000786,plasma cell,plasma cell  CL:0000786,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.50574714
+CL:0000815,regulatory T cell,regulatory T cell  CL:0000815,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.025423728
+CL:0000860,classical monocyte,classical monocyte  CL:0000860,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.176
+CL:0000875,non-classical monocyte,non-classical monocyte  CL:0000875,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.11356119
+CL:0001065,innate lymphoid cell,innate lymphoid cell  CL:0001065,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.0974359
+CL:0002062,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.8220859
+CL:0002063,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.83441556
+CL:0002144,capillary endothelial cell,capillary endothelial cell  CL:0002144,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.25660378
+CL:0002543,vein endothelial cell,vein endothelial cell  CL:0002543,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.3043478
+CL:1000271,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.030128205
+CL:1000413,endothelial cell of artery,endothelial cell of artery  CL:1000413,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.49586776
+CL:1001567,lung endothelial cell,lung endothelial cell  CL:1001567,the ladder — share of the celltype's queries,"3. vote returned
+the attacker's label",0.0
+CL:0000057,fibroblast,fibroblast  CL:0000057,what it costs — accuracy,accuracy BEFORE,0.96634614
+CL:0000084,T cell,T cell  CL:0000084,what it costs — accuracy,accuracy BEFORE,0.8171385
+CL:0000097,mast cell,mast cell  CL:0000097,what it costs — accuracy,accuracy BEFORE,0.9665272
+CL:0000158,club cell,club cell  CL:0000158,what it costs — accuracy,accuracy BEFORE,0.5174825
+CL:0000160,goblet cell,goblet cell  CL:0000160,what it costs — accuracy,accuracy BEFORE,0.1991342
+CL:0000186,myofibroblast cell,myofibroblast cell  CL:0000186,what it costs — accuracy,accuracy BEFORE,0.023172906
+CL:0000192,smooth muscle cell,smooth muscle cell  CL:0000192,what it costs — accuracy,accuracy BEFORE,0.3
+CL:0000235,macrophage,macrophage  CL:0000235,what it costs — accuracy,accuracy BEFORE,0.2827386
+CL:0000236,B cell,B cell  CL:0000236,what it costs — accuracy,accuracy BEFORE,0.808476
+CL:0000451,dendritic cell,dendritic cell  CL:0000451,what it costs — accuracy,accuracy BEFORE,0.035285816
+CL:0000583,alveolar macrophage,alveolar macrophage  CL:0000583,what it costs — accuracy,accuracy BEFORE,0.84901625
+CL:0000623,natural killer cell,natural killer cell  CL:0000623,what it costs — accuracy,accuracy BEFORE,0.92357373
+CL:0000646,basal cell,basal cell  CL:0000646,what it costs — accuracy,accuracy BEFORE,0.3809524
+CL:0000784,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,what it costs — accuracy,accuracy BEFORE,0.5322581
+CL:0000786,plasma cell,plasma cell  CL:0000786,what it costs — accuracy,accuracy BEFORE,0.64942527
+CL:0000815,regulatory T cell,regulatory T cell  CL:0000815,what it costs — accuracy,accuracy BEFORE,0.19067797
+CL:0000860,classical monocyte,classical monocyte  CL:0000860,what it costs — accuracy,accuracy BEFORE,0.22057143
+CL:0000875,non-classical monocyte,non-classical monocyte  CL:0000875,what it costs — accuracy,accuracy BEFORE,0.14884233
+CL:0001065,innate lymphoid cell,innate lymphoid cell  CL:0001065,what it costs — accuracy,accuracy BEFORE,0.092307694
+CL:0002062,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,what it costs — accuracy,accuracy BEFORE,0.84662575
+CL:0002063,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,what it costs — accuracy,accuracy BEFORE,0.9464286
+CL:0002144,capillary endothelial cell,capillary endothelial cell  CL:0002144,what it costs — accuracy,accuracy BEFORE,0.31320754
+CL:0002543,vein endothelial cell,vein endothelial cell  CL:0002543,what it costs — accuracy,accuracy BEFORE,0.34057972
+CL:1000271,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,what it costs — accuracy,accuracy BEFORE,0.039102565
+CL:1000413,endothelial cell of artery,endothelial cell of artery  CL:1000413,what it costs — accuracy,accuracy BEFORE,0.5289256
+CL:1001567,lung endothelial cell,lung endothelial cell  CL:1001567,what it costs — accuracy,accuracy BEFORE,0.0
+CL:0000057,fibroblast,fibroblast  CL:0000057,what it costs — accuracy,accuracy AFTER,0.7980769
+CL:0000084,T cell,T cell  CL:0000084,what it costs — accuracy,accuracy AFTER,0.6820964
+CL:0000097,mast cell,mast cell  CL:0000097,what it costs — accuracy,accuracy AFTER,0.23012552
+CL:0000158,club cell,club cell  CL:0000158,what it costs — accuracy,accuracy AFTER,0.10489511
+CL:0000160,goblet cell,goblet cell  CL:0000160,what it costs — accuracy,accuracy AFTER,0.060606062
+CL:0000186,myofibroblast cell,myofibroblast cell  CL:0000186,what it costs — accuracy,accuracy AFTER,0.010695187
+CL:0000192,smooth muscle cell,smooth muscle cell  CL:0000192,what it costs — accuracy,accuracy AFTER,0.025
+CL:0000235,macrophage,macrophage  CL:0000235,what it costs — accuracy,accuracy AFTER,0.05213135
+CL:0000236,B cell,B cell  CL:0000236,what it costs — accuracy,accuracy AFTER,0.15240423
+CL:0000451,dendritic cell,dendritic cell  CL:0000451,what it costs — accuracy,accuracy AFTER,0.0049400143
+CL:0000583,alveolar macrophage,alveolar macrophage  CL:0000583,what it costs — accuracy,accuracy AFTER,0.09118905
+CL:0000623,natural killer cell,natural killer cell  CL:0000623,what it costs — accuracy,accuracy AFTER,0.081808396
+CL:0000646,basal cell,basal cell  CL:0000646,what it costs — accuracy,accuracy AFTER,0.067226894
+CL:0000784,plasmacytoid dendritic cell,plasmacytoid dendritic cel  CL:0000784,what it costs — accuracy,accuracy AFTER,0.06451613
+CL:0000786,plasma cell,plasma cell  CL:0000786,what it costs — accuracy,accuracy AFTER,0.14942528
+CL:0000815,regulatory T cell,regulatory T cell  CL:0000815,what it costs — accuracy,accuracy AFTER,0.18644068
+CL:0000860,classical monocyte,classical monocyte  CL:0000860,what it costs — accuracy,accuracy AFTER,0.038857143
+CL:0000875,non-classical monocyte,non-classical monocyte  CL:0000875,what it costs — accuracy,accuracy AFTER,0.02646086
+CL:0001065,innate lymphoid cell,innate lymphoid cell  CL:0001065,what it costs — accuracy,accuracy AFTER,0.010256411
+CL:0002062,pulmonary alveolar type 1 cell,pulmonary alveolar type 1   CL:0002062,what it costs — accuracy,accuracy AFTER,0.12883435
+CL:0002063,pulmonary alveolar type 2 cell,pulmonary alveolar type 2   CL:0002063,what it costs — accuracy,accuracy AFTER,0.121753246
+CL:0002144,capillary endothelial cell,capillary endothelial cell  CL:0002144,what it costs — accuracy,accuracy AFTER,0.041509435
+CL:0002543,vein endothelial cell,vein endothelial cell  CL:0002543,what it costs — accuracy,accuracy AFTER,0.057971016
+CL:1000271,lung multiciliated epithelial cell,lung multiciliated epithel  CL:1000271,what it costs — accuracy,accuracy AFTER,0.009615385
+CL:1000413,endothelial cell of artery,endothelial cell of artery  CL:1000413,what it costs — accuracy,accuracy AFTER,0.049586777
+CL:1001567,lung endothelial cell,lung endothelial cell  CL:1001567,what it costs — accuracy,accuracy AFTER,0.0

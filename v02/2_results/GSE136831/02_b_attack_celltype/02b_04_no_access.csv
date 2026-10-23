@@ -1,0 +1,141 @@
+metric,n_anchors,rate,value,lo,hi,dose
+poison reached the top-50,64,0.002,7.33121,4.856237,10.082165,0.002x celltype
+poison reached the top-50,64,0.005,11.677772,8.536378,15.0483055,0.005x celltype
+poison reached the top-50,64,0.01,11.163508,8.167179,14.468187,0.01x celltype
+poison reached the top-50,64,0.025,11.717122,8.668428,14.920654,0.025x celltype
+poison reached the top-50,64,0.05,10.475389,7.541521,13.812275,0.05x celltype
+poison reached the top-50,64,0.1,10.263498,7.0333657,13.843817,0.1x celltype
+poison reached the top-50,64,0.25,13.939421,9.870616,17.990314,0.25x celltype
+poison reached the top-50,64,0.5,16.136707,12.284888,20.285908,0.5x celltype
+poison reached the top-50,64,0.7,20.426561,16.1361,24.970701,0.7x celltype
+poison reached the top-50,64,0.8,19.40872,14.749374,24.174976,0.8x celltype
+poison reached the top-50,64,0.85,19.152838,14.472065,24.06679,0.85x celltype
+poison reached the top-50,64,0.9,20.457804,16.110283,24.778866,0.9x celltype
+poison reached the top-50,64,1.0,22.254496,17.923481,26.359026,1x celltype
+poison reached the top-50,64,1.25,21.950563,17.472033,26.626078,1.25x celltype
+poison reached the top-50,256,0.002,9.491086,6.6234493,12.525698,0.002x celltype
+poison reached the top-50,256,0.005,16.205982,12.064067,20.507822,0.005x celltype
+poison reached the top-50,256,0.01,18.070143,13.980809,22.392271,0.01x celltype
+poison reached the top-50,256,0.025,19.78765,15.594727,24.21325,0.025x celltype
+poison reached the top-50,256,0.05,19.612541,15.189774,24.368843,0.05x celltype
+poison reached the top-50,256,0.1,19.018288,14.684202,23.765774,0.1x celltype
+poison reached the top-50,256,0.25,21.329006,16.47036,26.435272,0.25x celltype
+poison reached the top-50,256,0.5,26.47156,21.382265,31.751497,0.5x celltype
+poison reached the top-50,256,0.7,27.041286,22.100498,32.314266,0.7x celltype
+poison reached the top-50,256,0.8,29.066368,23.639038,34.711636,0.8x celltype
+poison reached the top-50,256,0.85,26.058605,20.864668,31.685202,0.85x celltype
+poison reached the top-50,256,0.9,30.138695,24.4952,36.075413,0.9x celltype
+poison reached the top-50,256,1.0,29.61867,24.4529,34.80683,1x celltype
+poison reached the top-50,256,1.25,29.50467,24.366781,34.881252,1.25x celltype
+poison reached the top-50,1024,0.002,9.988083,7.072653,13.26351,0.002x celltype
+poison reached the top-50,1024,0.005,17.751598,13.157633,22.642307,0.005x celltype
+poison reached the top-50,1024,0.01,23.224491,18.340626,28.3573,0.01x celltype
+poison reached the top-50,1024,0.025,28.957579,23.283731,34.99029,0.025x celltype
+poison reached the top-50,1024,0.05,31.520813,25.636198,37.619446,0.05x celltype
+poison reached the top-50,1024,0.1,36.346077,30.159018,42.835567,0.1x celltype
+poison reached the top-50,1024,0.25,33.850822,27.840189,39.948093,0.25x celltype
+poison reached the top-50,1024,0.5,35.3647,29.628878,41.32941,0.5x celltype
+poison reached the top-50,1024,0.7,35.703957,29.719078,41.850235,0.7x celltype
+poison reached the top-50,1024,0.8,37.187943,30.96462,43.48726,0.8x celltype
+poison reached the top-50,1024,0.85,36.94195,30.988136,43.045113,0.85x celltype
+poison reached the top-50,1024,0.9,36.485176,30.297222,42.84418,0.9x celltype
+poison reached the top-50,1024,1.0,36.14959,30.215115,42.277058,1x celltype
+poison reached the top-50,1024,1.25,38.374214,32.20732,44.631767,1.25x celltype
+poison reached the top-50,4096,0.002,10.234736,7.014992,13.712917,0.002x celltype
+poison reached the top-50,4096,0.005,17.99165,13.85118,22.406137,0.005x celltype
+poison reached the top-50,4096,0.01,23.65879,18.773775,28.895535,0.01x celltype
+poison reached the top-50,4096,0.025,33.908813,27.947422,40.10778,0.025x celltype
+poison reached the top-50,4096,0.05,38.529827,32.009678,45.03259,0.05x celltype
+poison reached the top-50,4096,0.1,45.63403,38.904385,52.400764,0.1x celltype
+poison reached the top-50,4096,0.25,48.163437,41.626072,54.790024,0.25x celltype
+poison reached the top-50,4096,0.5,50.570503,44.22658,56.917904,0.5x celltype
+poison reached the top-50,4096,0.7,50.20897,43.582405,57.006992,0.7x celltype
+poison reached the top-50,4096,0.8,50.62928,43.96561,57.223454,0.8x celltype
+poison reached the top-50,4096,0.85,50.83918,44.254692,57.61226,0.85x celltype
+poison reached the top-50,4096,0.9,50.284485,43.833523,56.829582,0.9x celltype
+poison reached the top-50,4096,1.0,50.386288,43.745464,57.142437,1x celltype
+poison reached the top-50,4096,1.25,50.746113,43.927425,57.801582,1.25x celltype
+poison reached the top-50,16384,0.002,9.498963,6.4136777,12.976274,0.002x celltype
+poison reached the top-50,16384,0.005,15.704101,11.520228,19.952074,0.005x celltype
+poison reached the top-50,16384,0.01,25.064161,19.972277,30.489931,0.01x celltype
+poison reached the top-50,16384,0.025,35.407963,29.116549,42.00037,0.025x celltype
+poison reached the top-50,16384,0.05,43.392513,36.91632,49.978874,0.05x celltype
+poison reached the top-50,16384,0.1,48.439365,41.638508,55.467587,0.1x celltype
+poison reached the top-50,16384,0.25,57.459026,50.840145,64.180435,0.25x celltype
+poison reached the top-50,16384,0.5,60.118774,53.685043,66.70224,0.5x celltype
+poison reached the top-50,16384,0.7,61.94648,55.54404,68.493965,0.7x celltype
+poison reached the top-50,16384,0.8,61.8027,55.218037,68.50534,0.8x celltype
+poison reached the top-50,16384,0.85,61.191933,54.88928,67.57451,0.85x celltype
+poison reached the top-50,16384,0.9,61.662174,55.32511,68.1139,0.9x celltype
+poison reached the top-50,16384,1.0,62.36254,55.988865,68.93859,1x celltype
+poison reached the top-50,16384,1.25,62.335796,56.028023,68.79603,1.25x celltype
+vote returned the attacker's label,64,0.002,0.12257126,0.06660991,0.21507534,0.002x celltype
+vote returned the attacker's label,64,0.005,0.3561346,0.14278403,0.6734127,0.005x celltype
+vote returned the attacker's label,64,0.01,0.9819616,0.5655296,1.543272,0.01x celltype
+vote returned the attacker's label,64,0.025,3.1634228,1.921576,4.7049127,0.025x celltype
+vote returned the attacker's label,64,0.05,5.497723,3.717095,7.6566677,0.05x celltype
+vote returned the attacker's label,64,0.1,7.18148,4.548339,10.191082,0.1x celltype
+vote returned the attacker's label,64,0.25,11.967992,8.23368,15.733105,0.25x celltype
+vote returned the attacker's label,64,0.5,14.019062,10.469329,17.891262,0.5x celltype
+vote returned the attacker's label,64,0.7,19.125124,15.024987,23.42927,0.7x celltype
+vote returned the attacker's label,64,0.8,17.99278,13.450636,22.661806,0.8x celltype
+vote returned the attacker's label,64,0.85,17.72005,13.30713,22.388233,0.85x celltype
+vote returned the attacker's label,64,0.9,19.503386,15.270538,23.761732,0.9x celltype
+vote returned the attacker's label,64,1.0,21.360762,17.128468,25.407175,1x celltype
+vote returned the attacker's label,64,1.25,20.680866,16.358875,25.29025,1.25x celltype
+vote returned the attacker's label,256,0.002,0.111470036,0.06874578,0.16541532,0.002x celltype
+vote returned the attacker's label,256,0.005,0.28249964,0.11846184,0.54302955,0.005x celltype
+vote returned the attacker's label,256,0.01,0.837833,0.46978423,1.3011472,0.01x celltype
+vote returned the attacker's label,256,0.025,1.8139131,0.9714762,2.861103,0.025x celltype
+vote returned the attacker's label,256,0.05,4.3671637,2.839329,6.097829,0.05x celltype
+vote returned the attacker's label,256,0.1,7.4893417,5.015981,10.185237,0.1x celltype
+vote returned the attacker's label,256,0.25,13.828212,9.990345,17.940752,0.25x celltype
+vote returned the attacker's label,256,0.5,21.581959,17.182356,26.140987,0.5x celltype
+vote returned the attacker's label,256,0.7,23.427427,18.755959,28.521395,0.7x celltype
+vote returned the attacker's label,256,0.8,25.561672,20.557232,30.689089,0.8x celltype
+vote returned the attacker's label,256,0.85,22.507067,17.625374,27.76177,0.85x celltype
+vote returned the attacker's label,256,0.9,27.229458,21.938414,32.84625,0.9x celltype
+vote returned the attacker's label,256,1.0,26.913157,22.000387,31.843044,1x celltype
+vote returned the attacker's label,256,1.25,26.791054,21.865578,32.00283,1.25x celltype
+vote returned the attacker's label,1024,0.002,0.11234831,0.06937197,0.16755837,0.002x celltype
+vote returned the attacker's label,1024,0.005,0.22503732,0.11093283,0.3567174,0.005x celltype
+vote returned the attacker's label,1024,0.01,0.494187,0.24162179,0.84997785,0.01x celltype
+vote returned the attacker's label,1024,0.025,1.7624719,0.90414035,2.8101103,0.025x celltype
+vote returned the attacker's label,1024,0.05,3.6214957,2.2293825,5.2839465,0.05x celltype
+vote returned the attacker's label,1024,0.1,7.50159,4.983249,10.255585,0.1x celltype
+vote returned the attacker's label,1024,0.25,14.568117,10.757914,18.576015,0.25x celltype
+vote returned the attacker's label,1024,0.5,22.178944,17.409603,27.212004,0.5x celltype
+vote returned the attacker's label,1024,0.7,25.684109,20.394611,31.142046,0.7x celltype
+vote returned the attacker's label,1024,0.8,27.331663,21.837332,32.91646,0.8x celltype
+vote returned the attacker's label,1024,0.85,27.00786,21.972385,32.455513,0.85x celltype
+vote returned the attacker's label,1024,0.9,26.716713,21.05796,32.678696,0.9x celltype
+vote returned the attacker's label,1024,1.0,27.280617,21.947346,32.946632,1x celltype
+vote returned the attacker's label,1024,1.25,31.86368,25.912498,37.983475,1.25x celltype
+vote returned the attacker's label,4096,0.002,0.09995461,0.061071172,0.15063637,0.002x celltype
+vote returned the attacker's label,4096,0.005,0.27459654,0.11879798,0.49895045,0.005x celltype
+vote returned the attacker's label,4096,0.01,0.45682862,0.22687545,0.7747469,0.01x celltype
+vote returned the attacker's label,4096,0.025,1.7344477,0.88852304,2.7943168,0.025x celltype
+vote returned the attacker's label,4096,0.05,3.8757157,2.443471,5.605827,0.05x celltype
+vote returned the attacker's label,4096,0.1,7.144598,4.6739326,9.836946,0.1x celltype
+vote returned the attacker's label,4096,0.25,13.707443,9.9497,17.629456,0.25x celltype
+vote returned the attacker's label,4096,0.5,21.035378,16.166695,26.138947,0.5x celltype
+vote returned the attacker's label,4096,0.7,25.020922,19.621183,30.718008,0.7x celltype
+vote returned the attacker's label,4096,0.8,27.246653,21.997463,32.77092,0.8x celltype
+vote returned the attacker's label,4096,0.85,28.249275,22.530928,34.15142,0.85x celltype
+vote returned the attacker's label,4096,0.9,28.39494,22.865734,34.139854,0.9x celltype
+vote returned the attacker's label,4096,1.0,28.639072,22.950073,34.535446,1x celltype
+vote returned the attacker's label,4096,1.25,32.130257,26.020374,38.587715,1.25x celltype
+vote returned the attacker's label,16384,0.002,0.12614472,0.06858183,0.22247617,0.002x celltype
+vote returned the attacker's label,16384,0.005,0.2916393,0.11987217,0.5575982,0.005x celltype
+vote returned the attacker's label,16384,0.01,0.5045343,0.20221835,0.9543216,0.01x celltype
+vote returned the attacker's label,16384,0.025,2.033072,1.0795747,3.1954482,0.025x celltype
+vote returned the attacker's label,16384,0.05,3.7281237,2.3973227,5.2539783,0.05x celltype
+vote returned the attacker's label,16384,0.1,6.7968826,4.531179,9.323028,0.1x celltype
+vote returned the attacker's label,16384,0.25,13.9435215,10.370565,17.787392,0.25x celltype
+vote returned the attacker's label,16384,0.5,20.336647,15.502798,25.354156,0.5x celltype
+vote returned the attacker's label,16384,0.7,23.892653,18.55576,29.562279,0.7x celltype
+vote returned the attacker's label,16384,0.8,25.857227,20.241299,31.69701,0.8x celltype
+vote returned the attacker's label,16384,0.85,26.64266,21.01971,32.526436,0.85x celltype
+vote returned the attacker's label,16384,0.9,27.696543,21.988787,33.715557,0.9x celltype
+vote returned the attacker's label,16384,1.0,28.961647,23.109203,35.02629,1x celltype
+vote returned the attacker's label,16384,1.25,31.362541,25.271166,37.757347,1.25x celltype

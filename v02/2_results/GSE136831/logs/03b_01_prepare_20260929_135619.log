@@ -1,0 +1,8 @@
+started: 2026-09-29T18:56:19Z
+script:  v02/1_scripts/03_b_defence_vs_modify/03b_01_with_access_layer_matrix.py
+profile: none (direct python; BIORAG_PREPARE=1 -- clean retrieval + kNN top-up, once)
+[provenance] 03b_01_with_access_layer_matrix.py sha b64c940e (DIRTY, diff 3c846e1fa221, code 1 changed +0 untracked, elsewhere +22 untracked) branch restructure-v01-v02 full b64c940e6319f0828fe262622d80ba600f1837e3
+[5s] reference kNN cache: 170,398 rows
+[24s] clean graph retrieval: 19s -> clean_graph_topk.npz
+[43s] kNN top-up: 27,583 rows in 19s -> cache now 197,981
+[43s] PREPARE done; rerun without BIORAG_PREPARE to sweep

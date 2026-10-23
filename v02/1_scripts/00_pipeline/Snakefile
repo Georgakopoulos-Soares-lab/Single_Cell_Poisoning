@@ -1,0 +1,224 @@
+"""biorag-guard-sc — retrieval-poisoning benchmark for single-cell atlases.
+
+DAG entry point. Stage boundaries follow CLAUDE.md §6; the contract for every
+column lives in contracts/schemas.py and is imported, never restated here.
+
+The load-bearing shape: `retrieve_clean` runs ONCE and every one of the 1,260
+sweep conditions reuses its output. Nothing re-embeds the reference and nothing
+rebuilds the index inside the sweep.
+"""
+
+import sys
+from pathlib import Path
+
+WORKDIR = Path(workflow.basedir).parent          # .../v02/1_scripts
+sys.path.insert(0, str(WORKDIR))
+
+# The version root, i.e. the directory holding `config/` -- `v02`, not
+# `v02/1_scripts`. This read `WORKDIR / "config"` and so named
+# v02/1_scripts/config/config.yaml, which does not exist: every invocation that
+# did not pass `--configfile` on the command line died at parse time with
+# "Workflow defines configfile ... but it is not present". Named separately
+# from WORKDIR because WORKDIR is also what puts 1_scripts on sys.path.
+VERSION_ROOT = WORKDIR.parent                    # .../v02
+
+configfile: str(VERSION_ROOT / "config" / "config.yaml")
+
+# Resolve the config for the DATASET this run is about, exactly as every script
+# under 1_scripts/ does. `configfile:` is a plain YAML load: it does not know
+# about the per-dataset blocks, so without this the DAG would read a second
+# dataset's run off dataset 1's top-level `paths:`, `query:` and `pairs:` --
+# silently, because every path still resolves. `config` is the same dict every
+# job receives as `snakemake.config`, so resolving it once here covers stage 0
+# through stage 6.
+# Off workflow.basedir, not off WORKDIR: this Snakefile lives in
+# 1_scripts/00_pipeline/, so its parent is 1_scripts/ whatever WORKDIR is taken
+# to mean, and 1_scripts is not a package (an identifier cannot start with a
+# digit), so the import is flat -- CLAUDE.md §3.
+sys.path.insert(0, str(Path(workflow.basedir).parent / "00_common"))
+from dataset_config import (DATASETS_KEY, query_cache_name,  # noqa: E402
+                            resolve)
+
+_resolved = resolve(dict(config))
+config.pop(DATASETS_KEY, None)      # the unselected blocks are not a job's business
+config.update(_resolved)
+
+# CAUTION — mtime cascades.
+# These profiles run with `--rerun-triggers mtime`, so touching ANY upstream
+# cache invalidates everything below it. Deleting the query embeddings to
+# regenerate query metadata once invalidated stage 2, which invalidated all
+# 12,874 sweeps: six to eight hours of recomputation for output that could not
+# differ, because the encoder is deterministic and the reference had not moved.
+#
+# When only metadata needs regenerating, delete only
+# cache/<dataset>/query_meta.parquet.
+# And before reusing cached results after any upstream rebuild, VERIFY rather
+# than assume: recompute two or three stored sweeps against the new inputs and
+# compare. If they match, `touch` the cached outputs to mark them current.
+#
+# A config edit reaches the same cascade. Every artefact derived from the QUERY
+# DATASET therefore lives under CACHE/<dataset>/ rather than at the cache root,
+# so pointing `dataset:` at a second dataset cannot overwrite the first one's
+# files in place. The reference and the poison sets are NOT query-derived and
+# stay shared -- identical keys give byte-identical poison across datasets,
+# which is what makes a cross-dataset comparison exact. dataset_config states
+# the split; QCACHE below is the only place this file spells it.
+
+P = config["paths"]
+CACHE, RESULTS = P["cache"], P["results"]
+QCACHE = f"{CACHE}/{query_cache_name(config)}"
+
+ATTACKS = config["attacks"]
+PAIRS   = [p["name"] for p in config["pairs"]]
+RATES   = [repr(float(r)) for r in config["rates"]]
+SEEDS   = config["seeds"]
+
+# Combos run on their own, smaller budget — see config. Expanding singles and
+# combos separately keeps one grid from dictating the other's cost.
+SINGLES     = [p["name"] for p in config["pairs"] if "members" not in p]
+COMBOS      = [p["name"] for p in config["pairs"] if "members" in p]
+COMBO_RATES = [repr(float(r)) for r in config.get("combo_rates", config["rates"])]
+COMBO_SEEDS = config.get("combo_seeds", config["seeds"])
+
+# Extra replication where a single drawn record dominates the outcome.
+LOW_RATES = [repr(float(r)) for r in config["rates"]
+             if float(r) <= float(config.get("low_rate_max", 0))]
+LOW_SEEDS = config.get("low_rate_extra_seeds", [])
+
+CONDITION = "{attack}_{pair}_{rate}_{seed}"
+
+# Pair names contain underscores (mac_to_tcell), so `{attack}_{pair}_{rate}_{seed}`
+# is ambiguous against a filename and snakemake resolved `pair` to "tcell".
+# Constraining each wildcard to its known alphabet makes the split deterministic.
+wildcard_constraints:
+    attack="|".join(ATTACKS),
+    pair="|".join(PAIRS),
+    rate=r"[0-9][0-9.eE+-]*",
+    seed=r"\d+",
+
+
+rule all:
+    input:
+        f"{RESULTS}/summary.parquet",
+
+
+rule prepare_reference:
+    """Stage 0 — map reference labels onto ontology ids, subsample, verify pairs.
+
+    Loads an 8.6 GB index. CLAUDE.md §1 requires explicit human approval before
+    any run that does this.
+    """
+    input:
+        model=P["reference_dir"],
+        obo=config["ontology"]["obo"],
+    output:
+        f"{CACHE}/reference.npz",
+    script:
+        "scripts/prepare_reference.py"
+
+
+rule embed_queries:
+    """Stage 1 — run the SCimilarity encoder over the held-out cells. Once."""
+    input:
+        h5ad=P["queries_h5ad"],
+        model=P["reference_dir"],
+    output:
+        emb=f"{QCACHE}/query_emb.npy",
+        meta=f"{QCACHE}/query_meta.parquet",
+    script:
+        "scripts/embed_queries.py"
+
+
+rule retrieve_clean:
+    """Stage 2 — the honest lookup. Runs ONCE; all 1,260 conditions reuse it."""
+    input:
+        reference=f"{CACHE}/reference.npz",
+        query_emb=f"{QCACHE}/query_emb.npy",
+    output:
+        f"{QCACHE}/clean_neighbors.npz",
+    script:
+        "scripts/retrieve_clean.py"
+
+
+rule make_poison:
+    """Stage 3 — build one condition's poison set."""
+    input:
+        reference=f"{CACHE}/reference.npz",
+    output:
+        f"{CACHE}/poison/{CONDITION}.npz",
+    script:
+        "scripts/make_poison.py"
+
+
+rule sweep:
+    """Stage 4 — merge poison into the clean neighbours and vote."""
+    input:
+        query_emb=f"{QCACHE}/query_emb.npy",
+        query_meta=f"{QCACHE}/query_meta.parquet",
+        neighbors=f"{QCACHE}/clean_neighbors.npz",
+        poison=f"{CACHE}/poison/{CONDITION}.npz",
+    output:
+        f"{RESULTS}/raw/{CONDITION}.parquet",
+    script:
+        "scripts/sweep.py"
+
+
+# ── Stage 6 ──────────────────────────────────────────────────────────────────
+# Not part of `rule all`: it runs on a deliberately small subset, because each
+# condition rebuilds a 7.9M-node graph index. Request it explicitly:
+#   snakemake -s pipeline/Snakefile --profile config/profiles/full \
+#             results/shortcut_validation.parquet
+VALIDATE = config.get("validate", {})
+V_ATTACKS = VALIDATE.get("attacks", ATTACKS)
+V_PAIRS   = VALIDATE.get("pairs", PAIRS[:1])
+V_RATES   = [repr(float(r)) for r in VALIDATE.get("rates", [max(config["rates"])])]
+V_SEEDS   = VALIDATE.get("seeds", [0])
+
+
+rule validate_shortcut:
+    """Stage 6 — merge shortcut vs an honestly rebuilt index, one condition."""
+    input:
+        reference=f"{CACHE}/reference.npz",
+        query_emb=f"{QCACHE}/query_emb.npy",
+        neighbors=f"{QCACHE}/clean_neighbors.npz",
+        poison=f"{CACHE}/poison/{CONDITION}.npz",
+    output:
+        f"{QCACHE}/validation/{CONDITION}.parquet",
+    script:
+        "scripts/validate_shortcut.py"
+
+
+rule collect_validation:
+    """Stage 6 — gather the per-condition comparisons."""
+    input:
+        expand(
+            f"{QCACHE}/validation/{CONDITION}.parquet",
+            attack=V_ATTACKS, pair=V_PAIRS, rate=V_RATES, seed=V_SEEDS,
+        ),
+    output:
+        f"{RESULTS}/shortcut_validation.parquet",
+    run:
+        import pandas as pd
+        pd.concat([pd.read_parquet(f) for f in input], ignore_index=True).to_parquet(
+            output[0], index=False
+        )
+
+
+rule aggregate:
+    """Stage 5 — collapse over seeds; bootstrap over donors AND seeds."""
+    input:
+        query_meta=f"{QCACHE}/query_meta.parquet",
+        raw=expand(
+            f"{RESULTS}/raw/{CONDITION}.parquet",
+            attack=ATTACKS, pair=SINGLES, rate=RATES, seed=SEEDS,
+        ) + expand(
+            f"{RESULTS}/raw/{CONDITION}.parquet",
+            attack=ATTACKS, pair=COMBOS, rate=COMBO_RATES, seed=COMBO_SEEDS,
+        ) + expand(
+            f"{RESULTS}/raw/{CONDITION}.parquet",
+            attack=ATTACKS, pair=SINGLES, rate=LOW_RATES, seed=LOW_SEEDS,
+        ),
+    output:
+        f"{RESULTS}/summary.parquet",
+    script:
+        "scripts/aggregate.py"

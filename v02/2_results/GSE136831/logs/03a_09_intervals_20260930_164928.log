@@ -1,0 +1,15 @@
+started: 2026-09-30T21:51:53Z
+script:  v02/1_scripts/03_a_defence_vs_insert/03a_09_both_intervals.py
+profile: none (direct python). Reads the three committed _by_donor
+         tables; re-runs no attack and loads no index.
+[provenance] 03a_09_both_intervals.py sha 4891a629 (DIRTY, diff 72d3aa955061, code 1 changed +1 untracked, elsewhere +22 untracked) branch restructure-v01-v02 full 4891a629fb10b53635f5fabfbac694446956b618
+[0s] insert: 194,688 donor rows, 2,496 conditions
+[6s]   208 conditions x 6 metrics intervalled
+[6s] modify_graph: 194,688 donor rows, 2,496 conditions
+[11s]   208 conditions x 6 metrics intervalled
+[11s] modify_cached_clean: 194,688 donor rows, 2,496 conditions
+[11s]   selection recovered from row order and verified: worst |diff| 2.98e-08 over 1248 comparisons
+[17s]   208 conditions x 6 metrics intervalled
+[17s] point estimates agree with the committed matrices on 14,976 comparisons (tol 1e-06)
+[17s] wrote 7,488 rows to 03a_09_both_intervals.parquet
+  2,724 of 7,488 (condition, layer) rows have a within_attack_success reduction whose 95% interval excludes zero

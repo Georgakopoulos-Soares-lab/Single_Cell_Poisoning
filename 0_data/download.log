@@ -1,0 +1,26 @@
+[16:33:52] START GSE136831_subsample.h5ad
+ 99 2099M   99 2099M    0     0  2468k      0  0:14:30  0:14:30 --:--:-- 1848k
+100 2099M  100 2099M    0     0  2468k      0  0:14:30  0:14:30 --:--:-- 1888k
+[08-26 16:48:47] FETCH GSE136831_subsample.h5ad attempt 2 (have 2.1G)
+100    22  100    22    0     0     28      0 --:--:-- --:--:-- --:--:--    28
+[08-26 16:49:20] FETCH GSE136831_subsample.h5ad attempt 3 (have 2.1G)
+100    22  100    22    0     0     46      0 --:--:-- --:--:-- --:--:--    46
+[08-26 16:49:54] FETCH GSE136831_subsample.h5ad attempt 4 (have 2.1G)
+100    22  100    22    0     0     41      0 --:--:-- --:--:-- --:--:--    41
+[08-26 16:50:27] FETCH GSE136831_subsample.h5ad attempt 5 (have 2.1G)
+100    22  100    22    0     0     34      0 --:--:-- --:--:-- --:--:--    34
+[08-26 16:51:00] FETCH GSE136831_subsample.h5ad attempt 6 (have 2.1G)
+100    22  100    22    0     0     42      0 --:--:-- --:--:-- --:--:--    42
+[08-26 16:51:34] FETCH GSE136831_subsample.h5ad attempt 7 (have 2.1G)
+100    22  100    22    0     0     35      0 --:--:-- --:--:-- --:--:--    35
+[08-26 16:52:07] FETCH GSE136831_subsample.h5ad attempt 8 (have 2.1G)
+100    22  100    22    0     0     33      0 --:--:-- --:--:-- --:--:--    33
+[08-26 16:52:40] FETCH GSE136831_subsample.h5ad attempt 9 (have 2.1G)
+100    22  100    22    0     0     48      0 --:--:-- --:--:-- --:--:--    48
+[08-26 16:53:14] FETCH GSE136831_subsample.h5ad attempt 10 (have 2.1G)
+100    22  100    22    0     0     40      0 --:--:-- --:--:-- --:--:--    40
+[08-26 16:54:24] VERIFIED GSE136831_subsample.h5ad
+[08-26 16:54:24] FETCH model_v1.1.tar.gz attempt 1 (0 MiB / 28906 MiB)
+100 28.2G  100 28.2G    0     0  4954k      0  1:39:34  1:39:34 --:--:-- 5861k
+[08-26 18:34:59] VERIFIED model_v1.1.tar.gz
+[08-26 18:34:59] ALL DONE - both files verified

@@ -1,0 +1,17 @@
+[provenance] 03b_03_with_access_repeatability.py sha 7e435166 (DIRTY, diff 267bb33e6da4, code 1 changed +0 untracked, elsewhere +82 untracked) branch restructure-v01-v02 full 7e435166db1db25403b8588da15c9112ce50399f
+[1s] wrote 97,344 rows to 03b_03_with_access_repeatability_v3moduni.parquet
+     kind                   metric    n   median      p95      max  exact
+  control global_baseline_accuracy 8112 0.000000 0.000000 0.000000   8112
+  control           n_donor_edited 8112 0.000000 0.000000 0.000000   8112
+  control                 n_poison 8112 0.000000 0.000000 0.000000   8112
+  control within_baseline_accuracy 8112 0.000000 0.000000 0.000000   8112
+  outcome    within_attack_success 8112 0.000000 0.008264 0.115810   6083
+  outcome          within_accuracy 8112 0.000000 0.007246 0.048077   6192
+  outcome    global_attack_success 8112 0.000000 0.000121 0.006005   5897
+  outcome  clean_accuracy_defended 8112 0.000000 0.000202 0.005803   4952
+  outcome          global_accuracy 8112 0.000000 0.000142 0.005338   5045
+  outcome           false_positive 8112 0.000000 0.000008 0.001212   5394
+retrieval         within_retrieval 8112 0.000000 0.008475 0.112000   5160
+retrieval         global_retrieval 8112 0.000000 0.000263 0.015044   4560
+
+controls all exact -- the spread is add_items and nothing else

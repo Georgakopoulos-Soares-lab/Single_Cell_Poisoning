@@ -1,0 +1,8 @@
+git SHA: 19c0ad52
+merged: 2026-09-27T14:19:03Z
+canonical: 02b_15_with_access_alpha_sweep_by_donor_graph.parquet
+expect: 73008 rows (conditions x 78 donors)
+reason: by_donor row count is conditions x donors, so it cannot carry
+        n_conditions; --expect supplies the total to verify against.
+3 shards -> 73,008 rows, 26 celltypes -> 02b_15_with_access_alpha_sweep_by_donor_graph.parquet
+merge exit: 0 at 2026-09-27T14:19:03Z

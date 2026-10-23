@@ -1,0 +1,13 @@
+git SHA: ad280ceb
+started: 2026-09-28T02:04:39Z
+script:  v02/1_scripts/02_b_attack_celltype/02b_16_with_access_exact_vs_graph.py
+[0s] 02b_11_with_access_inplace: 2028 conditions, 2 comparable metrics, keys ['source', 'target', 'attack', 'geometry', 'label_change', 'selection', 'rate', 'seed']
+[0s] 02b_15_with_access_alpha_sweep: 936 conditions, 2 comparable metrics, keys ['source', 'target', 'attack', 'geometry', 'label_change', 'selection', 'rate', 'alpha_lo', 'alpha_hi', 'seed']
+
+[0s] wrote 5,928 rows to 02b_16_with_access_exact_vs_graph.parquet
+
+  02b_11_with_access_inplace         within_accuracy      n=2028  identical  44.0%  |d|>0.01  11.4%  mean -0.00146  graph stronger  33.4% / weaker  22.6%
+  02b_11_with_access_inplace         within_retrieval     n=2028  identical  60.5%  |d|>0.01  15.6%  mean -0.00112  graph stronger  28.2% / weaker  11.3%
+  02b_15_with_access_alpha_sweep     within_accuracy      n=936   identical  41.2%  |d|>0.01   9.1%  mean -0.00110  graph stronger  34.0% / weaker  24.8%
+  02b_15_with_access_alpha_sweep     within_retrieval     n=936   identical  46.4%  |d|>0.01  13.4%  mean -0.00393  graph stronger  41.3% / weaker  12.3%
+exit: 0 at 2026-09-28T02:04:39Z

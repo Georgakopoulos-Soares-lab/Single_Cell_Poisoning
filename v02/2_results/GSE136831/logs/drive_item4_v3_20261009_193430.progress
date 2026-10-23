@@ -1,0 +1,10 @@
+[19:34] launched 4 shards: 67770 67772 67774 67776
+[22:23] all shards exited 0
+2 shards -> 6,656 rows, 26 celltypes -> 03a_02_no_access_donor_identity_all26_v3.parquet
+  removed 2 merged shard files
+2 shards -> 519,168 rows, 26 celltypes -> 03a_02_no_access_donor_identity_by_donor_all26_v3.parquet
+  removed 2 merged shard files
+2 shards -> 216 rows, 6 celltypes -> 03a_03_no_access_vote_weighting_v3.parquet
+  removed 2 merged shard files
+2 shards -> 16,848 rows, 6 celltypes -> 03a_03_no_access_vote_weighting_by_donor_v3.parquet
+  removed 2 merged shard files

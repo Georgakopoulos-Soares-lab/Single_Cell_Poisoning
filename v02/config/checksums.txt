@@ -1,0 +1,4 @@
+# Zenodo source artifacts for stage 0 `acquire`. Verified on download.
+# md5                               file                      bytes
+546251b7c435f3b1dbe38e2e420ad57f  model_v1.1.tar.gz         30310810843
+9589d3368c2dbb287b94e2915ad7de31  GSE136831_subsample.h5ad   2201750174

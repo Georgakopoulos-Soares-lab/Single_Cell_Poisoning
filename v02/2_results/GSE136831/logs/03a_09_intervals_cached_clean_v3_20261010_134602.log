@@ -1,0 +1,9 @@
+started: 2026-10-10T22:24:58Z
+script:  v02/1_scripts/03_a_defence_vs_insert/03a_09_both_intervals.py
+         BIORAG_TAG=v3 (the cached_clean pair), single process
+[provenance] 03a_09_both_intervals.py sha 384db651 (DIRTY, diff 267bb33e6da4, code 1 changed +0 untracked, elsewhere +88 untracked) branch restructure-v01-v02 full 384db6516304171614fb06fc8aeffc7b833c4530
+[0s] modify_cached_clean: 632,736 donor rows, 8,112 conditions
+[18s]   676 conditions x 6 metrics intervalled
+[18s] point estimates agree with the committed matrices on 16,224 comparisons (tol 1e-06)
+[18s] wrote 8,112 rows to 03a_09_both_intervals_cached_clean_v3.parquet
+  1,071 of 8,112 (condition, layer) rows have a within_attack_success reduction whose 95% interval excludes zero

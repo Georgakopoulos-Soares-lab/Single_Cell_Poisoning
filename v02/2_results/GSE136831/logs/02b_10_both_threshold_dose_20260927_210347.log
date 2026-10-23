@@ -1,0 +1,18 @@
+git SHA: ad280ceb
+started: 2026-09-28T02:03:47Z
+script:  v02/1_scripts/02_b_attack_celltype/02b_10_both_threshold_dose.py
+[0s] 7 donor tables: 02b_01_no_access_celltype_sweep_by_donor.parquet, 02b_02_no_access_flood_by_donor.parquet, 02b_05_with_access_hub_split_by_donor.parquet, 02b_11_with_access_inplace_by_donor_graph.parquet, 02b_13_no_access_flood_geometry_by_donor.parquet, 02b_14_no_access_flood_sites_by_donor.parquet, 02b_15_with_access_alpha_sweep_by_donor_graph.parquet
+[    9s] 02b_01_no_access_celltype_sweep_by_donor.parquet: 1560 rows so far
+[   17s] 02b_02_no_access_flood_by_donor.parquet: 3120 rows so far
+[   28s] 02b_05_with_access_hub_split_by_donor.parquet: 5460 rows so far
+[   36s] 02b_11_with_access_inplace_by_donor_graph.parquet: 7020 rows so far
+  SKIP 02b_13_no_access_flood_geometry_by_donor.parquet: 1 dose, not a dose sweep
+  SKIP 02b_14_no_access_flood_sites_by_donor.parquet: 1 dose, not a dose sweep
+  SKIP 02b_15_with_access_alpha_sweep_by_donor_graph.parquet: 1 dose, not a dose sweep
+
+[36s] wrote 7020 rows to 02b_10_both_threshold_dose.parquet
+  within-scope: 2941 with a threshold, 1625 left-censored, 2454 right-censored, 0 with no scored query
+real 36.57
+user 37.71
+sys 14.68
+exit: 0 at 2026-09-28T02:04:23Z

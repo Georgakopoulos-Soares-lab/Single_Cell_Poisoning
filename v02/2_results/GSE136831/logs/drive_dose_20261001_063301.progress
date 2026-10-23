@@ -1,0 +1,5 @@
+all 4 shards finished 2026-10-01 06:33
+4 shards -> 6,240 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_dose.parquet
+  removed 4 merged shard files
+4 shards -> 486,720 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor_dose.parquet
+  removed 4 merged shard files

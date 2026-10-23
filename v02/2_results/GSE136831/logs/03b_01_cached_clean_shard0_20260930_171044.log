@@ -1,0 +1,19 @@
+started: 2026-09-30T22:10:44Z
+script:  v02/1_scripts/03_b_defence_vs_modify/03b_01_with_access_layer_matrix.py
+profile: none (direct python). VERIFICATION RUN, one celltype of 26:
+         BIORAG_PHASE=cached_clean SHARD=0 N_SHARDS=26. Proves the
+         2026-09-30 schema fix emits selection in the donor frame and
+         n_conditions in the rows. Writes _shard0 files only; the
+         committed canonical tables are not touched.
+[provenance] 03b_01_with_access_layer_matrix.py sha 1024e691 (clean in code, elsewhere +22 untracked) branch restructure-v01-v02 full 1024e691ac9cc11727bfb61f179c72659b0bfe98
+[5s] reference kNN cache: 197,981 rows
+[6s] 8 conditions; 6 budget-free configs + 2 x 3 budget-dependent
+[     82s] 1/8 CL:0000057 unmoved/hub dose 0.002  n_p      392 donors   33 (76s)
+[    159s] 2/8 CL:0000057 unmoved/hub dose 0.01   n_p    1,962 donors   91 (77s)
+[    236s] 3/8 CL:0000057 unmoved/hub dose 0.05   n_p    9,812 donors  216 (77s)
+[    314s] 4/8 CL:0000057 unmoved/hub dose 0.25   n_p   49,060 donors  228 (78s)
+[    392s] 5/8 CL:0000057 unmoved/uniform dose 0.002  n_p      392 donors  151 (78s)
+[    470s] 6/8 CL:0000057 unmoved/uniform dose 0.01   n_p    1,962 donors  276 (78s)
+[    548s] 7/8 CL:0000057 unmoved/uniform dose 0.05   n_p    9,812 donors  356 (78s)
+[    625s] 8/8 CL:0000057 unmoved/uniform dose 0.25   n_p   49,060 donors  404 (78s)
+[by_donor] wrote 7,488 donor rows to <REPO>/v02/2_results/GSE136831/03_b_defence_vs_modify/03b_01_with_access_layer_matrix_by_donor_cached_clean_shard0.parquet

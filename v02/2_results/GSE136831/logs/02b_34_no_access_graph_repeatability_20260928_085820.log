@@ -1,0 +1,82 @@
+started: 2026-09-28T08:58:20Z
+script:  v02/1_scripts/02_b_attack_celltype/02b_34_no_access_graph_repeatability.py
+profile: none (direct python; 4 conditions x 6 repeats = 24 retrievals, the approved ceiling)
+[provenance] 02b_34_no_access_graph_repeatability.py sha 909a8adf (DIRTY, diff a0aef95bd817, code 3 changed +2 untracked, elsewhere +22 untracked) branch restructure-v01-v02 full 909a8adfb551aecb55f11120f65aec73350538d7
+[1s] 26 attackable celltypes, covering 46,196 of 49,456 queries
+[5s] vocabulary 204 terms; lineage and distance tables built (406 of 41,616 ordered pairs unreachable, all of them involving a term with no ontology id)
+[5s] clean graph baseline: accuracy 0.46368 exact (0.45930-0.46494 over ties), 0.88491 lineage-tolerant, mean error 1.423 hops over 64 unreachable pairs
+[6s] 4 conditions x 6 repeats = 24 retrievals; identical condition_seed, identical poison set and identical bootstrap seed 0 on every one
+[    29s]  1/24 CL:0000623 dose 0.25  rep 1/6 n_p  47,105  acc 0.0829  net +0.8477  ret 0.9973  within top50 overlap 1.0000  within pred moved 0.0000  (23s)
+[    52s]  2/24 CL:0000623 dose 0.25  rep 2/6 n_p  47,105  acc 0.0807  net +0.8498  ret 0.9973  within top50 overlap 0.9964  within pred moved 0.0700  (23s)
+[    75s]  3/24 CL:0000623 dose 0.25  rep 3/6 n_p  47,105  acc 0.0845  net +0.8461  ret 0.9973  within top50 overlap 0.9988  within pred moved 0.0296  (23s)
+[    98s]  4/24 CL:0000623 dose 0.25  rep 4/6 n_p  47,105  acc 0.0807  net +0.8498  ret 0.9973  within top50 overlap 0.9988  within pred moved 0.0269  (23s)
+[   121s]  5/24 CL:0000623 dose 0.25  rep 5/6 n_p  47,105  acc 0.0823  net +0.8482  ret 0.9973  within top50 overlap 0.9989  within pred moved 0.0328  (23s)
+[   145s]  6/24 CL:0000623 dose 0.25  rep 6/6 n_p  47,105  acc 0.0834  net +0.8471  ret 0.9973  within top50 overlap 0.9987  within pred moved 0.0328  (24s)
+[   183s]  7/24 CL:0000623 dose 1.0   rep 1/6 n_p 188,421  acc 0.0915  net +0.8396  ret 0.9973  within top50 overlap 1.0000  within pred moved 0.0000  (38s)
+[   230s]  8/24 CL:0000623 dose 1.0   rep 2/6 n_p 188,421  acc 0.0920  net +0.8385  ret 0.9973  within top50 overlap 0.9968  within pred moved 0.0506  (48s)
+[   367s]  9/24 CL:0000623 dose 1.0   rep 3/6 n_p 188,421  acc 0.0888  net +0.8418  ret 0.9973  within top50 overlap 0.9967  within pred moved 0.0527  (136s)
+[   421s] 10/24 CL:0000623 dose 1.0   rep 4/6 n_p 188,421  acc 0.0883  net +0.8423  ret 0.9973  within top50 overlap 0.9966  within pred moved 0.0597  (54s)
+[   491s] 11/24 CL:0000623 dose 1.0   rep 5/6 n_p 188,421  acc 0.0861  net +0.8445  ret 0.9973  within top50 overlap 0.9968  within pred moved 0.0554  (70s)
+[   627s] 12/24 CL:0000623 dose 1.0   rep 6/6 n_p 188,421  acc 0.0877  net +0.8428  ret 0.9973  within top50 overlap 0.9966  within pred moved 0.0571  (136s)
+[   654s] 13/24 CL:0000057 dose 0.25  rep 1/6 n_p  49,060  acc 0.8005  net +0.1635  ret 1.0000  within top50 overlap 1.0000  within pred moved 0.0000  (27s)
+[   681s] 14/24 CL:0000057 dose 0.25  rep 2/6 n_p  49,060  acc 0.7861  net +0.1779  ret 1.0000  within top50 overlap 0.9933  within pred moved 0.0962  (27s)
+[   709s] 15/24 CL:0000057 dose 0.25  rep 3/6 n_p  49,060  acc 0.8029  net +0.1611  ret 1.0000  within top50 overlap 0.9978  within pred moved 0.0457  (28s)
+[   798s] 16/24 CL:0000057 dose 0.25  rep 4/6 n_p  49,060  acc 0.7885  net +0.1755  ret 1.0000  within top50 overlap 0.9978  within pred moved 0.0601  (89s)
+[   827s] 17/24 CL:0000057 dose 0.25  rep 5/6 n_p  49,060  acc 0.7909  net +0.1731  ret 1.0000  within top50 overlap 0.9960  within pred moved 0.0721  (29s)
+[   856s] 18/24 CL:0000057 dose 0.25  rep 6/6 n_p  49,060  acc 0.7981  net +0.1659  ret 1.0000  within top50 overlap 0.9981  within pred moved 0.0409  (29s)
+[   912s] 19/24 CL:0000057 dose 1.0   rep 1/6 n_p 196,242  acc 0.7909  net +0.1731  ret 1.0000  within top50 overlap 1.0000  within pred moved 0.0000  (56s)
+[  1032s] 20/24 CL:0000057 dose 1.0   rep 2/6 n_p 196,242  acc 0.7837  net +0.1803  ret 1.0000  within top50 overlap 0.9948  within pred moved 0.0793  (121s)
+[  1091s] 21/24 CL:0000057 dose 1.0   rep 3/6 n_p 196,242  acc 0.7933  net +0.1707  ret 1.0000  within top50 overlap 0.9937  within pred moved 0.0938  (59s)
+[  1152s] 22/24 CL:0000057 dose 1.0   rep 4/6 n_p 196,242  acc 0.7837  net +0.1803  ret 1.0000  within top50 overlap 0.9954  within pred moved 0.0745  (60s)
+[  1256s] 23/24 CL:0000057 dose 1.0   rep 5/6 n_p 196,242  acc 0.7837  net +0.1803  ret 1.0000  within top50 overlap 0.9949  within pred moved 0.0841  (104s)
+[  1342s] 24/24 CL:0000057 dose 1.0   rep 6/6 n_p 196,242  acc 0.7861  net +0.1779  ret 1.0000  within top50 overlap 0.9950  within pred moved 0.0913  (86s)
+
+[1342s] wrote 24 repeat rows to <REPO>/v02/2_results/GSE136831/02_b_attack_celltype/02b_34_no_access_repeats.parquet
+[1342s] wrote 304 (condition, metric) rows to <REPO>/v02/2_results/GSE136831/02_b_attack_celltype/02b_34_no_access_spread.parquet
+
+band across repeats, identical inputs (sd is ddof=1; churn rows compare against repeat 1 and use n-1):
+    source  rate                        metric  n_repeats     mean       sd      min      max    range
+CL:0000057  0.25               within_accuracy          6 0.794471 0.006925 0.786058 0.802885 0.016827
+CL:0000057  0.25         within_attack_success          6 0.169471 0.006925 0.161058 0.177885 0.016827
+CL:0000057  0.25     within_net_attack_success          6 0.169471 0.006925 0.161058 0.177885 0.016827
+CL:0000057  0.25              within_retrieval          6 1.000000 0.000000 1.000000 1.000000 0.000000
+CL:0000057  0.25      within_baseline_accuracy          6 0.966346 0.000000 0.966346 0.966346 0.000000
+CL:0000057  0.25      within_topk_overlap_mean          5 0.996596 0.002047 0.993269 0.998125 0.004856
+CL:0000057  0.25       within_topk_overlap_min          5 0.760000 0.000000 0.760000 0.760000 0.000000
+CL:0000057  0.25     within_topk_set_identical          5 0.904327 0.041684 0.834135 0.939904 0.105769
+CL:0000057  0.25 within_topk_ordered_identical          5 0.904327 0.041684 0.834135 0.939904 0.105769
+CL:0000057  0.25          within_nn1_identical          5 0.999038 0.001317 0.997596 1.000000 0.002404
+CL:0000057  0.25           within_pred_changed          5 0.062981 0.022253 0.040865 0.096154 0.055288
+CL:0000057  1.00               within_accuracy          6 0.786859 0.004210 0.783654 0.793269 0.009615
+CL:0000057  1.00         within_attack_success          6 0.177083 0.004210 0.170673 0.180288 0.009615
+CL:0000057  1.00     within_net_attack_success          6 0.177083 0.004210 0.170673 0.180288 0.009615
+CL:0000057  1.00              within_retrieval          6 1.000000 0.000000 1.000000 1.000000 0.000000
+CL:0000057  1.00      within_baseline_accuracy          6 0.966346 0.000000 0.966346 0.966346 0.000000
+CL:0000057  1.00      within_topk_overlap_mean          5 0.994760 0.000645 0.993702 0.995433 0.001731
+CL:0000057  1.00       within_topk_overlap_min          5 0.600000 0.000000 0.600000 0.600000 0.000000
+CL:0000057  1.00     within_topk_set_identical          5 0.881731 0.015146 0.858173 0.894231 0.036058
+CL:0000057  1.00 within_topk_ordered_identical          5 0.881731 0.015146 0.858173 0.894231 0.036058
+CL:0000057  1.00          within_nn1_identical          5 0.997596 0.000000 0.997596 0.997596 0.000000
+CL:0000057  1.00           within_pred_changed          5 0.084615 0.008045 0.074519 0.093750 0.019231
+CL:0000623  0.25               within_accuracy          6 0.082436 0.001500 0.080732 0.084499 0.003767
+CL:0000623  0.25         within_attack_success          6 0.852440 0.001500 0.850377 0.854144 0.003767
+CL:0000623  0.25     within_net_attack_success          6 0.848134 0.001500 0.846071 0.849839 0.003767
+CL:0000623  0.25              within_retrieval          6 0.997309 0.000000 0.997309 0.997309 0.000000
+CL:0000623  0.25      within_baseline_accuracy          6 0.923574 0.000000 0.923574 0.923574 0.000000
+CL:0000623  0.25      within_topk_overlap_mean          5 0.998316 0.001064 0.996416 0.998870 0.002454
+CL:0000623  0.25       within_topk_overlap_min          5 0.936000 0.069857 0.820000 0.980000 0.160000
+CL:0000623  0.25     within_topk_set_identical          5 0.924435 0.036999 0.858450 0.943488 0.085038
+CL:0000623  0.25 within_topk_ordered_identical          5 0.924435 0.036999 0.858450 0.943488 0.085038
+CL:0000623  0.25          within_nn1_identical          5 0.999785 0.000481 0.998924 1.000000 0.001076
+CL:0000623  0.25           within_pred_changed          5 0.038428 0.017804 0.026911 0.069968 0.043057
+CL:0000623  1.00               within_accuracy          6 0.089074 0.002277 0.086114 0.092034 0.005920
+CL:0000623  1.00         within_attack_success          6 0.845892 0.002171 0.842842 0.848762 0.005920
+CL:0000623  1.00     within_net_attack_success          6 0.841586 0.002171 0.838536 0.844456 0.005920
+CL:0000623  1.00              within_retrieval          6 0.997309 0.000000 0.997309 0.997309 0.000000
+CL:0000623  1.00      within_baseline_accuracy          6 0.923574 0.000000 0.923574 0.923574 0.000000
+CL:0000623  1.00      within_topk_overlap_mean          5 0.996695 0.000124 0.996566 0.996825 0.000258
+CL:0000623  1.00       within_topk_overlap_min          5 0.000000 0.000000 0.000000 0.000000 0.000000
+CL:0000623  1.00     within_topk_set_identical          5 0.887944 0.004744 0.881055 0.892357 0.011302
+CL:0000623  1.00 within_topk_ordered_identical          5 0.887944 0.004744 0.881055 0.892357 0.011302
+CL:0000623  1.00          within_nn1_identical          5 0.999462 0.000000 0.999462 0.999462 0.000000
+CL:0000623  1.00           within_pred_changed          5 0.055113 0.003582 0.050592 0.059742 0.009150

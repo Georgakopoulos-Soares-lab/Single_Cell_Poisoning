@@ -1,0 +1,18 @@
+started: 2026-09-30T19:23:06Z
+script:  v02/1_scripts/00_pipeline/merge_shards.py
+profile: none (direct python). Finishes the three merges the chained
+         driver left: merge_shards REFUSES a by_donor table without
+         --expect, and the 03b_01 graph shards carry no n_conditions
+         column, so all three needed an explicit expectation.
+expect:  03a_01 by_donor  194688 = 2496 conditions x 78 donors
+         03b_01 graph       2496 = 26 celltypes x 96, verified to
+                                   partition with zero overlap
+         03b_01 by_donor  194688 = 2496 x 78
+
+3 shards -> 194,688 rows, 26 celltypes -> 03a_01_no_access_layer_matrix_by_donor.parquet
+  removed 3 merged shard files
+2 shards -> 2,496 rows, 26 celltypes -> 03b_01_with_access_layer_matrix_graph.parquet
+  removed 2 merged shard files
+2 shards -> 194,688 rows, 26 celltypes -> 03b_01_with_access_layer_matrix_by_donor_graph.parquet
+  removed 2 merged shard files
+finished: 2026-09-30T19:23:07Z

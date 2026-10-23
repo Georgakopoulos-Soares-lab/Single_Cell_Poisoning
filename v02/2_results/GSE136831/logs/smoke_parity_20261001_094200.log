@@ -1,0 +1,41 @@
+smoke started 2026-10-01 09:42
+--- reluni: relabel/uniform dose 0.25 
+[provenance] 03a_01_no_access_layer_matrix.py sha 06fddbdb (DIRTY, diff e40308e562c8, code 3 changed +2 untracked, elsewhere +51 untracked) branch restructure-v01-v02 full 06fddbdb77acbb0e1e08d6ce62c91fdb5a074a2e
+[1s] 26 attackable celltypes, covering 46,196 of 49,456 queries
+[5s] vocabulary 204 terms; lineage and distance tables built (406 of 41,616 ordered pairs unreachable, all of them involving a term with no ontology id)
+[5s] clean graph baseline: accuracy 0.46368 exact (0.45930-0.46494 over ties), 0.88491 lineage-tolerant, mean error 1.423 hops over 64 unreachable pairs
+[11s] genuine LC over 195,972 rows; budget 1% -> 0.0200, budget 5% -> 0.1600, budget 10% -> 0.3200
+[11s] 1 conditions; 6 budget-free + 2 x 3 budget-dependent
+[    132s] 1/1 CL:0000057 relabel/uniform dose 0.25   n_p   49,060 retr  2,234 (ret 24s lc 19s)
+[by_donor] wrote 936 donor rows to <REPO>/v02/2_results/GSE136831/03_a_defence_vs_insert/03a_01_no_access_layer_matrix_by_donor_smoke_reluni_shard0.parquet
+--- dupcon: duplicate/concentrated dose 0.25 
+[provenance] 03a_01_no_access_layer_matrix.py sha 06fddbdb (DIRTY, diff e40308e562c8, code 3 changed +2 untracked, elsewhere +53 untracked) branch restructure-v01-v02 full 06fddbdb77acbb0e1e08d6ce62c91fdb5a074a2e
+[1s] 26 attackable celltypes, covering 46,196 of 49,456 queries
+[5s] vocabulary 204 terms; lineage and distance tables built (406 of 41,616 ordered pairs unreachable, all of them involving a term with no ontology id)
+[5s] clean graph baseline: accuracy 0.46368 exact (0.45930-0.46494 over ties), 0.88491 lineage-tolerant, mean error 1.423 hops over 64 unreachable pairs
+[11s] genuine LC over 195,972 rows; budget 1% -> 0.0200, budget 5% -> 0.1600, budget 10% -> 0.3200
+[11s] 1 conditions; 6 budget-free + 2 x 3 budget-dependent
+[    134s] 1/1 CL:0000057 duplicate/concentrated dose 0.25   n_p   49,060 retr  2,068 (ret 25s lc 20s)
+[by_donor] wrote 936 donor rows to <REPO>/v02/2_results/GSE136831/03_a_defence_vs_insert/03a_01_no_access_layer_matrix_by_donor_smoke_dupcon_shard0.parquet
+--- floanc: flood/hub dose 0.25 BIORAG_FLOOD_ANCHORS=64
+[provenance] 03a_01_no_access_layer_matrix.py sha 06fddbdb (DIRTY, diff e40308e562c8, code 3 changed +2 untracked, elsewhere +55 untracked) branch restructure-v01-v02 full 06fddbdb77acbb0e1e08d6ce62c91fdb5a074a2e
+[1s] 26 attackable celltypes, covering 46,196 of 49,456 queries
+[5s] vocabulary 204 terms; lineage and distance tables built (406 of 41,616 ordered pairs unreachable, all of them involving a term with no ontology id)
+[5s] clean graph baseline: accuracy 0.46368 exact (0.45930-0.46494 over ties), 0.88491 lineage-tolerant, mean error 1.423 hops over 64 unreachable pairs
+[11s] genuine LC over 195,972 rows; budget 1% -> 0.0200, budget 5% -> 0.1600, budget 10% -> 0.3200
+[11s] 1 conditions; 6 budget-free + 2 x 3 budget-dependent
+[    142s] 1/1 CL:0000057 flood/hub dose 0.25   n_p   49,060 retr    614 (ret 35s lc 19s)
+[by_donor] wrote 936 donor rows to <REPO>/v02/2_results/GSE136831/03_a_defence_vs_insert/03a_01_no_access_layer_matrix_by_donor_smoke_floanc_shard0.parquet
+--- moduni: shifted:uniform,synthesised:uniform dose 0.05
+[provenance] 03b_01_with_access_layer_matrix.py sha 06fddbdb (DIRTY, diff e40308e562c8, code 3 changed +2 untracked, elsewhere +57 untracked) branch restructure-v01-v02 full 06fddbdb77acbb0e1e08d6ce62c91fdb5a074a2e
+[5s] reference kNN cache: 197,981 rows
+[6s] 2 conditions; 6 budget-free configs + 2 x 3 budget-dependent
+[    106s] 1/2 CL:0000057 shifted/uniform dose 0.05   n_p    9,812 donors  356 (100s)
+[    205s] 2/2 CL:0000057 synthesised/uniform dose 0.05   n_p    9,812 donors  356 (99s)
+[by_donor] wrote 1,872 donor rows to <REPO>/v02/2_results/GSE136831/03_b_defence_vs_modify/03b_01_with_access_layer_matrix_by_donor_graph_smoke_moduni_shard0.parquet
+  03a_01_no_access_layer_matrix_smoke_reluni_shard0.parquet: 12 rows, checked ['attack', 'selection', 'rate']
+  03a_01_no_access_layer_matrix_smoke_dupcon_shard0.parquet: 12 rows, checked ['attack', 'selection']
+  03a_01_no_access_layer_matrix_smoke_floanc_shard0.parquet: 12 rows, checked ['attack', 'n_anchors']
+  03b_01_with_access_layer_matrix_graph_smoke_moduni_shard0.parquet: 24 rows, checked ['geometry', 'selection']
+SMOKE_CONTENT_OK
+SMOKE PASS 2026-10-01 09:52

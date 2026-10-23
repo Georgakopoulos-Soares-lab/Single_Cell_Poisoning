@@ -1,0 +1,9 @@
+started: 2026-10-04T18:15:37Z
+script:  v02/1_scripts/03_a_defence_vs_insert/03a_01_no_access_layer_matrix.py
+profile: none; driver archive/workers_2026-10/drive_rerun_v3.sh
+         BIORAG_ATTACKS=relabel BIORAG_SELECTIONS=hub BIORAG_DOSES=0.002,0.005,0.01,0.025,0.05,0.1,0.25,0.5,0.7,0.8,0.85,0.9,1,1.25 BIORAG_TAG=v3relhub BIORAG_SAVE_RETRIEVAL=1 BIORAG_SHARD=2 BIORAG_N_SHARDS=3
+         insert v3relhub. Defence re-run v3, retrievals saved.
+[provenance] 03a_01_no_access_layer_matrix.py sha f8158b1e (clean in code, elsewhere +77 untracked) branch restructure-v01-v02 full f8158b1ed434f04a24d35770384622265056010f
+[1s] 26 attackable celltypes, covering 46,196 of 49,456 queries
+[5s] vocabulary 204 terms; lineage and distance tables built (406 of 41,616 ordered pairs unreachable, all of them involving a term with no ontology id)
+[5s] clean graph baseline: accuracy 0.46368 exact (0.45930-0.46494 over ties), 0.88491 lineage-tolerant, mean error 1.423 hops over 64 unreachable pairs

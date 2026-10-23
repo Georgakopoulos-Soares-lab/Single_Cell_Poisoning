@@ -1,0 +1,16 @@
+git SHA: ad280ceb
+started: 2026-09-28T01:59:21Z
+script:  v02/1_scripts/02_b_attack_celltype/02b_12_both_pooled_summary.py
+profile: full, single process, reads tables only
+[0s] 7 donor tables: 02b_01_no_access_celltype_sweep_by_donor.parquet, 02b_02_no_access_flood_by_donor.parquet, 02b_05_with_access_hub_split_by_donor.parquet, 02b_11_with_access_inplace_by_donor_graph.parquet, 02b_13_no_access_flood_geometry_by_donor.parquet, 02b_14_no_access_flood_sites_by_donor.parquet, 02b_15_with_access_alpha_sweep_by_donor_graph.parquet
+[    4s] 02b_01_no_access_celltype_sweep_by_donor.parquet: 2520 rows so far
+[    8s] 02b_02_no_access_flood_by_donor.parquet: 5040 rows so far
+[    9s] 02b_05_with_access_hub_split_by_donor.parquet: 5976 rows so far
+[   10s] 02b_11_with_access_inplace_by_donor_graph.parquet: 6600 rows so far
+[   10s] 02b_13_no_access_flood_geometry_by_donor.parquet: 6630 rows so far
+[   10s] 02b_14_no_access_flood_sites_by_donor.parquet: 6750 rows so far
+[   10s] 02b_15_with_access_alpha_sweep_by_donor_graph.parquet: 6782 rows so far
+
+[11s] wrote 6782 rows to 02b_12_both_pooled_summary.parquet
+  30 metrics x 14 doses, pooled over 26 celltypes and 78 donors
+exit: 0 at 2026-09-28T01:59:32Z

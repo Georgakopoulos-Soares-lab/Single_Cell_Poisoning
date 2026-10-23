@@ -1,0 +1,107 @@
+panel,lc,band,share,records,slots,denom
+one row per genuine record,0.0,below 0.5,0.005513226377635886,411,4779,74548
+one row per genuine record,0.02,below 0.5,0.005419327144926759,404,3362,74548
+one row per genuine record,0.04,below 0.5,0.004721789987658958,352,3695,74548
+one row per genuine record,0.06,below 0.5,0.005620539786446317,419,6008,74548
+one row per genuine record,0.08,below 0.5,0.005151043622900682,384,4700,74548
+one row per genuine record,0.1,below 0.5,0.0048693459247733,363,4026,74548
+one row per genuine record,0.12,below 0.5,0.0047486183398615656,354,4359,74548
+one row per genuine record,0.14,below 0.5,0.00434619305682245,324,4752,74548
+one row per genuine record,0.16,below 0.5,0.005137629446799377,383,4900,74548
+one row per genuine record,0.18,below 0.5,0.0051108010945967695,381,4889,74548
+one row per genuine record,0.2,below 0.5,0.00469496163545635,350,5330,74548
+one row per genuine record,0.22,below 0.5,0.005392498792724151,402,6223,74548
+one row per genuine record,0.24,below 0.5,0.005164457799001985,385,5320,74548
+one row per genuine record,0.26,below 0.5,0.005258357031711112,392,5094,74548
+one row per genuine record,0.28,below 0.5,0.0058083382518645706,433,7185,74548
+one row per genuine record,0.3,below 0.5,0.005298599560015024,395,5858,74548
+one row per genuine record,0.32,below 0.5,0.005338842088318935,398,4784,74548
+one row per genuine record,0.34,below 0.5,0.0056071256103450125,418,7893,74548
+one row per genuine record,0.36,below 0.5,0.005620539786446317,419,4605,74548
+one row per genuine record,0.38,below 0.5,0.0063046627676128135,470,6583,74548
+one row per genuine record,0.4,below 0.5,0.005835166604067178,435,6328,74548
+one row per genuine record,0.42,below 0.5,0.0068680581638675756,512,5353,74548
+one row per genuine record,0.44,below 0.5,0.0066668455223480175,497,5428,74548
+one row per genuine record,0.46,below 0.5,0.0061034501260932555,455,6548,74548
+one row per genuine record,0.48,below 0.5,0.006344905295916725,473,6266,74548
+one row per genuine record,0.5,0.5 to 0.7,0.006680259698449321,498,6615,74548
+one row per genuine record,0.52,0.5 to 0.7,0.006787573107259752,506,8674,74548
+one row per genuine record,0.54,0.5 to 0.7,0.00692171486827279,516,8091,74548
+one row per genuine record,0.56,0.5 to 0.7,0.007350968503514514,548,6185,74548
+one row per genuine record,0.58,0.5 to 0.7,0.0077265654343510225,576,10198,74548
+one row per genuine record,0.6,0.5 to 0.7,0.008705800289746204,649,7670,74548
+one row per genuine record,0.62,0.5 to 0.7,0.008048505660782315,600,6650,74548
+one row per genuine record,0.64,0.5 to 0.7,0.00838386006331491,625,9207,74548
+one row per genuine record,0.66,0.5 to 0.7,0.009617964264634866,717,11220,74548
+one row per genuine record,0.68,0.5 to 0.7,0.009161882277190536,683,7548,74548
+one row per genuine record,0.7,0.7 to 0.9,0.010181359660889629,759,11137,74548
+one row per genuine record,0.72,0.7 to 0.9,0.010422814830713098,777,8972,74548
+one row per genuine record,0.74,0.7 to 0.9,0.011053281107474378,824,10354,74548
+one row per genuine record,0.76,0.7 to 0.9,0.012019101786768257,896,12190,74548
+one row per genuine record,0.78,0.7 to 0.9,0.012662982239630843,944,12451,74548
+one row per genuine record,0.8,0.7 to 0.9,0.01401781402586253,1045,12982,74548
+one row per genuine record,0.82,0.7 to 0.9,0.015654343510221602,1167,16435,74548
+one row per genuine record,0.84,0.7 to 0.9,0.017344529698985887,1293,16874,74548
+one row per genuine record,0.86,0.7 to 0.9,0.019624939636207542,1463,21518,74548
+one row per genuine record,0.88,0.7 to 0.9,0.022348017384772226,1666,24937,74548
+one row per genuine record,0.9,0.9 and above,0.024923539196222567,1858,30066,74548
+one row per genuine record,0.92,0.9 and above,0.03357568278156356,2503,36317,74548
+one row per genuine record,0.94,0.9 and above,0.04513870258088748,3365,55251,74548
+one row per genuine record,0.96,0.9 and above,0.079639963513441,5937,109389,74548
+one row per genuine record,0.98,0.9 and above,0.4550625100606321,33924,568851,74548
+weighted by query-neighbour slots,0.0,below 0.5,0.004105493750268459,411,4779,1164050
+weighted by query-neighbour slots,0.02,below 0.5,0.00288819208796873,404,3362,1164050
+weighted by query-neighbour slots,0.04,below 0.5,0.003174262273957304,352,3695,1164050
+weighted by query-neighbour slots,0.06,below 0.5,0.005161290322580645,419,6008,1164050
+weighted by query-neighbour slots,0.08,below 0.5,0.004037627249688587,384,4700,1164050
+weighted by query-neighbour slots,0.1,below 0.5,0.003458614320690692,363,4026,1164050
+weighted by query-neighbour slots,0.12,below 0.5,0.0037446845066792665,354,4359,1164050
+weighted by query-neighbour slots,0.14,below 0.5,0.00408229887032344,324,4752,1164050
+weighted by query-neighbour slots,0.16,below 0.5,0.00420944117520725,383,4900,1164050
+weighted by query-neighbour slots,0.18,below 0.5,0.004199991409303724,381,4889,1164050
+weighted by query-neighbour slots,0.2,below 0.5,0.004578841115072376,350,5330,1164050
+weighted by query-neighbour slots,0.22,below 0.5,0.005345990292513208,402,6223,1164050
+weighted by query-neighbour slots,0.24,below 0.5,0.004570250418796443,385,5320,1164050
+weighted by query-neighbour slots,0.26,below 0.5,0.004376100682960354,392,5094,1164050
+weighted by query-neighbour slots,0.28,below 0.5,0.006172415274257979,433,7185,1164050
+weighted by query-neighbour slots,0.3,below 0.5,0.005032429878441647,395,5858,1164050
+weighted by query-neighbour slots,0.32,below 0.5,0.004109789098406426,398,4784,1164050
+weighted by query-neighbour slots,0.34,below 0.5,0.0067806365705940464,418,7893,1164050
+weighted by query-neighbour slots,0.36,below 0.5,0.003956015635067222,419,4605,1164050
+weighted by query-neighbour slots,0.38,below 0.5,0.005655255358446802,470,6583,1164050
+weighted by query-neighbour slots,0.4,below 0.5,0.005436192603410507,435,6328,1164050
+weighted by query-neighbour slots,0.42,below 0.5,0.004598599716507023,512,5353,1164050
+weighted by query-neighbour slots,0.44,below 0.5,0.004663029938576522,497,5428,1164050
+weighted by query-neighbour slots,0.46,below 0.5,0.005625187921481036,455,6548,1164050
+weighted by query-neighbour slots,0.48,below 0.5,0.005382930286499721,473,6266,1164050
+weighted by query-neighbour slots,0.5,0.5 to 0.7,0.005682745586529789,498,6615,1164050
+weighted by query-neighbour slots,0.52,0.5 to 0.7,0.007451569949744427,506,8674,1164050
+weighted by query-neighbour slots,0.54,0.5 to 0.7,0.006950732356857523,516,8091,1164050
+weighted by query-neighbour slots,0.56,0.5 to 0.7,0.0053133456466646625,548,6185,1164050
+weighted by query-neighbour slots,0.58,0.5 to 0.7,0.008760792062196642,576,10198,1164050
+weighted by query-neighbour slots,0.6,0.5 to 0.7,0.006589064043640737,649,7670,1164050
+weighted by query-neighbour slots,0.62,0.5 to 0.7,0.005712813023495554,600,6650,1164050
+weighted by query-neighbour slots,0.64,0.5 to 0.7,0.007909454061251665,625,9207,1164050
+weighted by query-neighbour slots,0.66,0.5 to 0.7,0.00963876122159701,717,11220,1164050
+weighted by query-neighbour slots,0.68,0.5 to 0.7,0.006484257549074352,683,7548,1164050
+weighted by query-neighbour slots,0.7,0.7 to 0.9,0.009567458442506765,759,11137,1164050
+weighted by query-neighbour slots,0.72,0.7 to 0.9,0.007707572698767235,777,8972,1164050
+weighted by query-neighbour slots,0.74,0.7 to 0.9,0.008894806924101198,824,10354,1164050
+weighted by query-neighbour slots,0.76,0.7 to 0.9,0.010472058760362528,896,12190,1164050
+weighted by query-neighbour slots,0.78,0.7 to 0.9,0.010696275933164382,944,12451,1164050
+weighted by query-neighbour slots,0.8,0.7 to 0.9,0.011152441905416434,1045,12982,1164050
+weighted by query-neighbour slots,0.82,0.7 to 0.9,0.014118809329496156,1167,16435,1164050
+weighted by query-neighbour slots,0.84,0.7 to 0.9,0.014495940896009621,1293,16874,1164050
+weighted by query-neighbour slots,0.86,0.7 to 0.9,0.01848546024655298,1463,21518,1164050
+weighted by query-neighbour slots,0.88,0.7 to 0.9,0.021422619303294532,1666,24937,1164050
+weighted by query-neighbour slots,0.9,0.9 and above,0.025828787423220652,1858,30066,1164050
+weighted by query-neighbour slots,0.92,0.9 and above,0.031198831665306473,2503,36317,1164050
+weighted by query-neighbour slots,0.94,0.9 and above,0.04746445599415833,3365,55251,1164050
+weighted by query-neighbour slots,0.96,0.9 and above,0.0939727674928053,5937,109389,1164050
+weighted by query-neighbour slots,0.98,0.9 and above,0.48868261672608565,33924,568851,1164050
+one row per genuine record,0.5,annotation (read from 01a_05 summary),0.1369453238182111,,,
+one row per genuine record,0.7,annotation (read from 01a_05 summary),0.21633041798572733,,,
+one row per genuine record,0.9,annotation (read from 01a_05 summary),0.3616596018672533,,,
+weighted by query-neighbour slots,0.5,annotation (read from 01a_05 summary),0.11534556075769942,,,
+weighted by query-neighbour slots,0.7,annotation (read from 01a_05 summary),0.18583909625875178,,,
+weighted by query-neighbour slots,0.9,annotation (read from 01a_05 summary),0.3128525406984236,,,

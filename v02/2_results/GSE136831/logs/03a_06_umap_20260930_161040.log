@@ -1,0 +1,15 @@
+started: 2026-09-30T21:10:40Z
+script:  v02/1_scripts/03_a_defence_vs_insert/03a_06_no_access_umap.py
+profile: none (direct python; single process, no sharding). Fits UMAP
+         coordinates for two contrasting conditions so the defence
+         triptych reads from 2_results rather than a gitignored cache.
+[provenance] 03a_06_no_access_umap.py sha 685cf86c (DIRTY, diff b9055e2db95b, code 0 changed +1 untracked, elsewhere +22 untracked) branch restructure-v01-v02 full 685cf86c5f34ef691da62e0865e9e96a0e6ddafe
+[1s] 26 attackable celltypes, covering 46,196 of 49,456 queries
+[5s] vocabulary 204 terms; lineage and distance tables built (406 of 41,616 ordered pairs unreachable, all of them involving a term with no ontology id)
+[5s] clean graph baseline: accuracy 0.46368 exact (0.45930-0.46494 over ties), 0.88491 lineage-tolerant, mean error 1.423 hops over 64 unreachable pairs
+[7s] genuine LC over 195,972 rows; budget 10% -> threshold 0.3200
+[39s] CL:0002062 relabel: 163 queries, 1,208 genuine, 869 poison of 869 retrieved -> UMAP on 2,240
+[41s] CL:0000583 flood: 3,000 queries, 6,000 genuine, 3,000 poison of 9,400 retrieved -> UMAP on 12,000
+[101s] wrote 14,240 points to 03a_06_no_access_umap.parquet
+  CL:0000583 flood             poison 3,000  survives recompute 0  lc 0  stack 0
+  CL:0002062 relabel           poison 869  survives recompute 869  lc 0  stack 0

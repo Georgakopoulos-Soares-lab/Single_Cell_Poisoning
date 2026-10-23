@@ -1,0 +1,6 @@
+git SHA: ad280ceb
+merged: 2026-09-28T01:59:20Z
+canonical: 02b_11_with_access_inplace_by_donor_graph.parquet
+expect: 158184 rows (conditions x donors)
+3 shards -> 158,184 rows, 26 celltypes -> 02b_11_with_access_inplace_by_donor_graph.parquet
+merge exit: 0 at 2026-09-28T01:59:21Z
